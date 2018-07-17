@@ -1,0 +1,235 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.container {
+  max-width: 1200px !important; }
+
+body {
+  position: relative;
+  min-width: 1200px;
+  height: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px; }
+
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none !important; }
+  a:hover, a:focus {
+    color: inherit; }
+
+label {
+  font-weight: 400;
+  margin: 0; }
+
+figure {
+  margin: 0; }
+
+.form-group {
+  margin: 0; }
+
+.form-control {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none !important; }
+
+.btn {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important; }
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  z-index: 100;
+  min-width: 1200px; }
+  #header .btn-nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    margin: 25px 20px 25px 15px; }
+    #header .btn-nav .bar {
+      display: block;
+      margin: 6px auto;
+      width: 24px;
+      height: 2px;
+      background-color: #999; }
+  #header h1 {
+    display: inline-block;
+    line-height: 26px;
+    padding: 29px 0 30px; }
+    #header h1 a img {
+      display: inline-block;
+      vertical-align: top; }
+
+#gnb {
+  padding-right: 120px; }
+  #gnb > ul {
+    font-size: 0;
+    text-align: right; }
+    #gnb > ul > li {
+      display: inline-block;
+      margin: 0 15px;
+      font-size: 16px;
+      line-height: 84px; }
+      #gnb > ul > li > a {
+        color: #cecfcf;
+        font-weight: 500;
+        display: inline-block;
+        font-family: 'Maven Pro', sans-serif;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        #gnb > ul > li > a:hover {
+          color: #fff; }
+  #gnb .global-search .btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85px;
+    height: 85px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 85px;
+    text-align: center;
+    background-color: #1b1b1d; }
+
+#footer {
+  padding: 50px 0 40px;
+  background-color: #303030; }
+  #footer .foot-logo {
+    display: inline-block;
+    line-height: 22px;
+    margin-bottom: 30px; }
+    #footer .foot-logo img {
+      display: inline-block;
+      vertical-align: top; }
+  #footer .company > ul {
+    overflow: hidden; }
+    #footer .company > ul > li {
+      float: left;
+      font-size: 13px;
+      color: #747579; }
+      #footer .company > ul > li:after {
+        position: relative;
+        top: -2px;
+        font-size: 11px;
+        display: inline-block;
+        margin: 0 8px 0 5px;
+        content: "|"; }
+      #footer .company > ul > li:nth-of-type(4):after, #footer .company > ul > li:last-child:after {
+        content: "";
+        margin: 0; }
+      #footer .company > ul > li:nth-of-type(5) {
+        clear: both; }
+      #footer .company > ul > li > dl {
+        display: inline-block; }
+        #footer .company > ul > li > dl > dt {
+          display: inline-block;
+          font-weight: 400; }
+          #footer .company > ul > li > dl > dt:after {
+            content: ":";
+            margin: 0 2px 0 4px; }
+        #footer .company > ul > li > dl > dd {
+          display: inline-block;
+          font-weight: 400; }
+          #footer .company > ul > li > dl > dd a {
+            display: inline-block; }
+            #footer .company > ul > li > dl > dd a:hover {
+              text-decoration: underline !important; }
+  #footer .sns-list {
+    float: right;
+    width: 200px;
+    display: table; }
+    #footer .sns-list > li {
+      display: table-cell;
+      width: 20%;
+      height: 20px;
+      text-align: center;
+      vertical-align: middle; }
+      #footer .sns-list > li a {
+        display: inline-block; }
+  #footer hr {
+    display: block;
+    width: 100%;
+    margin: 30px 15px;
+    border-top: 1px solid #484848; }
+  #footer .capyright {
+    font-size: 13px;
+    color: #747579;
+    font-weight: 500;
+    font-family: 'roboto', serif; }
+  #footer .family-site {
+    float: right;
+    width: 200px;
+    font-family: 'roboto', serif; }
+    #footer .family-site > .btn {
+      position: relative;
+      width: 200px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 13px;
+      color: #747579;
+      text-align: left;
+      padding: 0 15px;
+      border-radius: 0;
+      box-shadow: none !important;
+      background-color: #1b1b1d; }
+      #footer .family-site > .btn:after {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        content: "\E801";
+        font-family: "fontello";
+        border: 0; }
+    #footer .family-site .dropdown-menu {
+      min-width: 200px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none; }
+      #footer .family-site .dropdown-menu > a {
+        font-size: 13px;
+        line-height: 35px;
+        padding: 0 15px; }
+    #footer .family-site.show > .btn:after {
+      content: "\E802"; }
+
+.scrolled #header {
+  background-color: rgba(255, 255, 255, 0.7); }
+.scrolled #gnb > ul > li > a {
+  color: #1b1b1d; }
+  .scrolled #gnb > ul > li > a:hover {
+    color: #888; }
+
+/*# sourceMappingURL=default.css.map */
