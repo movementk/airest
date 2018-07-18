@@ -54,30 +54,20 @@
             </div>
             <div class="col-3">
                 <ul class="sns-list">
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/icon_naver.png" alt="naver blog">
-                        </a>
+                    <li class="naver-blog">
+                        <a href="#"></a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/icon_facbook.png" alt="facebook">
-                        </a>
+                    <li class="facebook">
+                        <a href="#"></a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/icon_insta.png" alt="instagram">
-                        </a>
+                    <li class="instagram">
+                        <a href="#"></a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/icon_kakao.png" alt="kakaotalk">
-                        </a>
+                    <li class="kakaotalk">
+                        <a href="#"></a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/icon_youtube.png" alt="youtube">
-                        </a>
+                    <li class="youtube">
+                        <a href="#"></a>
                     </li>
                 </ul>
             </div>
