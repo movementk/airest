@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -37,8 +37,175 @@ address {
     .jumbotron .jumbo-slider li .figbox {
       float: right;
       width: 50%; }
-      .jumbotron .jumbo-slider li .figbox .img-fluid {
+      .jumbotron .jumbo-slider li .figbox > figure .img-fluid {
         width: 100%; }
+    .jumbotron .jumbo-slider li .product {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      .jumbotron .jumbo-slider li .product .table-box {
+        display: table;
+        width: 100%;
+        height: 100%; }
+        .jumbotron .jumbo-slider li .product .table-box .v-align {
+          display: table-cell;
+          width: 100%;
+          height: 100%;
+          vertical-align: middle;
+          text-align: center; }
+          .jumbotron .jumbo-slider li .product .table-box .v-align figure {
+            position: relative;
+            top: 50px;
+            opacity: 0;
+            padding-top: 30px;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 1s;
+            transition-duration: 1s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+            @media (min-width: 1400px) {
+              .jumbotron .jumbo-slider li .product .table-box .v-align figure {
+                padding-top: 60px; } }
+            .jumbotron .jumbo-slider li .product .table-box .v-align figure .img-fluid {
+              display: inline-block;
+              transform: scale(0.7); }
+              @media (min-width: 1400px) {
+                .jumbotron .jumbo-slider li .product .table-box .v-align figure .img-fluid {
+                  transform: scale(0.8); } }
+              @media (min-width: 1600px) {
+                .jumbotron .jumbo-slider li .product .table-box .v-align figure .img-fluid {
+                  transform: scale(1); } }
+          .jumbotron .jumbo-slider li .product .table-box .v-align .details {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            height: 430px;
+            width: 39%;
+            padding-top: 80px;
+            text-align: right;
+            margin-top: -160px;
+            padding-right: 9%; }
+            @media (min-width: 1400px) {
+              .jumbotron .jumbo-slider li .product .table-box .v-align .details {
+                padding-top: 130px;
+                padding-right: 200px; } }
+            .jumbotron .jumbo-slider li .product .table-box .v-align .details h2 {
+              position: relative;
+              top: 50px;
+              font-size: 60px;
+              line-height: 60px;
+              color: #1b1b1d;
+              letter-spacing: 1px;
+              font-weight: lighter;
+              font-family: 'roboto', serif;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 1s;
+              transition-duration: 1s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 2s;
+              transition-delay: 2s;
+              opacity: 0; }
+              .jumbotron .jumbo-slider li .product .table-box .v-align .details h2:after {
+                position: absolute;
+                right: -100px;
+                bottom: 30px;
+                content: "";
+                width: 80px;
+                border-top: 1px solid #1b1b1d; }
+                @media (min-width: 1400px) {
+                  .jumbotron .jumbo-slider li .product .table-box .v-align .details h2:after {
+                    display: block;
+                    right: -165px;
+                    width: 140px; } }
+            .jumbotron .jumbo-slider li .product .table-box .v-align .details p {
+              position: relative;
+              top: 50px;
+              font-size: 13px;
+              color: #999;
+              font-weight: 300;
+              line-height: 24px;
+              margin-top: 40px;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 1s;
+              transition-duration: 1s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 2.5s;
+              transition-delay: 2.5s;
+              opacity: 0; }
+            .jumbotron .jumbo-slider li .product .table-box .v-align .details .btn-area {
+              position: relative;
+              top: 50px;
+              margin-top: 50px;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 1s;
+              transition-duration: 1s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 3s;
+              transition-delay: 3s;
+              opacity: 0; }
+              .jumbotron .jumbo-slider li .product .table-box .v-align .details .btn-area .btn-view {
+                position: relative;
+                padding: 5px 15px;
+                font-weight: 400;
+                letter-spacing: 2px;
+                font-family: 'roboto', serif; }
+                .jumbotron .jumbo-slider li .product .table-box .v-align .details .btn-area .btn-view i {
+                  font-size: 12px;
+                  color: #1b1b1d;
+                  position: relative;
+                  z-index: 1;
+                  font-style: normal;
+                  -webkit-transition-property: all;
+                  transition-property: all;
+                  -webkit-transition-duration: 0.15s;
+                  transition-duration: 0.15s;
+                  -webkit-transition-timing-function: linear;
+                  transition-timing-function: linear;
+                  -webkit-transition-delay: 0s;
+                  transition-delay: 0s; }
+                .jumbotron .jumbo-slider li .product .table-box .v-align .details .btn-area .btn-view span {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 0;
+                  height: 100%;
+                  display: block;
+                  -webkit-transition-property: all;
+                  transition-property: all;
+                  -webkit-transition-duration: 0.15s;
+                  transition-duration: 0.15s;
+                  -webkit-transition-timing-function: linear;
+                  transition-timing-function: linear;
+                  -webkit-transition-delay: 0s;
+                  transition-delay: 0s;
+                  background-color: #1b1b1d; }
+                .jumbotron .jumbo-slider li .product .table-box .v-align .details .btn-area .btn-view:hover i {
+                  color: #fff; }
+                .jumbotron .jumbo-slider li .product .table-box .v-align .details .btn-area .btn-view:hover span {
+                  width: 100%; }
+    .jumbotron .jumbo-slider li.action .product .table-box .v-align figure {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .jumbo-slider li.action .product .table-box .v-align .details h2 {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .jumbo-slider li.action .product .table-box .v-align .details p {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .jumbo-slider li.action .product .table-box .v-align .details .btn-area {
+      top: 0;
+      opacity: 1; }
   .jumbotron .jumbo-slider .slick-dots {
     position: absolute;
     top: 50%;

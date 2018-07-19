@@ -22,4 +22,7 @@ address {
 .container {
   max-width: 1200px !important; }
 
-/*# sourceMappingURL=common.css.map */
+#content {
+  min-height: 800px; }
+
+/*# sourceMappingURL=sub.css.map */
