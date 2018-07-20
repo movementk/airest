@@ -33,7 +33,7 @@
 
 	$(window).on("resize",function(){
 		detail_position = 863 - ($(window).width() - 1200);
-		$(".details").css("padding-right",detail_position+"px");
+		$(".promotional .details").css("padding-right",detail_position+"px");
 	});
 
 	$(window).on('load',function(){
@@ -46,7 +46,7 @@
 							$(elem).addClass('active');
 							setTimeout(function(){ $(".product-1").addClass("action"); }, 1000);
 							setTimeout(function(){ $(".product-2").addClass("action"); }, 1800);
-							setTimeout(function(){ $(".details").addClass("action").css("padding-right",detail_position+"px"); }, 2200);
+							setTimeout(function(){ $(".promotional .details").addClass("action").css("padding-right",detail_position+"px"); }, 2200);
 							if($(window).width() > 1700){
 								setTimeout(function(){ $(".product-3").addClass("action"); }, 2600);
 								setTimeout(function(){ $(".product-4").addClass("action"); }, 3400);
@@ -59,7 +59,7 @@
 				whileScrolling: function(){
 					var leftPct = this.mcs.leftPct; // 가로스크롤바가 이동한 퍼센트
 					var leftPst = this.mcs.left; // 컨텐츠가 이동한 거리
-					$(".details").css({"padding-right": detail_position - Math.abs(leftPst)+"px"});
+					$(".promotional .details").css({"padding-right": detail_position - Math.abs(leftPst)+"px"});
 
 					if(leftPct > 50){
 						$(".product-3").addClass("action");
@@ -81,7 +81,7 @@
 					$(elem).addClass('active');
 					setTimeout(function(){ $(".product-1").addClass("action"); }, 1000);
 					setTimeout(function(){ $(".product-2").addClass("action"); }, 1800);
-					setTimeout(function(){ $(".details").addClass("action").css("padding-right",detail_position+"px"); }, 2200);
+					setTimeout(function(){ $(".promotional .details").addClass("action").css("padding-right",detail_position+"px"); }, 2200);
 					if($(window).width() > 1700){
 						setTimeout(function(){ $(".product-3").addClass("action"); }, 2600);
 						setTimeout(function(){ $(".product-4").addClass("action"); }, 3400);
