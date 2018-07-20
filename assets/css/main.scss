@@ -252,26 +252,87 @@
         position: absolute;
         display: inline-block;
         opacity: 0;
+        z-index: 1;
+        .item {
+            position: relative;
+            display: block;
+            .circle {
+                position: absolute;
+                left: 50%;
+                margin-left: -5px;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: #ff5f5f;
+                opacity: 0;
+                @include transition($duration: .5s);
+                &.on {
+                    opacity: .7;
+                    box-shadow: 0px 0px 5px 2px #ff5f5f;
+                }
+            }
+        }
         &.product-1 {
             top: 214px;
             left: 399px;
-            @include transition($duration: 1s, $delay: 2s);
+            /*@include transition($duration: 1s, $delay: 2s);*/
+            @include transition($duration: 1s);
+            .item {
+                .circle {
+                    top: 31px;
+                }
+            }
         }
         &.product-2 {
             top: 447px;
             left: 1021px;
-            @include transition($duration: 1s, $delay: 2.5s);
+            /*@include transition($duration: 1s, $delay: 2.5s);*/
+            @include transition($duration: 1s);
+            .item {
+                .circle {
+                    top: 43px;
+                }
+            }
             
         }
         &.product-3 {
             top: 225px;
             right: 291px;
-            @include transition($duration: 1s, $delay: 3s);
+            /*@include transition($duration: 1s, $delay: 3s);*/
+            @include transition($duration: 1s);
+            .item {
+                .circle {
+                    top: 11px;
+                    margin-left: -4px;
+                }
+            }
         }
         &.product-4 {
             top: 580px;
             right: 201px;
-            @include transition($duration: 1s, $delay: 3.5s);
+            /*@include transition($duration: 1s, $delay: 3.5s);*/
+            @include transition($duration: 1s);
+            .item {
+                .circle {
+                    top: 29px;
+                    margin-left: -6px;
+                }
+            }
+        }
+        &.action {
+            opacity: 1;   
+            &.product-1 {
+                top: 314px;
+            }
+            &.product-2 {
+                top: 547px;
+            }
+            &.product-3 {
+                top: 425px;
+            }
+            &.product-4 {
+                top: 680px;
+            }
         }
     }
     .details {
@@ -282,14 +343,14 @@
         height: 100%;
         padding-top: 120px;
         text-align: right;
-        padding-right: 20%;
+        padding-right: 400px;
         .title {
             position: relative;
             top: 50px;
             color: #1b1b1d;
             font-size: 70px;
             line-height: 98px;
-            @include transition($duration: 1s, $delay: 4.5s);
+            @include transition($duration: 1s);
             opacity: 0;
             span {
                 position: absolute;
@@ -333,29 +394,10 @@
             font-size: 15px;
             color: #1b1b1d;
             line-height: 25px;
-            @include transition($duration: 1s, $delay: 5s);
+            @include transition($duration: 1s);
             opacity: 0;
         }
-    }
-    &.active {
-        top: 0;
-        opacity: 1;
-        .product {
-            opacity: 1;
-            &.product-1 {
-                top: 314px;
-            }
-            &.product-2 {
-                top: 547px;
-            }
-            &.product-3 {
-                top: 425px;
-            }
-            &.product-4 {
-                top: 680px;
-            }
-        }
-        .details {
+        &.action {
             .title {
                 top: 0;
                 opacity: 1;
@@ -365,6 +407,10 @@
                 opacity: 1;
             }
         }
+    }
+    &.active {
+        top: 0;
+        opacity: 1;
     }
 }
 
@@ -780,34 +826,179 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// modal popup
+.modal {
+    .modal-dialog {
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            background: none;
+            .modal-header {
+                padding: 0;
+                border: 0;
+                padding-bottom: 15px;
+                .modal-close {
+                    margin: 0 0 0 auto;
+                }
+            }
+            .modal-body {
+                padding: 0;
+                border: 0;
+            }
+        }
+    }
+    &.product-modal {
+        .modal-dialog {
+            max-width: 1030px;
+            margin-top: 200px;
+            .modal-content {
+                .modal-body {
+                    overflow: hidden;
+                    > div {
+                        float: left;
+                        display: block;
+                        vertical-align: middle;
+                        height: 515px;
+                        &.summary {
+                            width: 430px;
+                            background-color: #fff;
+                            .table-box {
+                                display: table;
+                                width: 100%;
+                                height: 100%;
+                                .v-align {
+                                    display: table-cell;
+                                    vertical-align: middle;
+                                    width: 100%;
+                                    height: 100%;
+                                    padding-left: 50px;
+                                    small {
+                                        font-size: 12px;
+                                        color: #999;
+                                        @include roboto();
+                                        font-weight: 400;
+                                    }
+                                    h4 {
+                                        font-size: 45px;
+                                        font-weight: lighter;
+                                        line-height: 60px;
+                                        letter-spacing: -3px;
+                                        margin-top: 15px;
+                                        i {
+                                            font-style: normal;
+                                            font-weight: lighter;
+                                            @include roboto();
+                                        }
+                                    }
+                                    hr {
+                                        display: block;
+                                        width: 45px;
+                                        margin: 30px 0 45px;
+                                        border-top: 1px solid #000;
+                                    }
+                                    p {
+                                        font-size: 14px;
+                                        font-weight: 300;
+                                        line-height: 25px;
+                                    }
+                                    .details-more {
+                                        margin-top: 50px;
+                                        > li {
+                                            display: block;
+                                            a {
+                                                position: relative;
+                                                display: inline-block;
+                                                font-size: 13px;
+                                                color: #666;
+                                                line-height: 28px;
+                                                margin-left: 20px;
+                                                &:before {
+                                                    position: absolute;
+                                                    top: 1px;
+                                                    left: -18px;
+                                                    font-family: "fontello";
+                                                }
+                                                span {
+                                                    position: absolute;
+                                                    bottom: 0;
+                                                    left: 50%;
+                                                    width: 0;
+                                                    height: 2px;
+                                                    border-top: 1px solid #a7a7a8;
+                                                    border-bottom: 1px solid #d6d6d6;
+                                                    @include transition();
+                                                }
+                                                &:hover {
+                                                    color: #1b1b1d;
+                                                    span {
+                                                        margin-left: -50%;
+                                                        width: 100%;
+                                                    }
+                                                }
+                                            }
+                                            &:first-child {
+                                                a {
+                                                    &:before {
+                                                        content: "\F097";
+                                                    }
+                                                }
+                                            }
+                                            &:last-child {
+                                                a {
+                                                    &:before {
+                                                        content: "\E808";
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.product-sldier {
+                            position: relative;
+                            width: 600px;
+                            .img-fluid {
+                                width: 100%;
+                            }
+                            .slick-dots {
+                                position: absolute;
+                                width: 100%;
+                                bottom: 30px;
+                                text-align: center;
+                                li {
+                                    display: inline-block;
+                                    > button {
+                                        cursor: pointer;
+                                        display: block;
+                                        width: 12px;
+                                        height: 12px;
+                                        padding: 0;
+                                        margin: 0;
+                                        margin: 0 3px;
+                                        border: 0;
+                                        background: none;
+                                        border: 1px solid #e5e2de;
+                                        border-radius: 50%;
+                                        text-indent: -99999px;
+                                    }
+                                    &.slick-active {
+                                        > button {
+                                            background-color: #e5e2de;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.video-modal {
+        .modal-dialog {
+            max-width: 1030px;
+            margin-top: 150px;
+        }
+    }
+}

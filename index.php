@@ -1,10 +1,10 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-</head>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/assets/scrollbar-plugin/jquery.mCustomScrollbar.min.css">
 <link rel="stylesheet" href="/assets/css/main.css">
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+</head>
 <body>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <!-- Main Content Start -->
     <main id="content">
         <!-- jumbo slider -->
@@ -100,17 +100,29 @@
         <!-- promotional -->
         <section class="promotional">
             <img src="/assets/images/main/bg_promotional.jpg" class="img-promotional" alt="">
-            <a href="#" class="product product-1">
-                <img src="/assets/images/main/product_promotio01.png" alt="">
+            <a href="#productModal" class="product product-1" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional01.png" alt="">
+                    <p class="circle"></p>
+                </div>
             </a>
-            <a href="#" class="product product-2">
-                <img src="/assets/images/main/product_promotio02.png" alt="">
+            <a href="#productModal" class="product product-2" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional02.png" alt="">
+                    <p class="circle"></p>
+                </div>
             </a>
-            <a href="#" class="product product-3">
-                <img src="/assets/images/main/product_promotio03.png" alt="">
+            <a href="#productModal" class="product product-3" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional03.png" alt="">
+                    <p class="circle"></p>
+                </div>
             </a>
-            <a href="#" class="product product-4">
-                <img src="/assets/images/main/product_promotio04.png" alt="">
+            <a href="#productModal" class="product product-4" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional04.png" alt="">
+                    <p class="circle"></p>
+                </div>
             </a>
             <div class="details">
                 <div class="title">
@@ -305,7 +317,7 @@
         
         <!-- video-area -->
         <article class="video-area">
-            <a href="#">
+            <a href="#videoModal" data-toggle="modal" data-target="#videoModal">
                 <figure>
                     <img src="/assets/images/main/video_img.jpg" class="img-fluid" alt="">
                 </figure>
@@ -355,7 +367,85 @@
             </div>
         </article>
     </main>
-
+    
+    <!-- product slide modal -->
+    <div class="modal fade product-modal" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn modal-close" data-dismiss="modal" aria-label="Close">
+                        <img src="/assets/images/modal_btn_close.png" alt="팝업닫기">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="summary">
+                        <div class="table-box">
+                            <div class="v-align">
+                                <small>CIRCULATOR</small>
+                                <h4>
+                                    <i>New 2018</i>아기바람<br>
+                                    팬리스 서큘레이터
+                                </h4>
+                                <hr>
+                                <p>
+                                    내 아이를 위한 부드럽고 시원한 바람,<br>
+                                    아이들부터 애완동물까지 걱정없이 온 집안에 <br>
+                                    에어레스트하다
+                                </p>
+                                <ul class="details-more">
+                                    <li><a href="#">제품 바로가기<span></span></a></li>
+                                    <li><a href="#">정품인증 바로가기<span></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-sldier">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/main/img_product_slide01.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/main/img_product_slide01.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/main/img_product_slide01.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/main/img_product_slide01.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- product slide modal -->
+    <div class="modal fade video-modal" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn modal-close" data-dismiss="modal" aria-label="Close">
+                        <img src="/assets/images/modal_btn_close.png" alt="팝업닫기">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/3JvV1b6M4zM" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

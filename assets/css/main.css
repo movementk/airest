@@ -269,51 +269,99 @@ address {
   .promotional .product {
     position: absolute;
     display: inline-block;
-    opacity: 0; }
+    opacity: 0;
+    z-index: 1; }
+    .promotional .product .item {
+      position: relative;
+      display: block; }
+      .promotional .product .item .circle {
+        position: absolute;
+        left: 50%;
+        margin-left: -5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ff5f5f;
+        opacity: 0;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        .promotional .product .item .circle.on {
+          opacity: .7;
+          box-shadow: 0px 0px 5px 2px #ff5f5f; }
     .promotional .product.product-1 {
       top: 214px;
       left: 399px;
+      /*@include transition($duration: 1s, $delay: 2s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 2s;
-      transition-delay: 2s; }
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .promotional .product.product-1 .item .circle {
+        top: 31px; }
     .promotional .product.product-2 {
       top: 447px;
       left: 1021px;
+      /*@include transition($duration: 1s, $delay: 2.5s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 2.5s;
-      transition-delay: 2.5s; }
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .promotional .product.product-2 .item .circle {
+        top: 43px; }
     .promotional .product.product-3 {
       top: 225px;
       right: 291px;
+      /*@include transition($duration: 1s, $delay: 3s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 3s;
-      transition-delay: 3s; }
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .promotional .product.product-3 .item .circle {
+        top: 11px;
+        margin-left: -4px; }
     .promotional .product.product-4 {
       top: 580px;
       right: 201px;
+      /*@include transition($duration: 1s, $delay: 3.5s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 3.5s;
-      transition-delay: 3.5s; }
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      .promotional .product.product-4 .item .circle {
+        top: 29px;
+        margin-left: -6px; }
+    .promotional .product.action {
+      opacity: 1; }
+      .promotional .product.action.product-1 {
+        top: 314px; }
+      .promotional .product.action.product-2 {
+        top: 547px; }
+      .promotional .product.action.product-3 {
+        top: 425px; }
+      .promotional .product.action.product-4 {
+        top: 680px; }
   .promotional .details {
     position: absolute;
     top: 0;
@@ -322,7 +370,7 @@ address {
     height: 100%;
     padding-top: 120px;
     text-align: right;
-    padding-right: 20%; }
+    padding-right: 400px; }
     .promotional .details .title {
       position: relative;
       top: 50px;
@@ -335,8 +383,8 @@ address {
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 4.5s;
-      transition-delay: 4.5s;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
       opacity: 0; }
       .promotional .details .title span {
         position: absolute;
@@ -379,28 +427,18 @@ address {
       transition-duration: 1s;
       -webkit-transition-timing-function: linear;
       transition-timing-function: linear;
-      -webkit-transition-delay: 5s;
-      transition-delay: 5s;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
       opacity: 0; }
+    .promotional .details.action .title {
+      top: 0;
+      opacity: 1; }
+    .promotional .details.action .summary {
+      top: 0;
+      opacity: 1; }
   .promotional.active {
     top: 0;
     opacity: 1; }
-    .promotional.active .product {
-      opacity: 1; }
-      .promotional.active .product.product-1 {
-        top: 314px; }
-      .promotional.active .product.product-2 {
-        top: 547px; }
-      .promotional.active .product.product-3 {
-        top: 425px; }
-      .promotional.active .product.product-4 {
-        top: 680px; }
-    .promotional.active .details .title {
-      top: 0;
-      opacity: 1; }
-    .promotional.active .details .summary {
-      top: 0;
-      opacity: 1; }
 
 .product-list {
   padding: 100px 0 110px;
@@ -746,5 +784,137 @@ address {
         background-image: url(/assets/images/main/ico_insta.gif); }
     .sns-issue ul > li > a:hover figure .img-fluid {
       transform: scale(1.2); }
+
+.modal .modal-dialog .modal-content {
+  border: 0;
+  border-radius: 0;
+  background: none; }
+  .modal .modal-dialog .modal-content .modal-header {
+    padding: 0;
+    border: 0;
+    padding-bottom: 15px; }
+    .modal .modal-dialog .modal-content .modal-header .modal-close {
+      margin: 0 0 0 auto; }
+  .modal .modal-dialog .modal-content .modal-body {
+    padding: 0;
+    border: 0; }
+.modal.product-modal .modal-dialog {
+  max-width: 1030px;
+  margin-top: 200px; }
+  .modal.product-modal .modal-dialog .modal-content .modal-body {
+    overflow: hidden; }
+    .modal.product-modal .modal-dialog .modal-content .modal-body > div {
+      float: left;
+      display: block;
+      vertical-align: middle;
+      height: 515px; }
+      .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary {
+        width: 430px;
+        background-color: #fff; }
+        .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box {
+          display: table;
+          width: 100%;
+          height: 100%; }
+          .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align {
+            display: table-cell;
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+            padding-left: 50px; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align small {
+              font-size: 12px;
+              color: #999;
+              font-family: 'roboto', serif;
+              font-weight: 400; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align h4 {
+              font-size: 45px;
+              font-weight: lighter;
+              line-height: 60px;
+              letter-spacing: -3px;
+              margin-top: 15px; }
+              .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align h4 i {
+                font-style: normal;
+                font-weight: lighter;
+                font-family: 'roboto', serif; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align hr {
+              display: block;
+              width: 45px;
+              margin: 30px 0 45px;
+              border-top: 1px solid #000; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align p {
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 25px; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more {
+              margin-top: 50px; }
+              .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li {
+                display: block; }
+                .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li a {
+                  position: relative;
+                  display: inline-block;
+                  font-size: 13px;
+                  color: #666;
+                  line-height: 28px;
+                  margin-left: 20px; }
+                  .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li a:before {
+                    position: absolute;
+                    top: 1px;
+                    left: -18px;
+                    font-family: "fontello"; }
+                  .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li a span {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    width: 0;
+                    height: 2px;
+                    border-top: 1px solid #a7a7a8;
+                    border-bottom: 1px solid #d6d6d6;
+                    -webkit-transition-property: all;
+                    transition-property: all;
+                    -webkit-transition-duration: 0.15s;
+                    transition-duration: 0.15s;
+                    -webkit-transition-timing-function: linear;
+                    transition-timing-function: linear;
+                    -webkit-transition-delay: 0s;
+                    transition-delay: 0s; }
+                  .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li a:hover {
+                    color: #1b1b1d; }
+                    .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li a:hover span {
+                      margin-left: -50%;
+                      width: 100%; }
+                .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li:first-child a:before {
+                  content: "\F097"; }
+                .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align .details-more > li:last-child a:before {
+                  content: "\E808"; }
+      .modal.product-modal .modal-dialog .modal-content .modal-body > div.product-sldier {
+        position: relative;
+        width: 600px; }
+        .modal.product-modal .modal-dialog .modal-content .modal-body > div.product-sldier .img-fluid {
+          width: 100%; }
+        .modal.product-modal .modal-dialog .modal-content .modal-body > div.product-sldier .slick-dots {
+          position: absolute;
+          width: 100%;
+          bottom: 30px;
+          text-align: center; }
+          .modal.product-modal .modal-dialog .modal-content .modal-body > div.product-sldier .slick-dots li {
+            display: inline-block; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.product-sldier .slick-dots li > button {
+              cursor: pointer;
+              display: block;
+              width: 12px;
+              height: 12px;
+              padding: 0;
+              margin: 0;
+              margin: 0 3px;
+              border: 0;
+              background: none;
+              border: 1px solid #e5e2de;
+              border-radius: 50%;
+              text-indent: -99999px; }
+            .modal.product-modal .modal-dialog .modal-content .modal-body > div.product-sldier .slick-dots li.slick-active > button {
+              background-color: #e5e2de; }
+.modal.video-modal .modal-dialog {
+  max-width: 1030px;
+  margin-top: 150px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-</head>
 <link rel="stylesheet" href="/assets/css/sub.css">
+</head>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
 <body>
     <!-- Sub Content Start -->

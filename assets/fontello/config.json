@@ -53,6 +53,18 @@
       "css": "right",
       "code": 59399,
       "src": "mfglabs"
+    },
+    {
+      "uid": "2f5ef6f6b7aaebc56458ab4e865beff5",
+      "css": "bookmark-empty",
+      "code": 61591,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "41087bc74d4b20b55059c60a33bf4008",
+      "css": "edit",
+      "code": 59400,
+      "src": "fontawesome"
     }
   ]
 }
