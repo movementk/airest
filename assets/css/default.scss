@@ -119,6 +119,16 @@ figure {
                 font-size: 13px;
                 border: 1px solid #1b1b1d;
                 background-color: #1b1b1d;
+                &::placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+                &:-ms-input-placeholder {
+                    color: #fff;
+                }
+                &::-ms-input-placeholder {
+                    color: #fff;
+                }
             }
         }
         .btn-search {

@@ -29,7 +29,7 @@
                                         일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
                                     </p>
                                     <div class="btn-area">
-                                        <a href="" class="btn btn-view" role="button">
+                                        <a href="#" class="btn btn-view" role="button">
                                             <i>View Details</i> <span></span>
                                         </a>
                                     </div>
@@ -57,7 +57,7 @@
                                         일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
                                     </p>
                                     <div class="btn-area">
-                                        <a href="" class="btn btn-view" role="button">
+                                        <a href="#" class="btn btn-view" role="button">
                                             <i>View Details</i> <span></span>
                                         </a>
                                     </div>
@@ -85,7 +85,7 @@
                                         일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
                                     </p>
                                     <div class="btn-area">
-                                        <a href="" class="btn btn-view" role="button">
+                                        <a href="#" class="btn btn-view" role="button">
                                             <i>View Details</i> <span></span>
                                         </a>
                                     </div>
@@ -450,7 +450,6 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/scrollbar-plugin/jquery.mCustomScrollbar.js"></script>
-    <script src="/assets/js/common.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

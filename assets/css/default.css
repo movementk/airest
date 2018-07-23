@@ -126,6 +126,13 @@ figure {
       font-size: 13px;
       border: 1px solid #1b1b1d;
       background-color: #1b1b1d; }
+      #gnb .global-search .form-group .form-control::placeholder {
+        color: #fff;
+        opacity: 1; }
+      #gnb .global-search .form-group .form-control:-ms-input-placeholder {
+        color: #fff; }
+      #gnb .global-search .form-group .form-control::-ms-input-placeholder {
+        color: #fff; }
   #gnb .global-search .btn-search {
     position: absolute;
     top: 0;
