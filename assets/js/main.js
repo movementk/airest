@@ -24,17 +24,9 @@
 		});
 	});
 
-
 	// promotional scroll event
 	var detail_position = 863 - ($(window).width() - 1200);
 	if(detail_position > 863) detail_position = 863;
-
-	console.log(detail_position);
-
-	$(window).on("resize",function(){
-		detail_position = 863 - ($(window).width() - 1200);
-		$(".promotional .details").css("padding-right",detail_position+"px");
-	});
 
 	$(window).on('load',function(){
 		$('.promotional').mCustomScrollbar({

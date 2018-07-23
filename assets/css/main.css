@@ -33,7 +33,8 @@ address {
   box-shadow: none !important;
   background-color: #f3f3f3; }
   .jumbotron .jumbo-slider li {
-    overflow: hidden; }
+    overflow: hidden;
+    outline: none; }
     .jumbotron .jumbo-slider li .figbox {
       float: right;
       width: 50%; }
