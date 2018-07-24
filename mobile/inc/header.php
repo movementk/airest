@@ -1,7 +1,12 @@
 <!-- Header -->
 <header id="header">
     <div class="container">
-        <h1 class="logo"><a href="/"><img src="/mobile/assets/images/logo.png" alt="airest logo"></a></h1>
+        <h1 class="logo">
+            <a href="/mobile/">
+                <img src="/mobile/assets/images/logo.png" class="default" alt="airest logo">
+                <img src="/mobile/assets/images/scrolled_logo.png" class="scrolled-logo" alt="airest logo">
+            </a>
+        </h1>
     </div>
     <button type="button" class="btn btn-nav">
         <span class="bar"></span>

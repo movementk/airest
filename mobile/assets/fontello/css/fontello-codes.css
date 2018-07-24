@@ -4,3 +4,7 @@
 .icon-dot:before { content: '\e802'; } /* '' */
 .icon-right:before { content: '\e803'; } /* '' */
 .icon-left:before { content: '\e804'; } /* '' */
+.icon-play:before { content: '\e805'; } /* '' */
+.icon-edit:before { content: '\e806'; } /* '' */
+.icon-cancel-1:before { content: '\e807'; } /* '' */
+.icon-bookmark-empty:before { content: '\f097'; } /* '' */

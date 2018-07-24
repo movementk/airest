@@ -42,17 +42,24 @@ label {
     position: fixed;
     width: 100%;
     height: 56px;
+    z-index: 200;
     background: none;
     .logo {
         display: inline-block;
         float: left;
         line-height: 0;
         padding-top: 18px;
-        margin-left: 60px;
+        margin-left: 50px;
         a {
             display: block;
             img {
                 width: 87px;
+                &.default {
+                    display: block;
+                }
+                &.scrolled-logo {
+                    display: none;
+                }
             }
         }
     }
@@ -135,7 +142,7 @@ label {
     left: -100%;
     width: 100%;
     height: 100%;
-    z-index: 200;
+    z-index: 201;
     padding-bottom: 60px;
     background-color: rgba(0, 0, 0, .9);
     @include transition();
@@ -226,6 +233,23 @@ label {
 .scrolled {
     #header {
         background-color: rgba(#fff, .7);
+        .logo {
+            a {
+                .default {
+                    display: none;
+                }
+                .scrolled-logo {
+                    display: block;
+                }
+            }
+        }
+        .btn-nav {
+            span {
+                &.bar {
+                    background-color: #000;
+                }
+            }
+        }
     }
 }
 
