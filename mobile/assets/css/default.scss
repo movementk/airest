@@ -169,7 +169,7 @@ label {
                 > a {
                     position: relative;
                     display: inline-block;
-                    font-size: 15px;
+                    font-size: 22px;
                     color: #fff;
                     @inlude roboto();
                     line-height: 45px;
@@ -190,10 +190,10 @@ label {
                 > ul {
                     display: none;
                     padding-left: 10px;
-                    margin: 20px 0;
+                    margin: 15px 0;
                     > li {
                         > a {
-                            font-size: 12px;
+                            font-size: 14px;
                             color: #666;
                             line-height: 30px;
                             &:before {
