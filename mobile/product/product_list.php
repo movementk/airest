@@ -72,7 +72,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -88,7 +87,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -104,7 +102,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -120,7 +117,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                     </ul>
@@ -170,7 +166,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -186,7 +181,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -202,7 +196,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -218,7 +211,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                     </ul>
@@ -268,7 +260,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -284,7 +275,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -300,7 +290,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-6">
@@ -316,7 +305,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="view-hover"></div>
                             </a>
                         </li>
                     </ul>
