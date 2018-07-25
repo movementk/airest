@@ -1,10 +1,10 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
 </head>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-<body>
+<body class="sub ">
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <!-- Sub Content Start -->
-    <main id="content" class="sub">
+    <main id="content" class="">
         
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

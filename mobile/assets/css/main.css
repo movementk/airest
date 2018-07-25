@@ -433,22 +433,26 @@ address {
         font-weight: 400;
         line-height: 16px; }
 
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+  -ms-touch-action: auto;
+  touch-action: auto; }
+
+.mCustomScrollBox {
+  -ms-touch-action: pan-x;
+  touch-action: pan-x; }
+
+.mCustomScrollBox.mCSB_vertical_horizontal {
+  -ms-touch-action: auto;
+  touch-action: auto; }
+
+.mCustomScrollBox.mCSB_horizontal {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+
 .promotional {
   position: relative; }
-  .promotional .mCustomScrollbar,
-  .promotional .mCustomScrollbar.mCS_touch_action,
-  .promotional .mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
-    -ms-touch-action: auto;
-    touch-action: auto; }
-  .promotional .mCustomScrollBox {
-    -ms-touch-action: pan-x;
-    touch-action: pan-x; }
-  .promotional .mCustomScrollBox.mCSB_vertical_horizontal {
-    -ms-touch-action: auto;
-    touch-action: auto; }
-  .promotional .mCustomScrollBox.mCSB_horizontal {
-    -ms-touch-action: pan-y;
-    touch-action: pan-y; }
   .promotional .mCSB_container {
     margin-bottom: 0 !important; }
   .promotional .mCSB_scrollTools {

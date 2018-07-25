@@ -90,8 +90,11 @@ address {
       padding-left: 5px;
       padding-right: 5px; }
 
-.sub {
-  color: #fff;
-  min-height: 500px; }
+#header .logo a .default {
+  display: none !important; }
+#header .logo a .scrolled-logo {
+  display: block !important; }
+#header .btn-nav span.bar {
+  background-color: #000; }
 
 /*# sourceMappingURL=sub.css.map */

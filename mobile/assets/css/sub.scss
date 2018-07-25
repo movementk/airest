@@ -1,6 +1,21 @@
 @import 'common';
 
-.sub {
-    color: #fff;
-    min-height: 500px;
+#header {
+    .logo {
+        a {
+            .default {
+                display: none !important;
+            }
+            .scrolled-logo {
+                display: block !important;
+            }
+        }
+    }
+    .btn-nav {
+        span {
+            &.bar {
+                background-color: #000;
+            }
+        }
+    }
 }

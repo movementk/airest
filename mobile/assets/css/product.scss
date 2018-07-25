@@ -1,0 +1,381 @@
+@import 'common';
+
+
+// product item
+.product-item {
+    .sub-slider {
+        position: relative;
+        li {
+            outline: none;
+            figure {
+                .img-fluid {
+                    width: 100%;
+                }
+            }
+        }
+        .slick-dots {
+            position: absolute;
+            left: 0;
+            bottom: 15px;
+            width: 100%;
+            height: 10px;
+            text-align: center;
+            li {
+                display: inline-block;
+                > button {
+                    outline: none;
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    padding: 0;
+                    text-indent: -9999px;
+                    margin: 0 7px;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                    background: none;
+                }
+                &.slick-active {
+                    > button {
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//product-list 
+.product-list {
+    section {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        .item-effect {
+            position: relative;
+            overflow: hidden;
+            > div {
+                width: 50%;
+                &.item {
+                    figure {
+                        .img-fluid {
+                            position: relative;
+                            opacity: 0;
+                            @include transition($duration: 1s);
+                        }
+                    }
+                }
+                &.item-details {
+                    padding-top: 12%;
+                    padding-bottom: 12%;
+                    .v-align {
+                        position: relative;
+                        opacity: 0;
+                        @include transition($duration: 1s, $delay: .5s);
+                        h3 {
+                            font-size: 25px;
+                            font-weight: lighter;
+                            color: #1b1b1d;
+                            line-height: 30px;
+                            @include roboto();
+                        }
+                        p {
+                            font-size: 11px;
+                            color: #1b1b1d;
+                            line-height: 16px;
+                            margin-top: 20px;
+                        }
+                        .btn-area {
+                            margin-top: 30px;
+                            .btn {
+                                position: relative;
+                                display: inline-block;
+                                font-size: 10px;
+                                @include roboto();
+                                font-weight: 300;
+                                letter-spacing: 2px;
+                                padding: 5px 0px;
+                                i {
+                                    position: relative;
+                                    z-index: 1;
+                                    display: inline-block;
+                                    text-align: center;
+                                    width: 110px;
+                                    font-style: normal;
+                                    color: #1b1b1d;
+                                    @include transition();
+                                }
+                                span {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    height: 100%;
+                                    background-color: #1b1b1d;
+                                    width: 0;
+                                    @include transition();
+                                }
+                                &:hover {
+                                    i {
+                                        color: #fff;
+                                    }
+                                    span {
+                                        width: 100%;
+                                    }
+                                }
+                                &.list-view {
+                                    display: inline-block;
+                                }
+                                &.list-close {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &:nth-of-type(odd) {
+            .item-effect {
+                > div {
+                    &.item {
+                        position: absolute;
+                        left: 0;
+                        padding-right: 8%;
+                        figure {
+                            .img-fluid {
+                                left: -50px;
+                            }
+                        }
+                    }
+                    &.item-details {
+                        float: right;
+                        padding-right: 8%;
+                        .v-align {
+                            right: -30px;
+                        }
+                    }
+                }
+            }
+        }
+        &:nth-of-type(even) {
+            .item-effect {
+                > div {
+                    &.item {
+                        position: absolute;
+                        right: 0;
+                        padding-left: 8%;
+                        figure {
+                            .img-fluid {
+                                right: -50px;
+                            }
+                        }
+                    }
+                    &.item-details {
+                        float: left;
+                        padding-left: 8%;
+                        .v-align {
+                            left: -30px;
+                        }
+                    }
+                }
+            }
+        }
+        &.purifier {
+            background-color: #ededed;
+            .item-effect {
+                > div {
+                    &.item {
+                        top: 0;
+                    }
+                }
+            }
+        }
+        &.humidifier {
+            background-color: #f1f1f1;
+            .item-effect {
+                > div {
+                    &.item {
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+        &.circulator {
+            background-color: #dfdfdf;
+            .item-effect {
+                > div {
+                    &.item {
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+        &.action {
+            &:nth-of-type(odd) {
+                .item-effect {
+                    > div {
+                        &.item {
+                            figure {
+                                .img-fluid {
+                                    left: 0;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        &.item-details {
+                            .v-align {
+                                right: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-of-type(even) {
+                .item-effect {
+                    > div {
+                        &.item {
+                            figure {
+                                .img-fluid {
+                                    right: 0;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        &.item-details {
+                            .v-align {
+                                left: 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .product-view {
+            width: 100%;
+            height: 0;
+            background-color: #fff;
+            @include transition();
+            ul {
+                > li {
+                    > a {
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        padding-bottom: 80%;
+                        background-color: #f7f7f7;
+                        .model-info {
+                            width: 100%;
+                            padding: 20px 10px;
+                            small {
+                                font-size: 10px;
+                                color: #999;
+                                font-weight: 300;
+                                @include roboto();
+                            }
+                            b {
+                                display: block;
+                                font-size: 12px;
+                                color: #1b1b1d;
+                                font-weight: bold;
+                                @include roboto();
+                            }
+                        }
+                        /*figure {
+                            position: relative;
+                            width: 100%;
+                            height: 100%;
+                            padding: 30% 35% 30px;
+                            .img-fluid {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }*/
+                        .figure-item {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 70%;
+                            .fig-box {
+                                position: relative;
+                                width: 100%;
+                                height: 100%;
+                                p {
+                                    position: absolute;
+                                    bottom: 25px;
+                                    left: 0;
+                                    width: 100%;
+                                    padding: 0 34%;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2n + 2) ~ li {
+                        a {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        &.active {
+            overflow: visible;
+            .product-view {
+                height: auto;
+                padding: 25px 0;
+            }
+            .item-effect {
+                > div {
+                    &.item-details {
+                        .v-align {
+                            .btn-area {
+                                .btn {
+                                    &.list-view {
+                                        display: none;
+                                    }
+                                    &.list-close {
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

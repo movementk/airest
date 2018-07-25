@@ -1,5 +1,16 @@
 @import 'common';
 
-#content {
-    min-height: 800px;
+// sub 공통
+#gnb {
+    > ul {
+        > li {
+            > a {
+                color: #1b1b1d;
+                &:hover {
+                    color: #cecfcf;
+                }
+            }
+        }
+    }
 }
+

@@ -238,6 +238,24 @@ address {
       .jumbotron .jumbo-slider .slick-dots li:last-child {
         margin-bottom: 0; }
 
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+  -ms-touch-action: auto;
+  touch-action: auto; }
+
+.mCustomScrollBox {
+  -ms-touch-action: pan-x;
+  touch-action: pan-x; }
+
+.mCustomScrollBox.mCSB_vertical_horizontal {
+  -ms-touch-action: auto;
+  touch-action: auto; }
+
+.mCustomScrollBox.mCSB_horizontal {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+
 .promotional {
   position: relative;
   top: 100px;
@@ -253,20 +271,6 @@ address {
   .promotional .img-promotional {
     display: block;
     margin: 0 auto; }
-  .promotional .mCustomScrollbar,
-  .promotional .mCustomScrollbar.mCS_touch_action,
-  .promotional .mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
-    -ms-touch-action: auto;
-    touch-action: auto; }
-  .promotional .mCustomScrollBox {
-    -ms-touch-action: pan-x;
-    touch-action: pan-x; }
-  .promotional .mCustomScrollBox.mCSB_vertical_horizontal {
-    -ms-touch-action: auto;
-    touch-action: auto; }
-  .promotional .mCustomScrollBox.mCSB_horizontal {
-    -ms-touch-action: pan-y;
-    touch-action: pan-y; }
   .promotional .mCSB_scrollTools_horizontal {
     width: 300px !important;
     height: 40px;

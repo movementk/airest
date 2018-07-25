@@ -22,7 +22,9 @@ address {
 .container {
   max-width: 1200px !important; }
 
-#content {
-  min-height: 800px; }
+#gnb > ul > li > a {
+  color: #1b1b1d; }
+  #gnb > ul > li > a:hover {
+    color: #cecfcf; }
 
 /*# sourceMappingURL=sub.css.map */

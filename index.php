@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <!-- Main Content Start -->
     <main id="content">
         <!-- jumbo slider -->
