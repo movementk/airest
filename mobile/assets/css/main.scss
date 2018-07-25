@@ -9,7 +9,7 @@
 .jumbotron {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
     border-radius: 0;
@@ -49,12 +49,10 @@
         }
     }
     .visual-slide {
-        position: relative;
         width: 100%;
-        height: 100%;
+        outline: none;
         .slider-bg {
             width: 100%;
-            height: 100%;
             .img-fluid {
                 width: 100%;
             }
@@ -167,6 +165,13 @@
                 }
             }
         }
+        &.circulator {
+            .details {
+                figure {
+                    padding: 0 16%;
+                }
+            }
+        }
     }
 }
 
@@ -196,6 +201,7 @@
         li {
             a {
                 display: block;
+                outline: none;
                 h3 {
                     @include roboto();
                     font-weight: 300;
@@ -372,6 +378,27 @@
 // promotinal
 .promotional {
     position: relative;
+    .mCustomScrollbar,
+    .mCustomScrollbar.mCS_touch_action,
+    .mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+        -ms-touch-action: auto;
+            touch-action: auto;
+    }
+
+    .mCustomScrollBox {
+        -ms-touch-action: pan-x;
+            touch-action: pan-x;
+    }
+
+    .mCustomScrollBox.mCSB_vertical_horizontal {
+        -ms-touch-action: auto;
+            touch-action: auto;
+    }
+
+    .mCustomScrollBox.mCSB_horizontal {
+        -ms-touch-action: pan-y;
+            touch-action: pan-y;
+    }
     .mCSB_container {
         margin-bottom: 0 !important;
     }
@@ -407,6 +434,7 @@
         display: inline-block;
         z-index: 1;
         opacity: 0;
+        outline: none;
         .item {
             position: relative;
             .circle {
@@ -486,6 +514,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        z-index: 2;
         padding: 40px 0 0 20px;
         text-align: left;
         .title {

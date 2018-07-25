@@ -9,7 +9,7 @@
     <!-- Main Content Start -->
     <main id="content">
         <div class="jumbotron">
-            <div class="visual-slide">
+            <div class="visual-slide humidifier">
                 <div class="slider-bg">
                     <img src="/mobile/assets/images/main/jumbo_img01.jpg" class="img-fluid" alt="">
                 </div>
@@ -30,15 +30,15 @@
                     </div>
                 </div>
             </div>
-            <div class="visual-slide">
+            <div class="visual-slide purifier">
                 <div class="slider-bg">
-                    <img src="/mobile/assets/images/main/jumbo_img01.jpg" class="img-fluid" alt="">
+                    <img src="/mobile/assets/images/main/jumbo_img02.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="details">
                     <figure>
-                        <img src="/mobile/assets/images/main/slider_img01.png" class="img-fluid" alt="">
+                        <img src="/mobile/assets/images/main/slider_img02.png" class="img-fluid" alt="">
                     </figure>
-                    <h3>AIREST<br>HUMIDIFIER</h3>
+                    <h3>AIREST<br>PURIFIER</h3>
                     <p>
                         에어레스트는 소중한 아이이자 더 나아가 가족입니다<br>
                         일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
@@ -51,15 +51,15 @@
                     </div>
                 </div>
             </div>
-            <div class="visual-slide">
+            <div class="visual-slide circulator">
                 <div class="slider-bg">
-                    <img src="/mobile/assets/images/main/jumbo_img01.jpg" class="img-fluid" alt="">
+                    <img src="/mobile/assets/images/main/jumbo_img03.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="details">
                     <figure>
-                        <img src="/mobile/assets/images/main/slider_img01.png" class="img-fluid" alt="">
+                        <img src="/mobile/assets/images/main/slider_img03.png" class="img-fluid" alt="">
                     </figure>
-                    <h3>AIREST<br>HUMIDIFIER</h3>
+                    <h3>AIREST<br>CIRCULATOR</h3>
                     <p>
                         에어레스트는 소중한 아이이자 더 나아가 가족입니다<br>
                         일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다

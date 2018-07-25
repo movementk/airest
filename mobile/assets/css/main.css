@@ -98,7 +98,7 @@ address {
 .jumbotron {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
   border-radius: 0;
@@ -133,12 +133,10 @@ address {
           border-color: #1a1a1d;
           background-color: #1a1a1d; }
   .jumbotron .visual-slide {
-    position: relative;
     width: 100%;
-    height: 100%; }
+    outline: none; }
     .jumbotron .visual-slide .slider-bg {
-      width: 100%;
-      height: 100%; }
+      width: 100%; }
       .jumbotron .visual-slide .slider-bg .img-fluid {
         width: 100%; }
     .jumbotron .visual-slide .details {
@@ -268,6 +266,8 @@ address {
     .jumbotron .visual-slide.action .details .btn-area {
       top: 0;
       opacity: 1; }
+    .jumbotron .visual-slide.circulator .details figure {
+      padding: 0 16%; }
 
 .best-product {
   padding-bottom: 50px;
@@ -289,7 +289,8 @@ address {
       .best-product ul .slick-arrow.slick-next {
         right: 10px; }
     .best-product ul li a {
-      display: block; }
+      display: block;
+      outline: none; }
       .best-product ul li a h3 {
         font-family: 'roboto', serif;
         font-weight: 300;
@@ -434,6 +435,20 @@ address {
 
 .promotional {
   position: relative; }
+  .promotional .mCustomScrollbar,
+  .promotional .mCustomScrollbar.mCS_touch_action,
+  .promotional .mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+    -ms-touch-action: auto;
+    touch-action: auto; }
+  .promotional .mCustomScrollBox {
+    -ms-touch-action: pan-x;
+    touch-action: pan-x; }
+  .promotional .mCustomScrollBox.mCSB_vertical_horizontal {
+    -ms-touch-action: auto;
+    touch-action: auto; }
+  .promotional .mCustomScrollBox.mCSB_horizontal {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y; }
   .promotional .mCSB_container {
     margin-bottom: 0 !important; }
   .promotional .mCSB_scrollTools {
@@ -462,7 +477,8 @@ address {
     position: absolute;
     display: inline-block;
     z-index: 1;
-    opacity: 0; }
+    opacity: 0;
+    outline: none; }
     .promotional .product .item {
       position: relative; }
       .promotional .product .item .circle {
@@ -552,6 +568,7 @@ address {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
     padding: 40px 0 0 20px;
     text-align: left; }
     .promotional .details .title {
