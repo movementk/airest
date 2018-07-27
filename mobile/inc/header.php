@@ -12,7 +12,7 @@
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-        <span class="sr-only">네비 열</span>
+        <span class="sr-only">네비 열기</span>
     </button>
     <div class="global-search">
         <form action="#">
@@ -56,9 +56,9 @@
             <li>
                 <a href="#">PRODUCT <span></span></a>
                 <ul>
-                    <li><a href="#">가습기</a></li>
-                    <li><a href="#">공기청정기</a></li>
-                    <li><a href="#">선풍기</a></li>
+                    <li><a href="/mobile/product/product_list.php">가습기</a></li>
+                    <li><a href="/mobile/product/product_list.php">공기청정기</a></li>
+                    <li><a href="/mobile/product/product_list.php">선풍기</a></li>
                 </ul>
             </li>
             <li>

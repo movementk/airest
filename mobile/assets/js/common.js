@@ -20,13 +20,13 @@
     // global-search
     $(document).on('click','.global-search .btn-search', function(){
         $('.global-search').addClass('action');
-        $('.form-group').addClass('d-block');
-        $('.form-group').removeClass('d-none');
+        $('.global-search .form-group').addClass('d-block');
+        $('.global-search .form-group').removeClass('d-none');
     });
     $(document).on('click','#content, .product-item, .page-header', function(){
         $('.global-search').removeClass('action');
-        $('.form-group').removeClass('d-block');
-        $('.form-group').addClass('d-none');
+        $('.global-search .form-group').removeClass('d-block');
+        $('.global-search .form-group').addClass('d-none');
     });
 
     // header scroll

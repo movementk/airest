@@ -16,7 +16,7 @@
                     <ul>
                         <li><a href="#">BRAND STORY</a></li>
                         <li><a href="#">COMPANY</a></li>
-                        <li><a href="#">PRODUCT</a></li>
+                        <li><a href="/product/product_list.php">PRODUCT</a></li>
                         <li><a href="#">SUPPORT</a></li>
                         <li><a href="#">EVENT</a></li>
                         <li><a href="#">SHOP</a></li>
@@ -65,9 +65,9 @@
             <li>
                 <a href="#">PRODUCT <span></span></a>
                 <ul>
-                    <li><a href="#">가습기</a></li>
-                    <li><a href="#">공기청정기</a></li>
-                    <li><a href="#">선풍기</a></li>
+                    <li><a href="/product/product_list.php">가습기</a></li>
+                    <li><a href="/product/product_list.php">공기청정기</a></li>
+                    <li><a href="/product/product_list.php">선풍기</a></li>
                 </ul>
             </li>
             <li>
