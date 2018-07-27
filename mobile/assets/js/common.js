@@ -23,7 +23,7 @@
         $('.form-group').addClass('d-block');
         $('.form-group').removeClass('d-none');
     });
-    $(document).on('click','#content', function(){
+    $(document).on('click','#content, .product-item, .page-header', function(){
         $('.global-search').removeClass('action');
         $('.form-group').removeClass('d-block');
         $('.form-group').addClass('d-none');

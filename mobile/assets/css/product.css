@@ -196,7 +196,8 @@ address {
                 left: 0;
                 height: 100%;
                 background-color: #1b1b1d;
-                width: 0;
+                width: 100%;
+                opacity: 0;
                 -webkit-transition-property: all;
                 transition-property: all;
                 -webkit-transition-duration: 0.15s;
@@ -205,10 +206,13 @@ address {
                 transition-timing-function: linear;
                 -webkit-transition-delay: 0s;
                 transition-delay: 0s; }
-              .product-list section .item-effect > div.item-details .v-align .btn-area .btn:hover i {
-                color: #fff; }
-              .product-list section .item-effect > div.item-details .v-align .btn-area .btn:hover span {
-                width: 100%; }
+              .product-list section .item-effect > div.item-details .v-align .btn-area .btn:hover, .product-list section .item-effect > div.item-details .v-align .btn-area .btn:focus {
+                background-color: #1b1b1d; }
+                .product-list section .item-effect > div.item-details .v-align .btn-area .btn:hover i, .product-list section .item-effect > div.item-details .v-align .btn-area .btn:focus i {
+                  color: #fff; }
+                .product-list section .item-effect > div.item-details .v-align .btn-area .btn:hover span, .product-list section .item-effect > div.item-details .v-align .btn-area .btn:focus span {
+                  width: 100%;
+                  opacity: 1; }
               .product-list section .item-effect > div.item-details .v-align .btn-area .btn.list-view {
                 display: inline-block; }
               .product-list section .item-effect > div.item-details .v-align .btn-area .btn.list-close {
@@ -277,17 +281,7 @@ address {
       width: 100%;
       height: 100%;
       padding-bottom: 80%;
-      background-color: #f7f7f7;
-      /*figure {
-          position: relative;
-          width: 100%;
-          height: 100%;
-          padding: 30% 35% 30px;
-          .img-fluid {
-              display: block;
-              margin: 0 auto;
-          }
-      }*/ }
+      background-color: #f7f7f7; }
       .product-list section .product-view ul > li > a .model-info {
         width: 100%;
         padding: 20px 10px; }

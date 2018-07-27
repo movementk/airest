@@ -110,15 +110,18 @@
                                     left: 0;
                                     height: 100%;
                                     background-color: #1b1b1d;
-                                    width: 0;
+                                    width: 100%;
+                                    opacity: 0;
                                     @include transition();
                                 }
-                                &:hover {
+                                &:hover, &:focus {
+                                    background-color: #1b1b1d;
                                     i {
                                         color: #fff;
                                     }
                                     span {
                                         width: 100%;
+                                        opacity: 1;
                                     }
                                 }
                                 &.list-view {
@@ -282,16 +285,6 @@
                                 @include roboto();
                             }
                         }
-                        /*figure {
-                            position: relative;
-                            width: 100%;
-                            height: 100%;
-                            padding: 30% 35% 30px;
-                            .img-fluid {
-                                display: block;
-                                margin: 0 auto;
-                            }
-                        }*/
                         .figure-item {
                             position: absolute;
                             bottom: 0;
