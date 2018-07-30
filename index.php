@@ -369,7 +369,7 @@
     </main>
     
     <!-- product slide modal -->
-    <div class="modal fade product-modal" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal fade product-modal" id="productModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -429,7 +429,7 @@
     </div>
     
     <!-- product slide modal -->
-    <div class="modal fade video-modal" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal fade video-modal" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -439,7 +439,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://www.youtube.com/embed/3JvV1b6M4zM" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/3JvV1b6M4zM" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
