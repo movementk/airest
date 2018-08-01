@@ -462,11 +462,8 @@ figure {
 //quick-top
 #quick-top {
     position: fixed;
-    bottom: 45px;
-    left: 50%;
-    width: 1400px;
-    text-align: right;
-    margin-left: -700px;
+    bottom: 50px;
+    right: 50px;
     z-index: 11;
     .btn-top {
         width: 50px;
@@ -476,7 +473,7 @@ figure {
         text-align: center;
         color: #fff;
         font-size: 16px;
-        background-color: #acacac;
+        background-color: rgba(48, 48, 48, .4);
         opacity: 0;
         @include transition();
     }

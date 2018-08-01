@@ -84,7 +84,7 @@
         <div class="nav-banner">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="/mobile/product/">
                         <figure>
                             <img src="/mobile/assets/images/img_banner01.jpg" class="img-fluid" alt="">
                         </figure>

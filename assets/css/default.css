@@ -1,6 +1,16 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -406,11 +416,8 @@ figure {
 
 #quick-top {
   position: fixed;
-  bottom: 45px;
-  left: 50%;
-  width: 1400px;
-  text-align: right;
-  margin-left: -700px;
+  bottom: 50px;
+  right: 50px;
   z-index: 11; }
   #quick-top .btn-top {
     width: 50px;
@@ -420,7 +427,7 @@ figure {
     text-align: center;
     color: #fff;
     font-size: 16px;
-    background-color: #acacac;
+    background-color: rgba(48, 48, 48, 0.4);
     opacity: 0;
     -webkit-transition-property: all;
     transition-property: all;

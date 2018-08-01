@@ -23,7 +23,7 @@
         $('.global-search .form-group').addClass('d-block');
         $('.global-search .form-group').removeClass('d-none');
     });
-    $(document).on('click','#content, .page-header', function(){
+    $(document).on('click','#content, .page-header, .product-item', function(){
         $('.global-search').removeClass('action');
         $('.global-search .form-group').removeClass('d-block');
         $('.global-search .form-group').addClass('d-none');
