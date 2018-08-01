@@ -459,10 +459,28 @@ figure {
     }
 }
 
-
-
-
-
+//quick-top
+#quick-top {
+    position: fixed;
+    bottom: 45px;
+    left: 50%;
+    width: 1400px;
+    text-align: right;
+    margin-left: -700px;
+    z-index: 11;
+    .btn-top {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        background-color: #acacac;
+        opacity: 0;
+        @include transition();
+    }
+}
 
 // scrolled effect
 .scrolled {
@@ -479,6 +497,11 @@ figure {
                     }
                 }
             }
+        }
+    }
+    #quick-top {
+        .btn-top {
+            opacity: 1;
         }
     }
 }

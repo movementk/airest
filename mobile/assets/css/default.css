@@ -228,8 +228,7 @@ label {
       background-position: 50% 50%;
       background-size: 22px auto; }
   #nav .nav-body {
-    padding-top: 30px;
-    padding-left: 30px; }
+    padding: 30px 30px 0; }
     #nav .nav-body > .gnb > li > a {
       position: relative;
       display: inline-block;
@@ -283,12 +282,43 @@ label {
         margin-left: -50%; }
     #nav .nav-body > .gnb > li.active > ul {
       display: block; }
+  #nav .nav-banner {
+    margin-top: 40px; }
+    #nav .nav-banner > ul > li ~ li {
+      margin-top: 10px; }
+    #nav .nav-banner > ul > li a {
+      display: block; }
+      #nav .nav-banner > ul > li a .img-fluid {
+        width: 100%; }
 
 .opened {
   overflow: hidden; }
   .opened #nav {
     left: 0;
     overflow: auto; }
+
+#quick-top {
+  position: fixed;
+  bottom: 45px;
+  right: 10px; }
+  #quick-top .btn-top {
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgba(48, 48, 48, 0.4);
+    opacity: 0;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
 
 .scrolled #header {
   background-color: rgba(255, 255, 255, 0.7); }
@@ -298,6 +328,8 @@ label {
     display: block; }
   .scrolled #header .btn-nav span.bar {
     background-color: #000; }
+.scrolled #quick-top .btn-top {
+  opacity: 1; }
 
 #footer {
   padding: 30px 0 20px;

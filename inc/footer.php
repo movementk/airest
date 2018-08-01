@@ -90,3 +90,12 @@
         </div>
     </div>
 </footer>
+
+<!-- quick-top -->
+<div id="quick-top">
+    <button type="button" class="btn btn-top">
+        <i class="icon-up">
+            <span class="sr-only">상위로</span>
+        </i>
+    </button>
+</div>

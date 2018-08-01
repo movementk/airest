@@ -404,11 +404,40 @@ figure {
       width: 100%;
       height: 100%; }
 
+#quick-top {
+  position: fixed;
+  bottom: 45px;
+  left: 50%;
+  width: 1400px;
+  text-align: right;
+  margin-left: -700px;
+  z-index: 11; }
+  #quick-top .btn-top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #acacac;
+    opacity: 0;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
+
 .scrolled #header {
   background-color: rgba(255, 255, 255, 0.7); }
 .scrolled #gnb > ul > li > a {
   color: #1b1b1d; }
   .scrolled #gnb > ul > li > a:hover {
     color: #888; }
+.scrolled #quick-top .btn-top {
+  opacity: 1; }
 
 /*# sourceMappingURL=default.css.map */

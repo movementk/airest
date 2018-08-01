@@ -65,6 +65,12 @@
       "css": "edit",
       "code": 59400,
       "src": "fontawesome"
+    },
+    {
+      "uid": "040e72500c863813088c9f9c9415f8e9",
+      "css": "up",
+      "code": 59401,
+      "src": "mfglabs"
     }
   ]
 }

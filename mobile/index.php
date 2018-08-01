@@ -217,17 +217,11 @@
                     <li class="col-4">
                         <a href="#" class="naver">
                             <figure>
-                                <img src="/mobile/assets/images/main/bg_naver.jpg" class="img-fluid" alt="naver-blog">
+                                <img src="/mobile/assets/images/main/img_naver.jpg" class="img-fluid" alt="naver-blog">
                             </figure>
                             <p class="icon">
                                 <img src="/mobile/assets/images/main/ico_sns_naver.png" alt="">
                             </p>
-                            <div class="details">
-                                <b>@mirocleanpot</b>
-                                <p class="summary">
-                                    미로가 알려드리<br> 는 미세먼지 ...
-                                </p>
-                            </div>
                         </a>
                     </li>
                     <li class="col-4">

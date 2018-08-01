@@ -342,16 +342,10 @@
                         </a>
                     </li>
                     <li class="col-4">
-                        <a href="#" class="naver-blog">
-                            <div class="blog-content">
-                                <small>@mirocleanpot</small>
-                                <h3>미로가 알려드리는 미세먼지<br>제거 대박 꿀팁!</h3>
-                                <p class="summary">
-                                    미세먼지로부터 집안을 지키자!<br>
-                                    가장 쉽고 간편한 꿀팁은 무엇일까요?<br>
-                                    미로가 알려주는 미세먼지 꿀팁!
-                                </p>
-                            </div>
+                        <a href="#">
+                            <figure>
+                                <img src="/assets/images/main/img_issue02.jpg" class="img-fluid" alt="">
+                            </figure>
                             <p class="icon-sns icon-naver"></p>
                         </a>
                     </li>

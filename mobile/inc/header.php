@@ -81,5 +81,23 @@
                 <a href="#">SHOP <span></span></a>
             </li>
         </ul>
+        <div class="nav-banner">
+            <ul>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="/mobile/assets/images/img_banner01.jpg" class="img-fluid" alt="">
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img src="/mobile/assets/images/img_banner02.jpg" class="img-fluid" alt="">
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
