@@ -37,4 +37,7 @@ address {
   #gnb > ul > li > a:hover {
     color: #cecfcf; }
 
+#content {
+  min-height: 600px; }
+
 /*# sourceMappingURL=sub.css.map */
