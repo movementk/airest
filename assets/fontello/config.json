@@ -71,6 +71,48 @@
       "css": "up",
       "code": 59401,
       "src": "mfglabs"
+    },
+    {
+      "uid": "ead4c82d04d7758db0f076584893a8c1",
+      "css": "calendar-empty",
+      "code": 61747,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e45a3da2ebde8bc8e30a873f3bd51f30",
+      "css": "eye",
+      "code": 59402,
+      "src": "elusive"
+    },
+    {
+      "uid": "21115bb09fa242341cb91ed34710aa13",
+      "css": "attach",
+      "code": 59403,
+      "src": "websymbols"
+    },
+    {
+      "uid": "d9be617b7f2fe7843118ca2d3a1b8cca",
+      "css": "down-open-1",
+      "code": 61444,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "440e148d0e21100118eae7036bcd2067",
+      "css": "up-open-1",
+      "code": 61445,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "b59b3b618699b467541f631edd5a02ed",
+      "css": "volume",
+      "code": 59404,
+      "src": "elusive"
+    },
+    {
+      "uid": "3e290a111c0f3ee3acbf7b5f17ccc04a",
+      "css": "play",
+      "code": 59405,
+      "src": "typicons"
     }
   ]
 }
