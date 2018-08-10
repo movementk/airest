@@ -64,7 +64,7 @@ dl {
         font-weight: lighter;
         letter-spacing: 5px;
         @include roboto();
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .page-path {
         display: inline-block;
@@ -83,6 +83,9 @@ dl {
                 }
                 &.active {
                     font-weight: 500;
+                }
+                &.roboto {
+                    letter-spacing: 3px;
                 }
                 &:before {
                     display: none;
@@ -496,10 +499,17 @@ dl {
                             font-family: "fontello";
                         }
                         &.collapsed {
-                            font-weight: 300;
                             &:after {
                                 color: #999;
                                 content: "\F004";
+                            }
+                            dl {
+                                dt {
+                                    font-weight: 300;
+                                }
+                                dd {
+                                    font-weight: 300;
+                                }
                             }
                         }
                     }
@@ -511,6 +521,7 @@ dl {
                         table-layout: fixed;
                         dt {
                             display: table-cell;
+                            font-weight: 400;
                             width: 125px;
                             vertical-align: middle;
                         }
@@ -518,6 +529,7 @@ dl {
                             display: table-cell;
                             vertical-align: middle;
                             overflow: hidden;
+                            font-weight: 400;
                             white-space: nowrap;
                             text-overflow: ellipsis;
                             padding-right: 20px;
@@ -788,16 +800,14 @@ dl {
                         width: 100%;
                         @include transition($duration: .30s);
                     }
-                }
-                &:hover {
-                    figure {
+                    &:hover {
                         .img-fluid {
                             transform: scale(1.1);
                         }
                     }
                 }
                 .details {
-                    padding-top: 15px;
+                    padding-top: 20px;
                     padding-left: 70px;
                     .label {
                         display: block;
@@ -811,6 +821,7 @@ dl {
                     h4 {
                         font-size: 33px;
                         color: #1b1b1d;
+                        letter-spacing: -1px;
                         font-weight: 400;
                         margin: 30px 0;
                     }
@@ -820,7 +831,7 @@ dl {
                         line-height: 24px;
                     }
                     dl {
-                        margin-top: 70px;
+                        margin-top: 55px;
                         overflow: hidden;
                         dt {
                             float: left;
@@ -835,7 +846,8 @@ dl {
                             display: block;
                             font-size: 13px;
                             color: #999;
-                            font-weight: 500;
+                            font-weight: 400;
+                            letter-spacing: 1px;
                             line-height: 24px;
                             @include roboto();
                         }
@@ -851,8 +863,8 @@ dl {
                     }
                 }
                 &.event-end {
-                    &:hover {
-                        figure {
+                    figure {
+                        &:hover {
                             .img-fluid {
                                 transform: scale(1);
                             }

@@ -20,6 +20,34 @@
     .section-content {
         .board-view {
             margin-top: 50px;
+            .article-header {
+                h4 {
+                    small {
+                        position: relative;
+                        top: -3px;
+                        display: inline-block;
+                        font-size: 12px;
+                        width: 50px;
+                        line-height: 20px;
+                        text-align: center;
+                        height: 22px;
+                        font-weight: 300;
+                        border: 1px solid #fff;
+                        margin-right: 15px;
+                        vertical-align: middle;
+                        &.ongoing {
+                            color: #fff;
+                            border-color: #353535;
+                            background-color: #353535;
+                        }
+                        &.event-end {
+                            color: #1b1b1d;
+                            border-color: #353535;
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
         }
         .btn-area {
             text-align: right;

@@ -34,7 +34,11 @@
                 <div class="section-content">
                     <article class="board-view">
                         <div class="article-header">
-                            <h4>미로 신규회원혜택 이벤트</h4>
+                            <!--
+                                진행중 ongoing
+                                종료 event-end
+                            -->
+                            <h4><small class="ongoing">진행중</small>미로 신규회원혜택 이벤트</h4>
                             <ul>
                                 <li>
                                     <i class="icon-calendar-empty">

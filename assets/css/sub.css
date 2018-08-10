@@ -84,7 +84,7 @@ dl dd {
     font-weight: lighter;
     letter-spacing: 5px;
     font-family: 'roboto', serif;
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
   .page-header .page-path {
     display: inline-block; }
     .page-header .page-path .breadcrumb {
@@ -101,6 +101,8 @@ dl dd {
           display: inline-block; }
         .page-header .page-path .breadcrumb > li.active {
           font-weight: 500; }
+        .page-header .page-path .breadcrumb > li.roboto {
+          letter-spacing: 3px; }
         .page-header .page-path .breadcrumb > li:before {
           display: none; }
         .page-header .page-path .breadcrumb > li:after {
@@ -450,11 +452,13 @@ dl dd {
             font-size: 15px;
             content: "\F005";
             font-family: "fontello"; }
-          .board-type1 .accordion .card .card-header > div .btn-link.collapsed {
+          .board-type1 .accordion .card .card-header > div .btn-link.collapsed:after {
+            color: #999;
+            content: "\F004"; }
+          .board-type1 .accordion .card .card-header > div .btn-link.collapsed dl dt {
             font-weight: 300; }
-            .board-type1 .accordion .card .card-header > div .btn-link.collapsed:after {
-              color: #999;
-              content: "\F004"; }
+          .board-type1 .accordion .card .card-header > div .btn-link.collapsed dl dd {
+            font-weight: 300; }
         .board-type1 .accordion .card .card-header > div dl {
           text-align: left;
           display: table;
@@ -463,12 +467,14 @@ dl dd {
           table-layout: fixed; }
           .board-type1 .accordion .card .card-header > div dl dt {
             display: table-cell;
+            font-weight: 400;
             width: 125px;
             vertical-align: middle; }
           .board-type1 .accordion .card .card-header > div dl dd {
             display: table-cell;
             vertical-align: middle;
             overflow: hidden;
+            font-weight: 400;
             white-space: nowrap;
             text-overflow: ellipsis;
             padding-right: 20px; }
@@ -693,10 +699,10 @@ dl dd {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
-      .board-type5 > ul > li > a:hover figure .img-fluid {
-        transform: scale(1.1); }
+        .board-type5 > ul > li > a figure:hover .img-fluid {
+          transform: scale(1.1); }
       .board-type5 > ul > li > a .details {
-        padding-top: 15px;
+        padding-top: 20px;
         padding-left: 70px; }
         .board-type5 > ul > li > a .details .label {
           display: block;
@@ -709,6 +715,7 @@ dl dd {
         .board-type5 > ul > li > a .details h4 {
           font-size: 33px;
           color: #1b1b1d;
+          letter-spacing: -1px;
           font-weight: 400;
           margin: 30px 0; }
         .board-type5 > ul > li > a .details p {
@@ -716,7 +723,7 @@ dl dd {
           color: #333;
           line-height: 24px; }
         .board-type5 > ul > li > a .details dl {
-          margin-top: 70px;
+          margin-top: 55px;
           overflow: hidden; }
           .board-type5 > ul > li > a .details dl dt {
             float: left;
@@ -730,14 +737,15 @@ dl dd {
             display: block;
             font-size: 13px;
             color: #999;
-            font-weight: 500;
+            font-weight: 400;
+            letter-spacing: 1px;
             line-height: 24px;
             font-family: 'roboto', serif; }
       .board-type5 > ul > li > a.ongoing .details .label {
         color: #fff;
         border-color: #353535;
         background-color: #353535; }
-      .board-type5 > ul > li > a.event-end:hover figure .img-fluid {
+      .board-type5 > ul > li > a.event-end figure:hover .img-fluid {
         transform: scale(1); }
       .board-type5 > ul > li > a.event-end figure:before {
         position: absolute;

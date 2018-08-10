@@ -73,7 +73,9 @@ address {
       border: 0;
       padding-bottom: 15px; }
       .modal .modal-dialog .modal-content .modal-header .modal-close {
-        margin: 0 0 0 auto; }
+        padding: 0;
+        margin: 0 0 0 auto;
+        opacity: 1; }
     .modal .modal-dialog .modal-content .modal-body {
       padding: 0;
       border: 0; }
