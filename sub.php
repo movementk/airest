@@ -7,7 +7,7 @@
     <div class="page-header">
         <div class="container">
             <h2 class="page-title">SUPPORT</h2>
-            <!-- page- -->
+            <!-- page-path- -->
             <nav class="page-path" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item roboto"><a href="/">HOME</a></li>

@@ -171,13 +171,15 @@ dl dd {
 
 .section-header {
   text-align: center;
-  padding: 100px 0 40px; }
+  padding: 100px 0 60px; }
   .section-header .section-title {
     font-size: 60px;
     color: #1b1b1d;
     font-weight: lighter;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-family: 'roboto', serif; }
+    .section-header .section-title span {
+      font-family: 'Noto Sans KR', sans-serif; }
 
 .search-form {
   position: relative;
@@ -767,6 +769,7 @@ dl dd {
       content: "\F004"; }
 
 .write-form .table {
+  margin: 0;
   border: 0;
   border-top: 2px solid #666;
   border-bottom: 1px solid #aaa; }

@@ -17,7 +17,7 @@
                         <li><a href="#">BRAND STORY</a></li>
                         <li><a href="#">COMPANY</a></li>
                         <li><a href="/product/product_list.php">PRODUCT</a></li>
-                        <li><a href="#">SUPPORT</a></li>
+                        <li><a href="/customer/faq_list.php">SUPPORT</a></li>
                         <li><a href="#">EVENT</a></li>
                         <li><a href="#">SHOP</a></li>
                     </ul>
@@ -73,13 +73,13 @@
             <li>
                 <a href="#">SUPPORT <span></span></a>
                 <ul>
-                    <li><a href="#">자주묻는질문</a></li>
-                    <li><a href="#">일대일문의</a></li>
+                    <li><a href="/customer/qna_list.php">자주묻는질문</a></li>
+                    <li><a href="/customer/inquiry_write.php">일대일문의</a></li>
                     <li><a href="#">정품등록</a></li>
-                    <li><a href="#">제품설명서</a></li>
-                    <li><a href="#">동영상설명서</a></li>
-                    <li><a href="#">배송A/S안내</a></li>
-                    <li><a href="#">공지사항</a></li>
+                    <li><a href="/customer/manual.php">제품설명서</a></li>
+                    <li><a href="/customer/video_manual.php">동영상설명서</a></li>
+                    <li><a href="/customer/as_delivery.php">배송A/S안내</a></li>
+                    <li><a href="/customer/notice_list.php">공지사항</a></li>
                     <li><a href="#">리뷰</a></li>
                 </ul>
             </li>
