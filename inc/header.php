@@ -18,7 +18,7 @@
                         <li><a href="#">COMPANY</a></li>
                         <li><a href="/product/product_list.php">PRODUCT</a></li>
                         <li><a href="/customer/faq_list.php">SUPPORT</a></li>
-                        <li><a href="#">EVENT</a></li>
+                        <li><a href="/event/event_list.php">EVENT</a></li>
                         <li><a href="#">SHOP</a></li>
                     </ul>
                     <div class="global-search">
@@ -84,7 +84,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">EVENT <span></span></a>
+                <a href="/event/event_list.php">EVENT <span></span></a>
             </li>
             <li>
                 <a href="#">SHOP <span></span></a>

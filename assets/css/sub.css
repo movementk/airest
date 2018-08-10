@@ -84,7 +84,7 @@ dl dd {
     font-weight: lighter;
     letter-spacing: 5px;
     font-family: 'roboto', serif;
-    margin-bottom: 50px; }
+    margin-bottom: 40px; }
   .page-header .page-path {
     display: inline-block; }
     .page-header .page-path .breadcrumb {
@@ -179,7 +179,8 @@ dl dd {
     letter-spacing: 3px;
     font-family: 'roboto', serif; }
     .section-header .section-title span {
-      font-family: 'Noto Sans KR', sans-serif; }
+      font-family: 'Noto Sans KR', sans-serif;
+      letter-spacing: 0; }
 
 .search-form {
   position: relative;
@@ -280,15 +281,15 @@ dl dd {
         content: "";
         margin: 0; }
 
-.video-menu {
+.tab-menu {
   text-align: center; }
-  .video-menu > ul {
+  .tab-menu > ul {
     font-size: 0; }
-    .video-menu > ul > li {
+    .tab-menu > ul > li {
       width: 200px;
       display: inline-block;
       margin: 0 5px; }
-      .video-menu > ul > li a {
+      .tab-menu > ul > li a {
         display: block;
         font-size: 15px;
         color: #1b1b1d;
@@ -303,14 +304,14 @@ dl dd {
         transition-timing-function: linear;
         -webkit-transition-delay: 0s;
         transition-delay: 0s; }
-        .video-menu > ul > li a:hover {
+        .tab-menu > ul > li a:hover {
           opacity: .8;
           color: #fff;
           background-color: #333; }
-      .video-menu > ul > li.active a {
+      .tab-menu > ul > li.active a {
         color: #fff;
         background-color: #333; }
-        .video-menu > ul > li.active a:hover {
+        .tab-menu > ul > li.active a:hover {
           opacity: 1; }
 
 .btn-area > p {
@@ -449,8 +450,11 @@ dl dd {
             font-size: 15px;
             content: "\F005";
             font-family: "fontello"; }
-          .board-type1 .accordion .card .card-header > div .btn-link.collapsed:after {
-            content: "\F004"; }
+          .board-type1 .accordion .card .card-header > div .btn-link.collapsed {
+            font-weight: 300; }
+            .board-type1 .accordion .card .card-header > div .btn-link.collapsed:after {
+              color: #999;
+              content: "\F004"; }
         .board-type1 .accordion .card .card-header > div dl {
           text-align: left;
           display: table;
@@ -619,6 +623,8 @@ dl dd {
   border: 1px solid #ccc; }
   .board-type4 > ul > li:first-child {
     border-color: #666; }
+    .board-type4 > ul > li:first-child p {
+      color: #1b1b1d !important; }
     .board-type4 > ul > li:first-child > a {
       border-color: #666; }
   .board-type4 > ul > li ~ li {
@@ -648,7 +654,7 @@ dl dd {
         text-overflow: ellipsis;
         white-space: nowrap;
         display: block;
-        font-weight: 4t00;
+        font-weight: 400;
         font-family: 'Noto Sans KR', sans-serif;
         text-align: left; }
       .board-type4 > ul > li > a > ul > li > p.date {
@@ -666,6 +672,87 @@ dl dd {
       top: 2px;
       font-size: 13px;
       margin: 0; }
+
+.board-type5 {
+  border-top: 2px solid #666; }
+  .board-type5 > ul > li {
+    padding: 50px 15px;
+    border-bottom: 1px solid #aaa; }
+    .board-type5 > ul > li > a {
+      display: block; }
+      .board-type5 > ul > li > a figure {
+        position: relative;
+        overflow: hidden; }
+        .board-type5 > ul > li > a figure .img-fluid {
+          width: 100%;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+      .board-type5 > ul > li > a:hover figure .img-fluid {
+        transform: scale(1.1); }
+      .board-type5 > ul > li > a .details {
+        padding-top: 15px;
+        padding-left: 70px; }
+        .board-type5 > ul > li > a .details .label {
+          display: block;
+          font-size: 12px;
+          width: 50px;
+          line-height: 20px;
+          text-align: center;
+          height: 22px;
+          border: 1px solid #fff; }
+        .board-type5 > ul > li > a .details h4 {
+          font-size: 33px;
+          color: #1b1b1d;
+          font-weight: 400;
+          margin: 30px 0; }
+        .board-type5 > ul > li > a .details p {
+          font-size: 15px;
+          color: #333;
+          line-height: 24px; }
+        .board-type5 > ul > li > a .details dl {
+          margin-top: 70px;
+          overflow: hidden; }
+          .board-type5 > ul > li > a .details dl dt {
+            float: left;
+            clear: both;
+            width: 100px;
+            font-size: 13px;
+            color: #999;
+            font-weight: 400;
+            line-height: 24px; }
+          .board-type5 > ul > li > a .details dl dd {
+            display: block;
+            font-size: 13px;
+            color: #999;
+            font-weight: 500;
+            line-height: 24px;
+            font-family: 'roboto', serif; }
+      .board-type5 > ul > li > a.ongoing .details .label {
+        color: #fff;
+        border-color: #353535;
+        background-color: #353535; }
+      .board-type5 > ul > li > a.event-end:hover figure .img-fluid {
+        transform: scale(1); }
+      .board-type5 > ul > li > a.event-end figure:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.7); }
+      .board-type5 > ul > li > a.event-end .details .label {
+        color: #1b1b1d;
+        border-color: #353535;
+        background-color: #fff; }
 
 .board-view {
   border-top: 2px solid #666;

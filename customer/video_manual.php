@@ -41,7 +41,7 @@
                     <h3 class="section-title"><span>동영상 설명서</span></h3>
                 </div>
                 <div class="section-content">
-                    <nav class="video-menu">
+                    <nav class="tab-menu">
                         <ul>
                             <li class="active"><a href="#">전체</a></li>
                             <li><a href="#">공기청정기</a></li>

@@ -93,7 +93,7 @@
                     
                     <!-- lnb menu -->
                     <h6 class="test-title">동영상 lnb</h6>
-                    <nav class="video-menu">
+                    <nav class="tab-menu">
                         <ul>
                             <li class="active"><a href="#">전체</a></li>
                             <li><a href="#">공기청정기</a></li>
@@ -344,6 +344,68 @@
                                     </ul>
                                 </a>
                             </li>
+                        </ul>
+                    </article>
+                    
+                    <!-- 이벤트 리스트 -->
+                    <h6 class="test-title">이벤트 리스트</h6>
+                    <article class="board-type5">
+                        <ul>
+                            <li>
+                                <a href="#" class="ongoing">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <figure>
+                                                <img src="/assets/images/event/img_event_item01.jpg" class="img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="col-7">
+                                            <div class="details">
+                                                <small class="label">진행중</small>
+                                                <h4>LG U+ 영상 속 미로 가습기를 찾아라</h4>
+                                                <p>
+                                                    이벤트 페이지 블로그 공유해주시고, 동영상 속 미로 가습기를 캡쳐하셔서 <br>
+                                                    댓글 남겨주시는 고객님들께 특별한 선물을 드립니다~
+                                                </p>
+                                                <dl>
+                                                    <dt>참여기간</dt>
+                                                    <dd>2018.08.01 ~ 2018.08.31</dd>
+                                                    <dt>당첨자 발표</dt>
+                                                    <dd>2018.09.07</dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="#" class="event-end">
+                                    <div class="row">
+                                        <div class="col-5">
+                                            <figure>
+                                                <img src="/assets/images/event/img_event_item03.jpg" class="img-fluid" alt="">
+                                            </figure>
+                                        </div>
+                                        <div class="col-7">
+                                            <div class="details">
+                                                <small class="label">종료</small>
+                                                <h4>LG U+ 영상 속 미로 가습기를 찾아라</h4>
+                                                <p>
+                                                    이벤트 페이지 블로그 공유해주시고, 동영상 속 미로 가습기를 캡쳐하셔서 <br>
+                                                    댓글 남겨주시는 고객님들께 특별한 선물을 드립니다~
+                                                </p>
+                                                <dl>
+                                                    <dt>참여기간</dt>
+                                                    <dd>2018.08.01 ~ 2018.08.31</dd>
+                                                    <dt>당첨자 발표</dt>
+                                                    <dd>2018.09.07</dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a> 
+                            </li>
+                            
                         </ul>
                     </article>
                     

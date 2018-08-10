@@ -64,7 +64,7 @@ dl {
         font-weight: lighter;
         letter-spacing: 5px;
         @include roboto();
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .page-path {
         display: inline-block;
@@ -172,6 +172,7 @@ dl {
         @include roboto();
         span {
             @include noto();
+            letter-spacing: 0;
         }
     }
 }
@@ -293,8 +294,8 @@ dl {
         }
     }
 }
-//video-menu 
-.video-menu {
+//tab-menu 
+.tab-menu {
     text-align: center;
     > ul {
         font-size: 0;
@@ -495,7 +496,9 @@ dl {
                             font-family: "fontello";
                         }
                         &.collapsed {
+                            font-weight: 300;
                             &:after {
+                                color: #999;
                                 content: "\F004";
                             }
                         }
@@ -700,12 +703,15 @@ dl {
     }
 }
 
-// board-type3
+// board-type4
 .board-type4 {
     > ul {
         > li {
             border: 1px solid #ccc;
             &:first-child {
+                p {
+                    color: #1b1b1d !important;
+                }
                 border-color: #666;
                 > a {
                     border-color: #666;
@@ -735,7 +741,7 @@ dl {
                                 text-overflow: ellipsis;
                                 white-space: nowrap;
                                 display: block;
-                                font-weight: 4t00;
+                                font-weight: 400;
                                 @include noto();
                                 text-align: left;
                             }
@@ -758,6 +764,118 @@ dl {
                             top: 2px;
                             font-size: 13px;
                             margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// board-type5
+.board-type5 {
+    border-top: 2px solid #666;
+    > ul {
+        > li {
+            padding: 50px 15px;
+            border-bottom: 1px solid #aaa;
+            > a {
+                display: block;
+                figure {
+                    position: relative;
+                    overflow: hidden;
+                    .img-fluid {
+                        width: 100%;
+                        @include transition($duration: .30s);
+                    }
+                }
+                &:hover {
+                    figure {
+                        .img-fluid {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+                .details {
+                    padding-top: 15px;
+                    padding-left: 70px;
+                    .label {
+                        display: block;
+                        font-size: 12px;
+                        width: 50px;
+                        line-height: 20px;
+                        text-align: center;
+                        height: 22px;
+                        border: 1px solid #fff;
+                    }
+                    h4 {
+                        font-size: 33px;
+                        color: #1b1b1d;
+                        font-weight: 400;
+                        margin: 30px 0;
+                    }
+                    p {
+                        font-size: 15px;
+                        color: #333;
+                        line-height: 24px;
+                    }
+                    dl {
+                        margin-top: 70px;
+                        overflow: hidden;
+                        dt {
+                            float: left;
+                            clear: both;
+                            width: 100px;
+                            font-size: 13px;
+                            color: #999;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                        dd {
+                            display: block;
+                            font-size: 13px;
+                            color: #999;
+                            font-weight: 500;
+                            line-height: 24px;
+                            @include roboto();
+                        }
+                    }
+                }
+                &.ongoing {
+                    .details {
+                        .label {
+                            color: #fff;
+                            border-color: #353535;
+                            background-color: #353535;
+                        }
+                    }
+                }
+                &.event-end {
+                    &:hover {
+                        figure {
+                            .img-fluid {
+                                transform: scale(1);
+                            }
+                        }
+                    }
+                    figure {
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: block;
+                            content: "";
+                            width: 100%;
+                            height: 100%;
+                            z-index: 1;
+                            background-color: rgba(0, 0, 0, .7);
+                        }
+                    }
+                    .details {
+                        .label {
+                            color: #1b1b1d;
+                            border-color: #353535;
+                            background-color: #fff;
                         }
                     }
                 }

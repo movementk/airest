@@ -1,0 +1,33 @@
+@import 'common';
+
+.event {
+    .page-header {
+        background-image: url(/assets/images/event/bg_page_header.jpg);
+    }
+}
+
+// 이벤트 리스트
+.event-list {
+    .section-content {
+        .paging {
+            margin-top: 60px;
+        }
+    }
+}
+
+// 이벤트 뷰
+.event-view {
+    .section-content {
+        .board-view {
+            margin-top: 50px;
+        }
+        .btn-area {
+            text-align: right;
+            padding-right: 15px;
+            margin-top: 30px;
+        }
+        .page-more {
+            margin-top: 50px;
+        }
+    }
+}
