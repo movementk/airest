@@ -73,7 +73,7 @@
             <li>
                 <a href="#">SUPPORT <span></span></a>
                 <ul>
-                    <li><a href="/customer/qna_list.php">자주묻는질문</a></li>
+                    <li><a href="/customer/faq_list.php">자주묻는질문</a></li>
                     <li><a href="/customer/inquiry_write.php">일대일문의</a></li>
                     <li><a href="#">정품등록</a></li>
                     <li><a href="/customer/manual.php">제품설명서</a></li>
