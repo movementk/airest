@@ -100,11 +100,88 @@ address {
       padding-left: 5px;
       padding-right: 5px; }
 
-#header .logo a .default {
-  display: none !important; }
-#header .logo a .scrolled-logo {
-  display: block !important; }
-#header .btn-nav span.bar {
-  background-color: #000; }
+#header {
+  border-bottom: 1px solid #ebebeb; }
+  #header .logo a .default {
+    display: none !important; }
+  #header .logo a .scrolled-logo {
+    display: block !important; }
+  #header .btn-nav span.bar {
+    background-color: #000; }
+
+.scrolled #header {
+  border-bottom: 0; }
+
+#snb-menu {
+  position: relative;
+  overflow-x: scroll;
+  z-index: 2;
+  border-bottom: 1px solid #dfdfdf; }
+  #snb-menu:before {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    display: block;
+    width: 15px;
+    height: 45px;
+    z-index: 2;
+    content: " ";
+    background-image: url(/mobile/assets/images/sub/bg_snb_menu_left.png);
+    background-size: 100% auto; }
+  #snb-menu:after {
+    position: fixed;
+    top: 56px;
+    right: 0;
+    display: block;
+    width: 15px;
+    height: 45px;
+    z-index: 2;
+    content: " ";
+    background-image: url(/mobile/assets/images/sub/bg_snb_menu_right.png);
+    background-size: 100% auto; }
+  #snb-menu .snb-list {
+    width: 595px;
+    height: 46px; }
+    #snb-menu .snb-list > li {
+      float: left; }
+      #snb-menu .snb-list > li > a {
+        position: relative;
+        display: block;
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        line-height: 45px;
+        margin: 0 10px; }
+        #snb-menu .snb-list > li > a span {
+          display: none; }
+      #snb-menu .snb-list > li:last-child {
+        margin-right: 0; }
+      #snb-menu .snb-list > li.active > a {
+        color: #1b1b1d;
+        font-weight: 400; }
+        #snb-menu .snb-list > li.active > a > span {
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          display: block;
+          width: 100%;
+          height: 3px;
+          z-index: 1;
+          background-color: #666; }
+
+.page-header {
+  text-align: center;
+  padding: 40px 0 30px; }
+  .page-header > h2 {
+    font-size: 28px;
+    color: #1b1b1d;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'roboto', serif; }
+
+.sub {
+  padding-top: 56px; }
+  .sub #content {
+    height: 800px; }
 
 /*# sourceMappingURL=sub.css.map */

@@ -71,14 +71,14 @@
                     <li><a href="#">동영상설명서</a></li>
                     <li><a href="#">배송A/S안내</a></li>
                     <li><a href="#">공지사항</a></li>
-                    <li><a href="#">리뷰</a></li>
+                    <li><a href="https://smartstore.naver.com/miro2017/premiumreview?cp=1" target="_blank">리뷰</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">EVENT <span></span></a>
             </li>
             <li>
-                <a href="#">SHOP <span></span></a>
+                <a href="https://smartstore.naver.com/miro2017" target="_blank">SHOP <span></span></a>
             </li>
         </ul>
         <div class="nav-banner">
