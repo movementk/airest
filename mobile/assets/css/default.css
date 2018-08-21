@@ -127,13 +127,19 @@ label {
   font-weight: 400;
   margin: 0; }
 
+dl dt {
+  font-weight: 400; }
+dl dd {
+  font-weight: 400;
+  margin-bottom: 0; }
+
 .form-group {
   margin: 0;
   box-shadow: none; }
 
 .form-control {
   border-radius: 0;
-  box-shadow: none; }
+  box-shadow: none !important; }
 
 #header {
   position: fixed;

@@ -1,5 +1,10 @@
 @import 'common';
 
+.product {
+    #content {
+        padding-bottom: 0;
+    }
+}
 
 // product item
 .product-item {
@@ -340,35 +345,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

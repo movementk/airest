@@ -244,3 +244,197 @@
         }
     }
 }
+// genuine 
+.genuine {
+    .section-content {
+        .table-wrap {
+            .table {
+                margin: 0;
+                border: 0;
+                border-top: 2px solid #666;
+                tbody {
+                    tr {
+                        th {
+                            font-size: 15px;
+                            color: #1b1b1d;
+                            width: 185px;
+                            font-weight: 400;
+                            vertical-align: middle;
+                            padding-left: 15px;
+                            border: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            label {
+                                font-weight: 400;
+                            }
+                        }
+                        td {
+                            font-size: 14px;
+                            color: #666;
+                            vertical-align: middle;
+                            border: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            b {
+                                color: #ed1c24;
+                                font-weight: 400;
+                            }
+                            .form-group {
+                                .form-control {
+                                    display: inline-block;
+                                    height: 40px;
+                                    border: 1px solid #f5f5f5;
+                                    background-color: #f5f5f5;
+                                }
+                                .note {
+                                    display: inline-block;
+                                    font-size: 14px;
+                                    color: #666;
+                                    font-weight: 300;
+                                    margin-left: 15px;
+                                }
+                                select {
+                                    width: 130px;
+                                    margin: 0 10px;
+                                    &:first-child {
+                                        margin-left: 0;
+                                    }
+                                }
+                            }
+                            &.p-num {
+                                .form-group {
+                                    .form-control {
+                                        width: 370px;
+                                    }
+                                }
+                            }
+                            &.email {
+                                .form-group {
+                                    .form-control {
+                                        width: 300px;
+                                    }
+                                }
+                            }
+                            &.vendor {
+                                .form-group {
+                                    select {
+                                        width: 200px;
+                                    }
+                                    input {
+                                        width: 290px;
+                                    }
+                                }
+                            }
+                        }
+                        &:last-child {
+                            th {
+                                border-color: #aaa;
+                            }
+                            td {
+                                border-color: #aaa;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .explanation {
+            padding: 30px 0 40px;
+            background-color: #f5f5f5;
+            figure {
+                padding: 20px 0 19px;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            .summary {
+                h4 {
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+                }
+                ol {
+                    li {
+                        font-size: 14px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 28px;
+                        list-style: decimal;
+                        list-style-position: inside;
+                    }
+                }
+            }
+        }
+        .register-form {
+            margin-top: 30px;
+            .btn-area {
+                text-align: center;
+                margin-top: 50px;
+                p {
+                    .btn-md {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+        .attention {
+            margin-top: 50px;
+            padding: 30px;
+            border: 1px solid #ccc;
+            h4 {
+                font-size: 14px;
+                color: #333;
+                font-weight: 500;
+            }
+            ol {
+                margin-top: 30px;
+                li {
+                    font-size: 14px;
+                    color: #666;
+                    line-height: 28px;
+                    font-weight: 300;
+                    list-style: decimal;
+                    list-style-position: inside;
+                }
+            }
+        }
+        .product-info {
+            margin-top: 60px;
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                color: #666;
+                                height: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

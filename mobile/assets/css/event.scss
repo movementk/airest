@@ -1,0 +1,114 @@
+@import 'common';
+
+// 이벤트 뷰
+.event-view {
+    .section-content {
+        .btn-area {
+            text-align: right;
+            margin: 20px 0 30px;
+        }
+    }
+}
+
+// 이벤트 리스트
+.event-list {
+    .section-content {
+        .event-board {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 3px solid #666;
+            > ul {
+                > li {
+                    border-bottom: 1px solid #dfdfdf;
+                    &:last-child {
+                        border-color: #aaa;
+                    }
+                    & ~ li {
+                        padding-top: 30px;
+                    }
+                    > a {
+                        .item {
+                            .img-fluid {
+                                width: 100%;
+                            }
+                        }
+                        .details {
+                            padding: 15px 10px 30px;
+                            h3 {
+                                font-size: 14px;
+                                color: #1b1b1d;
+                                line-height: 20px;
+                                font-weight: 400;
+                                .label {
+                                    font-size: 10px;
+                                    font-weight: 300;
+                                    color: #fff;
+                                    display: inline-block;
+                                    width: 45px;
+                                    height: 20px;
+                                    text-align: center;
+                                    line-height: 18px;
+                                    margin-right: 10px;
+                                    border: 1px solid #353535;
+                                    background-color: #353535;
+                                }
+                            }
+                            dl {
+                                overflow: hidden;
+                                margin-top: 15px;
+                                dt {
+                                    float: left;
+                                    clear: both;
+                                    width: 70px;
+                                    font-size: 10px;
+                                    color: #999;
+                                    font-weight: 300;
+                                    line-height: 18px;
+                                }
+                                dd {
+                                    display: block;
+                                    font-size: 10px;
+                                    color: #999;
+                                    line-height: 18px;
+                                    font-weight: 500;
+                                    @include roboto();
+                                    letter-spacing: .5px;
+                                }
+                            }
+                        }
+                    }
+                    &.end-event {
+                        > a {
+                            .item {
+                                position: relative;
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    content: "";
+                                    display: block;
+                                    width: 100%;
+                                    height: 100%;
+                                    z-index: 1;
+                                    background-color: rgba(27, 27, 29, .7);
+                                }
+                            }
+                            .details {
+                                h3 {
+                                    .label {
+                                        color: #1b1b1d;
+                                        border-color: #353535;
+                                        background-color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}

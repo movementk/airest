@@ -280,4 +280,13 @@ address {
     .product-list .product-line.active .item-details .v-align .btn-area .btn.list-close {
       display: inline-block; }
 
+.product-view .view-header {
+  display: table;
+  width: 100%;
+  table-layout: fixed; }
+  .product-view .view-header article {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle; }
+
 /*# sourceMappingURL=product.css.map */

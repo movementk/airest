@@ -24,7 +24,7 @@
             <ul>
                 <li><a href="/customer/faq_list.php">자주묻는질문<span></span></a></li>
                 <li><a href="/customer/inquiry_write.php">1:1 문의하기<span></span></a></li>
-                <li><a href="#">정품등록<span></span></a></li>
+                <li><a href="/customer/genuine.php">정품등록<span></span></a></li>
                 <li><a href="/customer/manual.php">제품사용설명서<span></span></a></li>
                 <li><a href="/customer/video_manual.php">동영상설명서<span></span></a></li>
                 <li><a href="/customer/as_delivery.php">배송 및 A/S안내<span></span></a></li>

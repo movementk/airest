@@ -1,0 +1,393 @@
+@import 'common';
+
+// faq
+.faq-list {
+    .section-content {
+        .lnb-list {
+            margin-top: 30px;
+        }
+        .board-list-type1 {
+            margin-top: 20px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+// 문의 하기
+.inquiry-write {
+    .section-content {
+        .btn-area {
+            margin-top: 30px;
+        }
+    }
+}
+
+// 제품사용설명서
+.manual {
+    .section-content {
+        .lnb-list {
+            margin-top: 30px;
+        }
+        .board-list-type2 {
+            margin-top: 20px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+// 동영상설명서
+.video-manual {
+    .section-content {
+        .board-list-type3 {
+            margin-top: 30px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+        .search-form {
+            margin-top: 30px;
+            padding: 0;
+        }
+    }
+}
+
+// video-modal
+#video-modal {
+    .modal-dialog {
+        margin-top: 100px;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            background: none !important;
+            .modal-header {
+                padding: 0;
+                border: 0;
+                text-align: right;
+                padding-bottom: 10px;
+                .close {
+                    color: #fff;
+                    font-size: 13px;
+                    opacity: 1 !important;
+                }
+            }
+            .modal-body {
+                padding: 0;
+            }
+        }
+    }
+}
+
+// 배송 및 a/s 안내
+.as-delivery {
+    padding-bottom: 0 !important;
+    .page-header {
+        padding: 40px 0 150px;
+        background-image: url(/mobile/assets/images/customer/bg_as_delivery.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        background-size: cover;
+        h2 {
+            font-size: 12px;
+            color: #1b1b1d;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        a {
+            font-size: 35px;
+            color: #1b1b1d;
+            letter-spacing: 3px;
+            font-weight: 300;
+            @include roboto();
+        }
+        dl {
+            overflow: hidden;
+            margin-top: 20px;
+            dt {
+                float: left;
+                width: 55px;
+                font-weight: 500;
+                clear: both;
+                font-size: 10px;
+                color: #1b1b1d;
+                line-height: 20px;
+            }
+            dd {
+                display: block;
+                font-size: 10px;
+                @inclue roboto();
+                color: #666;
+                line-height: 20px;
+                font-weight: 500;
+                span {
+                    font-weight: 300;
+                    @include noto();
+                }
+            }
+        }
+        .attention {
+            margin-top: 20px;
+            font-size: 10px;
+            color: #666;
+            line-height: 16px;
+            &:before {
+                content: "※";
+                margin-right: 5px;
+            }
+        }
+    }
+    article {
+        padding: 40px 0;
+        h3 {
+            font-size: 15px;
+            color: #1b1b1d;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        &.delivery {
+            dl {
+                overflow: hidden;
+                margin-bottom: 20px;
+                dt {
+                    float: left;
+                    clear: both;
+                    width: 110px;
+                    font-size: 12px;
+                    color: #1b1b1d;
+                    font-weight: 400;
+                    line-height: 22px;
+                }
+                dd {
+                    display: block;
+                    font-size: 12px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 22px;
+                    padding-left: 110px;
+                }
+            }
+            .attention {
+                font-size: 11px;
+                color: #999;
+                line-height: 20px;
+                font-weight: 300;
+                &:before {
+                    content: "※";
+                    margin-right: 5px;
+                }
+            }
+        }
+        &.return-exchange {
+            background-color: #f5f5f5;
+            ul {
+                li {
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #666;
+                    font-weight: 300;
+                    word-break: keep-all;
+                    &:before {
+                        content: "- ";
+                    }
+                    dl {
+                        display: inline;
+                        dt {
+                            display: inline-block;
+                            color: #1b1b1d;
+                            &:after {
+                                content: ":";
+                                margin: 0 2px;
+                            }
+                        }
+                        dd {
+                            display: inline;
+                            address {
+                                color: #1b1b1d;
+                                display: inline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 공지사항
+.notice-list {
+    .section-content {
+        .board-list-type4 {
+            margin-top: 30px;
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+// 공지사항 뷰
+.notice-view {
+    .section-content {
+        .btn-area {
+            text-align: right;
+            margin: 20px 0 30px;
+        }
+    }
+}
+
+
+// 정품등록
+.genuine {
+    .section-content {
+        .explanation {
+            padding: 15px 20px;
+            background-color: #f5f5f5;
+            figure {
+                .img-fluid {
+                    width: 100%;
+                }
+            }
+            .summary {
+                margin-top: 20px;
+                h3 {
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                }
+                ol {
+                    li {
+                        font-size: 11px;
+                        color: #666;
+                        font-weight: 300;
+                        line-height: 16px;
+                        list-style: decimal;
+                        list-style-position: inside;
+                    }
+                }
+            }
+        }
+        .register-form {
+            margin-top: 20px;
+            border-top: 3px solid #666;
+            ul {
+                > li {
+                    padding: 15px 10px;
+                    border-bottom: 1px solid #dfdfdf;
+                    &:last-child {
+                        border-color: #aaa;
+                    }
+                    label, p {
+                        font-size: 13px;
+                        color: #1b1b1d;
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                    }
+                    .form-group {
+                        .form-control {
+                            width: 100%;
+                            height: 30px;
+                            padding-top: 0;
+                            padding-bottom: 0;
+                            font-size: 12px;
+                            border: 1px solid #f3f3f3;
+                            background-color: #f3f3f3;
+                        }
+                    }
+                    &.vender-date {
+                        .form-group {
+                            line-height: 30px;
+                            .form-control {
+                                width: 28%;
+                                display: inline-block;
+                                margin: 0 3px;
+                                &:first-child {
+                                    margin-left: 0;
+                                }
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                    &.u-vendor {
+                        .form-group {
+                            select {
+                                width: 180px !important;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin: 30px 0;
+            }
+        }
+        .attention-box {
+            padding: 20px 15px;
+            border: 1px solid #ccc;
+            h3 {
+                font-size: 13px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 15px;
+            }
+            ol {
+                li {
+                    font-size: 11px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 16px;
+                    list-style: decimal;
+                    list-style-position: inside;
+                }
+            }
+        }
+        .product-info {
+            margin-top: 30px;
+            .table-wrap {
+                .table {
+                    border: 0;
+                    border-top: 3px solid #666;
+                    tbody {
+                        tr {
+                            th {
+                                font-size: 11px;
+                                color: #1b1b1d;
+                                width: 100px;
+                                font-weight: 400;
+                                vertical-align: middle;
+                                border: 0;
+                                border-bottom:  1px solid #dfdfdf;
+                            }
+                            td {
+                                font-size: 11px;
+                                color: #666;
+                                padding: 15px 10px 15px 0;
+                                vertical-align: middle;
+                                border: 0;
+                                border-bottom:  1px solid #dfdfdf;
+                                b {
+                                    font-weight: 400;
+                                    color: #ed1c24;
+                                }
+                            }
+                            &:last-child {
+                                th {
+                                    border-color: #aaa;
+                                }
+                                td {
+                                    border-color: #aaa;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

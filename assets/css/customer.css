@@ -193,4 +193,106 @@ address {
         content: "- ";
         margin-right: 5px; }
 
+.genuine .section-content .table-wrap .table {
+  margin: 0;
+  border: 0;
+  border-top: 2px solid #666; }
+  .genuine .section-content .table-wrap .table tbody tr th {
+    font-size: 15px;
+    color: #1b1b1d;
+    width: 185px;
+    font-weight: 400;
+    vertical-align: middle;
+    padding-left: 15px;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf; }
+    .genuine .section-content .table-wrap .table tbody tr th label {
+      font-weight: 400; }
+  .genuine .section-content .table-wrap .table tbody tr td {
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+    border: 0;
+    border-bottom: 1px solid #dfdfdf; }
+    .genuine .section-content .table-wrap .table tbody tr td b {
+      color: #ed1c24;
+      font-weight: 400; }
+    .genuine .section-content .table-wrap .table tbody tr td .form-group .form-control {
+      display: inline-block;
+      height: 40px;
+      border: 1px solid #f5f5f5;
+      background-color: #f5f5f5; }
+    .genuine .section-content .table-wrap .table tbody tr td .form-group .note {
+      display: inline-block;
+      font-size: 14px;
+      color: #666;
+      font-weight: 300;
+      margin-left: 15px; }
+    .genuine .section-content .table-wrap .table tbody tr td .form-group select {
+      width: 130px;
+      margin: 0 10px; }
+      .genuine .section-content .table-wrap .table tbody tr td .form-group select:first-child {
+        margin-left: 0; }
+    .genuine .section-content .table-wrap .table tbody tr td.p-num .form-group .form-control {
+      width: 370px; }
+    .genuine .section-content .table-wrap .table tbody tr td.email .form-group .form-control {
+      width: 300px; }
+    .genuine .section-content .table-wrap .table tbody tr td.vendor .form-group select {
+      width: 200px; }
+    .genuine .section-content .table-wrap .table tbody tr td.vendor .form-group input {
+      width: 290px; }
+  .genuine .section-content .table-wrap .table tbody tr:last-child th {
+    border-color: #aaa; }
+  .genuine .section-content .table-wrap .table tbody tr:last-child td {
+    border-color: #aaa; }
+.genuine .section-content .explanation {
+  padding: 30px 0 40px;
+  background-color: #f5f5f5; }
+  .genuine .section-content .explanation figure {
+    padding: 20px 0 19px; }
+    .genuine .section-content .explanation figure img {
+      display: block;
+      margin: 0 auto; }
+  .genuine .section-content .explanation .summary h4 {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 30px; }
+  .genuine .section-content .explanation .summary ol li {
+    font-size: 14px;
+    color: #666;
+    font-weight: 300;
+    line-height: 28px;
+    list-style: decimal;
+    list-style-position: inside; }
+.genuine .section-content .register-form {
+  margin-top: 30px; }
+  .genuine .section-content .register-form .btn-area {
+    text-align: center;
+    margin-top: 50px; }
+    .genuine .section-content .register-form .btn-area p .btn-md {
+      width: 200px; }
+.genuine .section-content .attention {
+  margin-top: 50px;
+  padding: 30px;
+  border: 1px solid #ccc; }
+  .genuine .section-content .attention h4 {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500; }
+  .genuine .section-content .attention ol {
+    margin-top: 30px; }
+    .genuine .section-content .attention ol li {
+      font-size: 14px;
+      color: #666;
+      line-height: 28px;
+      font-weight: 300;
+      list-style: decimal;
+      list-style-position: inside; }
+.genuine .section-content .product-info {
+  margin-top: 60px; }
+  .genuine .section-content .product-info .table-wrap .table tbody tr td {
+    color: #666;
+    height: 60px; }
+
 /*# sourceMappingURL=customer.css.map */

@@ -64,18 +64,18 @@
             <li>
                 <a href="#">SUPPORT <span></span></a>
                 <ul>
-                    <li><a href="#">자주묻는질문</a></li>
-                    <li><a href="#">일대일문의</a></li>
-                    <li><a href="#">정품등록</a></li>
-                    <li><a href="#">제품설명서</a></li>
-                    <li><a href="#">동영상설명서</a></li>
-                    <li><a href="#">배송A/S안내</a></li>
-                    <li><a href="#">공지사항</a></li>
+                    <li><a href="/mobile/customer/faq_list.php">자주묻는질문</a></li>
+                    <li><a href="/mobile/customer/inquiry_write.php">일대일문의</a></li>
+                    <li><a href="/mobile/customer/genuine.php">정품등록</a></li>
+                    <li><a href="/mobile/customer/manual.php">제품설명서</a></li>
+                    <li><a href="/mobile/customer/video_manual.php">동영상설명서</a></li>
+                    <li><a href="/mobile/customer/as_delivery.php">배송A/S안내</a></li>
+                    <li><a href="/mobile/customer/notice_view.php">공지사항</a></li>
                     <li><a href="https://smartstore.naver.com/miro2017/premiumreview?cp=1" target="_blank">리뷰</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">EVENT <span></span></a>
+                <a href="/mobile/event/event_list.php">EVENT <span></span></a>
             </li>
             <li>
                 <a href="https://smartstore.naver.com/miro2017" target="_blank">SHOP <span></span></a>
