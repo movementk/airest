@@ -321,47 +321,198 @@
 
 // 제품상세
 .product-view {
-    .view-header {
+    .product-intro {
         display: table;
         width: 100%;
         table-layout: fixed;
         article {
             display: table-cell;
             width: 50%;
+            padding-top: 150px;
             vertical-align: middle;
+            &.product-detail {
+                padding-bottom: 50px;
+                > .details-slider {
+                    li {
+                        outline: none;
+                        figure {
+                            .img-fluid {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+                > .slider-nav {
+                    width: 355px;
+                    display: block;
+                    margin: 60px auto 0;
+                    .slick-track {
+                        transform: none !important;
+                    }
+                    li {
+                        position: relative;
+                        display: inline-block;
+                        outline: none;
+                        cursor: pointer;
+                        width: 105px !important;
+                        height: 105px;
+                        margin-right: 20px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        &.slick-current {
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                content: "";
+                                border: 1px solid #333;
+                            }
+                        }
+                    }
+                }
+            }
+            &.product-info {
+                padding: 0 100px;
+                background-color: #f1f1f1;
+                h3 {
+                    font-size: 45px;
+                    color: #1b1b1d;
+                    font-weight: 300;
+                    @include roboto();
+                    small {
+                        display: block;
+                        font-size: 18px;
+                        font-weight: 400;
+                        margin-bottom: 20px;
+                        @include noto();
+                    }
+                }
+                .summary {
+                    font-size: 15px;
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 26px;
+                    word-break: keep-all;
+                    margin-top: 40px;
+                }
+                h4 {
+                    font-size: 14px;
+                    color: #1b1b1d;
+                    font-weight: 600;
+                    margin-top: 70px;
+                    @include roboto();
+                }
+                dl {
+                    overflow: hidden;
+                    font-size: 13px;
+                    color: #666;
+                    margin-top: 20px;
+                    dt {
+                        float: left;
+                        clear: both;
+                        width: 170px;
+                        line-height: 38px;
+                        font-weight: 400;
+                    }
+                    dd {
+                        font-weight: 400;
+                        line-height: 38px;
+                    }
+                }
+                .btn-area {
+                    margin-top: 150px;
+                    p {
+                        .btn-md {
+                            width: 190px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .details-img {
+        figure {
+            .img-fluid {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .related-products {
+        .article-header {
+            text-align: center;
+            padding: 50px 0;
+            > h3 {
+                font-size: 23px;
+                color: #1b1b1d;
+                font-weight: 500;
+                letter-spacing: 4px;
+                @include roboto();
+            }
+        }
+        .article-content {
+            > ul {
+                > li {
+                    > a {
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        @include transition();
+                        background-color: #f7f7f7;
+                        figure {
+                            .img-fluid {
+                                display: block;
+                                margin: 0 auto;
+                                width: 100%;
+                            }
+                        }
+                        h4 {
+                            position: absolute;
+                            top: 25px;
+                            left: 30px;
+                            font-size: 13px;
+                            color: #1b1b1d;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                            @include roboto();
+                            small {
+                                display: block;
+                                font-size: 11px;
+                                font-weight: bold;
+                                color: #999;
+                                margin-bottom: 5px;
+                            }
+                        }
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            display: block;
+                            content: " ";
+                            z-index: 1;
+                            background-image: url(/assets/images/product/icon_plus.png);
+                            background-repeat: no-repeat;
+                            background-position: 50% 50%;
+                            background-color: rgba(0, 0, 0, .3);
+                            opacity: 0;
+                            @include transition();
+                        }
+                        &:hover {
+                            box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+                            &:before {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

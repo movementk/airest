@@ -337,4 +337,111 @@ address {
     .product-list section.active .item-effect > div.item-details .v-align .btn-area .btn.list-close {
       display: inline-block; }
 
+.product-view .view-header {
+  padding-top: 100px; }
+  .product-view .view-header .product-slide {
+    padding-bottom: 30px; }
+    .product-view .view-header .product-slide li figure .img-fluid {
+      display: block;
+      width: 100%; }
+    .product-view .view-header .product-slide .slick-dots {
+      margin-top: 30px;
+      text-align: center; }
+      .product-view .view-header .product-slide .slick-dots > li {
+        display: inline-block; }
+        .product-view .view-header .product-slide .slick-dots > li button {
+          display: block;
+          width: 10px;
+          height: 10px;
+          text-indent: -99999px;
+          padding: 0;
+          border-radius: 50%;
+          border: 1px solid #bbb;
+          background-color: #fff;
+          margin: 0 8px; }
+        .product-view .view-header .product-slide .slick-dots > li.slick-active button {
+          background-color: #bbb; }
+  .product-view .view-header .product-info {
+    padding: 40px 10px;
+    background-color: #f1f1f1; }
+    .product-view .view-header .product-info h3 {
+      font-size: 26px;
+      color: #1b1b1d;
+      font-weight: 400;
+      font-family: 'roboto', serif;
+      letter-spacing: 1px; }
+      .product-view .view-header .product-info h3 small {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Noto Sans KR', sans-serif;
+        letter-spacing: 0;
+        margin-bottom: 13px; }
+    .product-view .view-header .product-info .summary {
+      font-size: 12px;
+      color: #666;
+      line-height: 20px;
+      margin-top: 18px;
+      word-break: keep-all; }
+    .product-view .view-header .product-info h4 {
+      font-size: 12px;
+      color: #1b1b1d;
+      font-family: 'roboto', serif;
+      font-weight: bold;
+      margin-top: 35px; }
+    .product-view .view-header .product-info dl {
+      font-size: 12px;
+      color: #666;
+      overflow: hidden;
+      margin-top: 12px; }
+      .product-view .view-header .product-info dl dt {
+        width: 90px;
+        float: left;
+        clear: both;
+        font-weight: 300;
+        line-height: 26px; }
+      .product-view .view-header .product-info dl dd {
+        font-weight: 300;
+        line-height: 26px; }
+    .product-view .view-header .product-info .btn-area {
+      margin-top: 40px; }
+.product-view .details-img figure .img-fluid {
+  display: block;
+  width: 100%; }
+.product-view .related-products {
+  padding-bottom: 40px; }
+  .product-view .related-products > ul > li > a {
+    position: relative;
+    display: block;
+    background-color: #f7f7f7; }
+    .product-view .related-products > ul > li > a h4 {
+      position: absolute;
+      top: 15px;
+      left: 10px;
+      font-size: 12px;
+      color: #1b1b1d;
+      font-weight: bold;
+      font-family: 'roboto', serif;
+      letter-spacing: 1px; }
+      .product-view .related-products > ul > li > a h4 small {
+        display: block;
+        font-size: 10px;
+        color: #999;
+        margin-bottom: 5px;
+        font-weight: bold; }
+    .product-view .related-products > ul > li > a figure .img-fluid {
+      width: 100%; }
+  .product-view .related-products > ul > li:nth-of-type(2) ~ li > a {
+    margin-top: 10px; }
+  .product-view .related-products .btn-area {
+    margin-top: 10px; }
+    .product-view .related-products .btn-area p .btn-lg {
+      width: 100%;
+      line-height: 33px;
+      height: 35px;
+      text-align: center;
+      font-family: 'roboto', serif;
+      letter-spacing: 2px;
+      border: 1px solid #dfdfdf; }
+
 /*# sourceMappingURL=product.css.map */

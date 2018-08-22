@@ -335,9 +335,6 @@
 					}
 				});
 			});
-
-			$(window).on("load", function(){
-			});
 			
 			// product-line 관련
 			$(window).on('scroll', function() {
