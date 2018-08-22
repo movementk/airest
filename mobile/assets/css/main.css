@@ -315,37 +315,11 @@ address {
   padding: 30px 0;
   background-color: #fcfcfc; }
   .airest-event article {
-    width: 100%;
-    height: 170px;
-    padding: 30px 20px 0;
-    text-align: left;
-    margin-bottom: 10px;
-    background-repeat: no-repeat;
-    background-position: 85% 50%; }
-    .airest-event article a {
+    margin-bottom: 10px; }
+    .airest-event article > a {
       display: block; }
-      .airest-event article a h3 {
-        font-size: 17px;
-        color: #1b1b1d;
-        line-height: 20px;
-        font-weight: 400; }
-      .airest-event article a hr {
-        display: block;
-        width: 33px;
-        border-top: 2px solid #666;
-        margin: 15px auto 15px 0; }
-      .airest-event article a p {
-        font-size: 11px;
-        line-height: 16px;
-        color: #333; }
-    .airest-event article.sns-event {
-      background-color: #f2f2f2;
-      background-image: url(/mobile/assets/images/main/bg_sns_event.png);
-      background-size: 87px auto; }
-    .airest-event article.genuine-event {
-      background-color: #f5f1eb;
-      background-image: url(/mobile/assets/images/main/bg_genuine_event.png);
-      background-size: 60px auto; }
+      .airest-event article > a figure .img-fluid {
+        width: 100%; }
   .airest-event .event-btn {
     width: 100%; }
     .airest-event .event-btn .btn-more {

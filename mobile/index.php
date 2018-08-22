@@ -160,24 +160,18 @@
         <!-- airest-event -->
         <section class="airest-event">
             <div class="container">
-                <article class="sns-event">
+                <article>
                     <a href="#">
-                        <h3>온 세상에<br>에어레스트</h3>
-                        <hr>
-                        <p>
-                            SNS에 동영상  공유하고<br>
-                            푸짐한 선물 받으세요<i>!</i>
-                        </p>
+                        <figure>
+                            <img src="/mobile/assets/images/main/img_event01.jpg" class="img-fluid" alt="">
+                        </figure>
                     </a>
                 </article>
-                <article class="genuine-event">
+                <article>
                     <a href="#">
-                        <h3>정품인증하고<br>선물 받고</h3>
-                        <hr>
-                        <p>
-                            정품인증하고 <br>
-                            푸짐한 선물 받으세요<i>!</i>
-                        </p>
+                        <figure>
+                            <img src="/mobile/assets/images/main/img_event02.jpg" class="img-fluid" alt="">
+                        </figure>
                     </a>
                 </article>
                 <div class="event-btn">
