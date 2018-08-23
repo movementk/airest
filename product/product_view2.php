@@ -137,8 +137,10 @@
                     infinite: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
-                    arrows: false,
+                    arrows: true,
                     dots: false,
+                    prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="icon-left"></i></button>',
+                    nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-right"></i></button>'
                 });
             });
             $(document).on('click','.slider-nav li', function(){
