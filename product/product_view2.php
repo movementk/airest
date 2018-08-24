@@ -79,46 +79,42 @@
                     <ul class="row">
                         <li class="col-3">
                             <a href="#">
-                                <h4>
-                                    <small>AIR PURIFIER</small>
-                                    AF400
-                                </h4>
+                                <small>AIR PURIFIER</small>
+                                <b>AF400</b>
                                 <figure>
-                                    <img src="/assets/images/product/img_related_products01.png" class="img-fluid" alt="">
+                                    <img src="/assets/images/product/img_list_item01.png" alt="">
                                 </figure>
+                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-3">
                             <a href="#">
-                                <h4>
-                                    <small>AIR PURIFIER</small>
-                                    AP400
-                                </h4>
+                                <small>AIR PURIFIER</small>
+                                <b>AP400</b>
                                 <figure>
-                                    <img src="/assets/images/product/img_related_products02.png" class="img-fluid" alt="">
+                                    <img src="/assets/images/product/img_list_item02.png" alt="">
                                 </figure>
+                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-3">
                             <a href="#">
-                                <h4>
-                                    <small>AIR PURIFIER</small>
-                                    AP600
-                                </h4>
+                                <small>AIR PURIFIER</small>
+                                <b>AP600</b>
                                 <figure>
-                                    <img src="/assets/images/product/img_related_products03.png" class="img-fluid" alt="">
+                                    <img src="/assets/images/product/img_list_item03.png" alt="">
                                 </figure>
+                                <div class="view-hover"></div>
                             </a>
                         </li>
                         <li class="col-3">
                             <a href="#">
-                                <h4>
-                                    <small>AIR PURIFIER</small>
-                                    AP800
-                                </h4>
+                                <small>AIR PURIFIER</small>
+                                <b>AP800</b>
                                 <figure>
-                                    <img src="/assets/images/product/img_related_products04.png" class="img-fluid" alt="">
+                                    <img src="/assets/images/product/img_list_item04.png" alt="">
                                 </figure>
+                                <div class="view-hover"></div>
                             </a>
                         </li>
                     </ul>

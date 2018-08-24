@@ -627,11 +627,11 @@ dl dd {
 
 .board-type4 > ul > li {
   border: 1px solid #ccc; }
-  .board-type4 > ul > li:first-child {
+  .board-type4 > ul > li:nth-of-type(1), .board-type4 > ul > li:nth-of-type(2) {
     border-color: #666; }
-    .board-type4 > ul > li:first-child p {
+    .board-type4 > ul > li:nth-of-type(1) p, .board-type4 > ul > li:nth-of-type(2) p {
       color: #1b1b1d !important; }
-    .board-type4 > ul > li:first-child > a {
+    .board-type4 > ul > li:nth-of-type(1) > a, .board-type4 > ul > li:nth-of-type(2) > a {
       border-color: #666; }
   .board-type4 > ul > li ~ li {
     margin-top: 20px; }

@@ -720,7 +720,7 @@ dl {
     > ul {
         > li {
             border: 1px solid #ccc;
-            &:first-child {
+            &:nth-of-type(1), &:nth-of-type(2) {
                 p {
                     color: #1b1b1d !important;
                 }
