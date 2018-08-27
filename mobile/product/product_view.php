@@ -65,13 +65,16 @@
                 </figure>
             </article>
             <article class="related-products">
+                <div class="article-header">
+                    <h3>RELATED PRODUCTS</h3>
+                </div>
                 <ul class="row">
                     <li class="col-6">
                         <a href="#">
-                            <h4>
+                            <div class="model-info">
                                 <small>AIR PURIFIER</small>
-                                AF400
-                            </h4>
+                                <b>AF400</b>
+                            </div>
                             <figure>
                                 <img src="/mobile/assets/images/product/img_related_products01.png" class="img-fluid" alt="">
                             </figure>
@@ -79,10 +82,10 @@
                     </li>
                     <li class="col-6">
                         <a href="#">
-                            <h4>
+                            <div class="model-info">
                                 <small>AIR PURIFIER</small>
-                                AP400
-                            </h4>
+                                <b>AF400</b>
+                            </div>
                             <figure>
                                 <img src="/mobile/assets/images/product/img_related_products02.png" class="img-fluid" alt="">
                             </figure>
@@ -90,10 +93,10 @@
                     </li>
                     <li class="col-6">
                         <a href="#">
-                            <h4>
+                            <div class="model-info">
                                 <small>AIR PURIFIER</small>
-                                AP600
-                            </h4>
+                                <b>AF400</b>
+                            </div>
                             <figure>
                                 <img src="/mobile/assets/images/product/img_related_products03.png" class="img-fluid" alt="">
                             </figure>
@@ -101,10 +104,10 @@
                     </li>
                     <li class="col-6">
                         <a href="#">
-                            <h4>
+                            <div class="model-info">
                                 <small>AIR PURIFIER</small>
-                                AP800
-                            </h4>
+                                <b>AF400</b>
+                            </div>
                             <figure>
                                 <img src="/mobile/assets/images/product/img_related_products04.png" class="img-fluid" alt="">
                             </figure>

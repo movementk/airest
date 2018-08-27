@@ -41,7 +41,7 @@
                     </div>
                     <div class="board-list-type4">
                         <ul>
-                            <li>
+                            <li class="delegate-notice">
                                 <a href="/mobile/customer/notice_view.php">
                                     <h3>미로 신규회원혜택 이벤트</h3>
                                     <ul>
@@ -50,7 +50,7 @@
                                     </ul>
                                 </a>
                             </li>
-                            <li>
+                            <li class="delegate-notice">
                                 <a href="/mobile/customer/notice_view.php">
                                     <h3>미로 신규회원혜택 이벤트</h3>
                                     <ul>

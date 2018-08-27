@@ -66,11 +66,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item01.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item01.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -81,11 +77,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item02.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item02.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -96,11 +88,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item03.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item03.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -111,11 +99,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item04.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item04.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -160,11 +144,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item01.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item01.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -175,11 +155,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item02.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item02.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -190,11 +166,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item03.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item03.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -205,11 +177,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item04.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item04.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -254,11 +222,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item01.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item01.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -269,11 +233,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item02.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item02.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -284,11 +244,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item03.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item03.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>
@@ -299,11 +255,7 @@
 									<b>AF400</b>
 								</div>
 								<div class="figure-item">
-									<div class="fig-box">
-										<p>
-											<img src="/mobile/assets/images/product/img_list_item04.png" class="img-fluid" alt="">
-										</p>
-									</div>
+                                    <img src="/mobile/assets/images/product/img_list_item04.png" class="img-fluid" alt="">
 								</div>
 							</a>
 						</li>

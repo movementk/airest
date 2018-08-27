@@ -310,6 +310,9 @@ address {
           font-weight: 500;
           display: inline-block;
           margin-right: 5px; }
+      .best-product ul li a figure {
+        background-color: #fff;
+        padding: 15px 0; }
 
 .airest-event {
   padding: 30px 0;

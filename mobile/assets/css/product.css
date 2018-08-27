@@ -289,11 +289,10 @@ address {
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
     .product-list section .product-view ul > li > a {
-      position: relative;
       display: block;
       width: 100%;
       height: 100%;
-      padding-bottom: 80%;
+      padding-bottom: 15px;
       background-color: #f7f7f7; }
       .product-list section .product-view ul > li > a .model-info {
         width: 100%;
@@ -309,22 +308,9 @@ address {
           color: #1b1b1d;
           font-weight: bold;
           font-family: 'roboto', serif; }
-      .product-list section .product-view ul > li > a .figure-item {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 70%; }
-        .product-list section .product-view ul > li > a .figure-item .fig-box {
-          position: relative;
-          width: 100%;
-          height: 100%; }
-          .product-list section .product-view ul > li > a .figure-item .fig-box p {
-            position: absolute;
-            bottom: 25px;
-            left: 0;
-            width: 100%;
-            padding: 0 34%; }
+      .product-list section .product-view ul > li > a .figure-item .img-fluid {
+        display: block;
+        margin: 0 auto; }
     .product-list section .product-view ul > li:nth-of-type(2n + 2) ~ li a {
       margin-top: 10px; }
   .product-list section.active {
@@ -405,34 +391,75 @@ address {
         line-height: 26px; }
     .product-view .view-header .product-info .btn-area {
       margin-top: 40px; }
-.product-view .details-img figure .img-fluid {
-  display: block;
-  width: 100%; }
+.product-view .details-img {
+  padding: 30px 0 40px; }
+  .product-view .details-img figure .img-fluid {
+    display: block;
+    width: 100%; }
 .product-view .related-products {
   padding-bottom: 40px; }
-  .product-view .related-products > ul > li > a {
-    position: relative;
-    display: block;
-    background-color: #f7f7f7; }
-    .product-view .related-products > ul > li > a h4 {
-      position: absolute;
-      top: 15px;
-      left: 10px;
-      font-size: 12px;
+  .product-view .related-products .article-header {
+    text-align: center;
+    padding-bottom: 25px; }
+    .product-view .related-products .article-header > h3 {
+      font-size: 14px;
       color: #1b1b1d;
-      font-weight: bold;
       font-family: 'roboto', serif;
-      letter-spacing: 1px; }
-      .product-view .related-products > ul > li > a h4 small {
+      font-weight: 500;
+      letter-spacing: 2px; }
+  .product-view .related-products > ul > li {
+    /*> a {
+        position: relative;
         display: block;
-        font-size: 10px;
-        color: #999;
-        margin-bottom: 5px;
-        font-weight: bold; }
-    .product-view .related-products > ul > li > a figure .img-fluid {
-      width: 100%; }
-  .product-view .related-products > ul > li:nth-of-type(2) ~ li > a {
-    margin-top: 10px; }
+        background-color: #f7f7f7;
+        h4 {
+            position: absolute;
+            top: 15px;
+            left: 10px;
+            font-size: 12px;
+            color: #1b1b1d;
+            font-weight: bold;
+            @include roboto();
+            letter-spacing: 1px;
+            small {
+                display: block;
+                font-size: 10px;
+                color: #999;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+        }
+        figure {
+            .img-fluid {
+                width: 100%;
+            }
+        }
+    }*/ }
+    .product-view .related-products > ul > li > a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 15px;
+      background-color: #f7f7f7; }
+      .product-view .related-products > ul > li > a .model-info {
+        width: 100%;
+        padding: 20px 10px; }
+        .product-view .related-products > ul > li > a .model-info small {
+          font-size: 10px;
+          color: #999;
+          font-weight: 300;
+          font-family: 'roboto', serif; }
+        .product-view .related-products > ul > li > a .model-info b {
+          display: block;
+          font-size: 12px;
+          color: #1b1b1d;
+          font-weight: bold;
+          font-family: 'roboto', serif; }
+      .product-view .related-products > ul > li > a figure .img-fluid {
+        display: block;
+        margin: 0 auto; }
+    .product-view .related-products > ul > li:nth-of-type(2) ~ li > a {
+      margin-top: 10px; }
   .product-view .related-products .btn-area {
     margin-top: 10px; }
     .product-view .related-products .btn-area p .btn-lg {

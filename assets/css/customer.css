@@ -44,6 +44,30 @@ address {
   text-align: right;
   padding-right: 15px;
   margin-top: 30px; }
+.inquiry-write .section-content .privacy {
+  padding: 60px 0 30px; }
+  .inquiry-write .section-content .privacy h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 30px; }
+  .inquiry-write .section-content .privacy .privacy-content {
+    font-size: 13px;
+    color: #666;
+    line-height: 26px;
+    font-weight: 300;
+    height: 200px;
+    padding: 30px;
+    overflow-y: scroll;
+    background-color: #f3f5fa; }
+  .inquiry-write .section-content .privacy label {
+    font-size: 13px;
+    color: #333;
+    margin-top: 15px;
+    float: right; }
+    .inquiry-write .section-content .privacy label input {
+      position: relative;
+      top: 2px; }
 
 .manual .section-content .search-form {
   width: 630px; }
@@ -245,6 +269,30 @@ address {
     border-color: #aaa; }
   .genuine .section-content .table-wrap .table tbody tr:last-child td {
     border-color: #aaa; }
+.genuine .section-content .privacy {
+  padding: 60px 0 30px; }
+  .genuine .section-content .privacy h3 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 30px; }
+  .genuine .section-content .privacy .privacy-content {
+    font-size: 13px;
+    color: #666;
+    line-height: 26px;
+    font-weight: 300;
+    height: 200px;
+    padding: 30px;
+    overflow-y: scroll;
+    background-color: #f3f5fa; }
+  .genuine .section-content .privacy label {
+    font-size: 13px;
+    color: #333;
+    margin-top: 15px;
+    float: right; }
+    .genuine .section-content .privacy label input {
+      position: relative;
+      top: 2px; }
 .genuine .section-content .explanation {
   padding: 30px 0 40px;
   background-color: #f5f5f5; }

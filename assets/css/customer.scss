@@ -27,6 +27,35 @@
             padding-right: 15px;
             margin-top: 30px;
         }
+        .privacy {
+            padding: 60px 0 30px;
+            h3 {
+                font-size: 18px;
+                color: #333;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+            .privacy-content {
+                font-size: 13px;
+                color: #666;
+                line-height: 26px;
+                font-weight: 300;
+                height: 200px;
+                padding: 30px;
+                overflow-y: scroll;
+                background-color: #f3f5fa;
+            }
+            label {
+                font-size: 13px;
+                color: #333;
+                margin-top: 15px;
+                float: right;
+                input {
+                    position: relative;
+                    top: 2px;
+                }
+            }
+        }
     }
 }
 
@@ -333,6 +362,35 @@
                             }
                         }
                     }
+                }
+            }
+        }
+        .privacy {
+            padding: 60px 0 30px;
+            h3 {
+                font-size: 18px;
+                color: #333;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+            .privacy-content {
+                font-size: 13px;
+                color: #666;
+                line-height: 26px;
+                font-weight: 300;
+                height: 200px;
+                padding: 30px;
+                overflow-y: scroll;
+                background-color: #f3f5fa;
+            }
+            label {
+                font-size: 13px;
+                color: #333;
+                margin-top: 15px;
+                float: right;
+                input {
+                    position: relative;
+                    top: 2px;
                 }
             }
         }

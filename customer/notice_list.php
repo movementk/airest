@@ -56,7 +56,7 @@
                     </div>
                     <article class="board-type4">
                         <ul>
-                            <li>
+                            <li class="delegate-notice">
                                 <a href="/customer/notice_view.php">
                                     <ul class="row">
                                         <li class="col-1">
@@ -88,7 +88,7 @@
                                     </ul>
                                 </a>
                             </li>
-                            <li>
+                            <li class="delegate-notice">
                                 <a href="/customer/notice_view.php">
                                     <ul class="row">
                                         <li class="col-1">

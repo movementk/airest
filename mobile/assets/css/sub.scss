@@ -280,7 +280,7 @@
                         width: 100%;
                         dt {
                             display: table-cell;
-                            min-width: 65px;
+                            width: 75px;
                             font-weight: 400;
                             vertical-align: top;
                             padding-right: 15px;
@@ -492,7 +492,7 @@
                     margin-top: 10px;
                 }
             }
-            &:nth-of-type(1), &:nth-of-type(2) {
+            &.delegate-notice {
                 > a {
                     border: 2px solid #666;
                     > h3 {
@@ -762,7 +762,36 @@
     }
 }
 
-
+// 개인정보 처리 방침 
+.privacy {
+    padding: 40px 0 30px;
+    h3 {
+        font-size: 15px;
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .privacy-content {
+        font-size: 13px;
+        color: #666;
+        width: 100%;
+        height: 150px;
+        line-height: 20px;
+        overflow-y: scroll;
+        padding: 20px 10px;
+        background-color: #f3f5fa;
+    }
+    label {
+        float: right;
+        color: #999;
+        font-weight: 300;
+        margin-top: 10px;
+        input {
+            position: relative;
+            top: 2px;
+        }
+    }
+}
 
 
 

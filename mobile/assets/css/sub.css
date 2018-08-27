@@ -308,7 +308,7 @@ address {
           width: 100%; }
           .board-list-type1 .accordion .card .card-header .btn-link dl dt {
             display: table-cell;
-            min-width: 65px;
+            width: 75px;
             font-weight: 400;
             vertical-align: top;
             padding-right: 15px; }
@@ -454,9 +454,9 @@ address {
       content: "\E80C"; }
 .board-list-type4 > ul > li ~ li > a {
   margin-top: 10px; }
-.board-list-type4 > ul > li:nth-of-type(1) > a, .board-list-type4 > ul > li:nth-of-type(2) > a {
+.board-list-type4 > ul > li.delegate-notice > a {
   border: 2px solid #666; }
-  .board-list-type4 > ul > li:nth-of-type(1) > a > h3:before, .board-list-type4 > ul > li:nth-of-type(2) > a > h3:before {
+  .board-list-type4 > ul > li.delegate-notice > a > h3:before {
     font-family: "fontello";
     content: "\E80B";
     margin-right: 8px; }
@@ -630,5 +630,30 @@ address {
           background-image: url(/mobile/assets/images/sub/icon_next.jpg); }
       .paging .pagination > li.last > a {
         background-image: url(/mobile/assets/images/sub/icon_last.jpg); }
+
+.privacy {
+  padding: 40px 0 30px; }
+  .privacy h3 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 15px; }
+  .privacy .privacy-content {
+    font-size: 13px;
+    color: #666;
+    width: 100%;
+    height: 150px;
+    line-height: 20px;
+    overflow-y: scroll;
+    padding: 20px 10px;
+    background-color: #f3f5fa; }
+  .privacy label {
+    float: right;
+    color: #999;
+    font-weight: 300;
+    margin-top: 10px; }
+    .privacy label input {
+      position: relative;
+      top: 2px; }
 
 /*# sourceMappingURL=sub.css.map */
