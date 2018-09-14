@@ -107,7 +107,6 @@
 				</div>
 			</article>
 		</section>
-		<!-- heater -->
 		<section class="product-line heater">
 			<div class="item-effect">
 				<div class="item">
