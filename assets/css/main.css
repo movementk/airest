@@ -323,7 +323,6 @@ address {
     .promotional .product.product-1 {
       top: 214px;
       left: 399px;
-      /*@include transition($duration: 1s, $delay: 2s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
@@ -337,7 +336,6 @@ address {
     .promotional .product.product-2 {
       top: 447px;
       left: 1021px;
-      /*@include transition($duration: 1s, $delay: 2.5s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
@@ -349,9 +347,8 @@ address {
       .promotional .product.product-2 .item .circle {
         top: 43px; }
     .promotional .product.product-3 {
-      top: 225px;
-      right: 291px;
-      /*@include transition($duration: 1s, $delay: 3s);*/
+      top: 331px;
+      right: 297px;
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
@@ -361,12 +358,11 @@ address {
       -webkit-transition-delay: 0s;
       transition-delay: 0s; }
       .promotional .product.product-3 .item .circle {
-        top: 11px;
-        margin-left: -4px; }
+        top: 24px;
+        margin-left: -5px; }
     .promotional .product.product-4 {
       top: 580px;
       right: 201px;
-      /*@include transition($duration: 1s, $delay: 3.5s);*/
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 1s;
@@ -385,7 +381,7 @@ address {
       .promotional .product.action.product-2 {
         top: 547px; }
       .promotional .product.action.product-3 {
-        top: 425px; }
+        top: 531px; }
       .promotional .product.action.product-4 {
         top: 680px; }
   .promotional .details {
@@ -539,6 +535,12 @@ address {
           background-image: url(/assets/images/main/bg_tab_icon03_on.png); }
       .product-list .tab-menu > li:nth-of-type(3).active a {
         background-image: url(/assets/images/main/bg_tab_icon03_on.png); }
+      .product-list .tab-menu > li:nth-of-type(4) a {
+        background-image: url(/assets/images/main/bg_tab_icon04.png); }
+        .product-list .tab-menu > li:nth-of-type(4) a:hover {
+          background-image: url(/assets/images/main/bg_tab_icon04_on.png); }
+      .product-list .tab-menu > li:nth-of-type(4).active a {
+        background-image: url(/assets/images/main/bg_tab_icon04_on.png); }
   .product-list .selection-product {
     overflow: hidden; }
     .product-list .selection-product > li {
@@ -585,22 +587,27 @@ address {
     margin-top: -60px; }
     .product-list .section-content .details {
       padding-top: 120px; }
-      .product-list .section-content .details .label {
-        display: block;
-        width: 45px;
-        height: 20px;
-        line-height: 20px;
-        font-size: 11px;
-        color: #fff;
-        font-family: 'roboto', serif;
-        font-weight: 300;
-        text-align: center;
-        background-color: #353535; }
       .product-list .section-content .details h3 {
+        position: relative;
         font-size: 42px;
         color: #1b1b1d;
         font-weight: 400;
-        margin: 30px 0 20px; }
+        padding-top: 50px;
+        margin-bottom: 20px; }
+        .product-list .section-content .details h3 .label {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 45px;
+          height: 20px;
+          line-height: 20px;
+          font-size: 11px;
+          color: #fff;
+          font-family: 'roboto', serif;
+          font-weight: 300;
+          text-align: center;
+          background-color: #353535; }
       .product-list .section-content .details .product-name {
         font-size: 15px;
         color: #1b1b1d;
@@ -655,14 +662,14 @@ address {
     position: relative; }
     .news-list .news-slider:before {
       position: absolute;
-      top: 0;
+      top: -30px;
       left: 0;
       display: block;
       z-index: 10;
       content: url(/assets/images/main/bg_blur_left.png); }
     .news-list .news-slider:after {
       position: absolute;
-      top: 0;
+      top: -30px;
       right: 0;
       display: block;
       z-index: 10;

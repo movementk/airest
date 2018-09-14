@@ -94,6 +94,34 @@
                         </div>
                     </div>
                 </li>
+                <li class="visual-list">
+                    <div class="figbox">
+                        <figure>
+                            <img src="/assets/images/main/img_jumboslider04.jpg" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+                    <div class="product">
+                        <div class="table-box">
+                            <div class="v-align">
+                                <figure>
+                                    <img src="/assets/images/main/img_product_slide04.png" class="img-fluid" alt="">
+                                </figure>
+                                <div class="details">
+                                    <h2>AIREST<br>CIRCULATOR</h2>
+                                    <p>
+                                        에어레스트는 소중한 아이이자 더 나아가 가족입니다<br>
+                                        일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
+                                    </p>
+                                    <div class="btn-area">
+                                        <a href="#" class="btn btn-view" role="button">
+                                            <i>View Details</i> <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
         
@@ -142,14 +170,17 @@
                 <ul class="tab-menu">
                     <li class="active"><a href="#">가습기 <span></span></a></li>
                     <li><a href="#">공기청정기 <span></span></a></li>
+                    <li><a href="#">히터 <span></span></a></li>
                     <li><a href="#">선풍기 <span></span></a></li>
                 </ul>
                 <div class="section-content">
                     <div class="row">
                         <div class="col-7">
                             <div class="details">
-                                <span class="label">BEST</span>
-                                <h3>아로마 가습기</h3>
+                                <h3>
+                                    <span class="label">BEST</span>
+                                    아로마 가습기
+                                </h3>
                                 <p class="product-name">AIREST AR01</p>
                                 <p class="summary">
                                     기존 간편세척 가습기와 아로마 가습기의 비위생적인 단점을<br>
@@ -262,7 +293,7 @@
                     
                     <!-- 노출갯수가 4개 이상일때만 슬라이드 작동 -->
                     
-                    <li class="col-3">
+                    <!--<li class="col-3">
                         <a href="#">
                             <figure>
                                 <img src="/assets/images/main/img_news01.jpg" class="img-fluid" alt="">
@@ -309,7 +340,7 @@
                                 </i>
                             </p>
                         </a>
-                    </li>
+                    </li>-->
                     
                 </ul>
             </div>

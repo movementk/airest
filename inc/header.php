@@ -15,7 +15,7 @@
                 <nav id="gnb">
                     <ul>
                         <li><a href="#">BRAND STORY</a></li>
-                        <li><a href="#">COMPANY</a></li>
+                        <!--<li><a href="#">COMPANY</a></li>-->
                         <li><a href="/product/product_list.php">PRODUCT</a></li>
                         <li><a href="/customer/faq_list.php">SUPPORT</a></li>
                         <li><a href="/event/event_list.php">EVENT</a></li>
@@ -55,13 +55,13 @@
             <li>
                 <a href="#">BRAND SRORY <span></span></a>
             </li>
-            <li>
+            <!--<li>
                 <a href="#">COMPANY <span></span></a>
                 <ul>
                     <li><a href="#">회사소개</a></li>
                     <li><a href="#">찾아오시는길</a></li>
                 </ul>
-            </li>
+            </li>-->
             <li>
                 <a href="#">PRODUCT <span></span></a>
                 <ul>

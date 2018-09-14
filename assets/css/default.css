@@ -153,7 +153,7 @@ figure {
     color: #fff;
     line-height: 85px;
     text-align: center;
-    background-color: #1b1b1d; }
+    background-color: rgba(27, 27, 29, 0.6); }
     #gnb .global-search .btn-search.event-btn {
       display: none; }
     #gnb .global-search .btn-search.default-btn {

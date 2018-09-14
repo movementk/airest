@@ -230,50 +230,54 @@ address {
                 display: inline-block; }
               .product-list section .item-effect > div.item-details .v-align .btn-area .btn.list-close {
                 display: none; }
-  .product-list section:nth-of-type(odd) .item-effect > div.item {
+  .product-list section:nth-of-type(even) .item-effect > div.item {
     position: absolute;
     left: 0;
     padding-right: 8%; }
-    .product-list section:nth-of-type(odd) .item-effect > div.item figure .img-fluid {
+    .product-list section:nth-of-type(even) .item-effect > div.item figure .img-fluid {
       left: -50px; }
-  .product-list section:nth-of-type(odd) .item-effect > div.item-details {
+  .product-list section:nth-of-type(even) .item-effect > div.item-details {
     float: right;
     padding-right: 8%; }
-    .product-list section:nth-of-type(odd) .item-effect > div.item-details .v-align {
+    .product-list section:nth-of-type(even) .item-effect > div.item-details .v-align {
       right: -30px; }
-  .product-list section:nth-of-type(even) .item-effect > div.item {
+  .product-list section:nth-of-type(odd) .item-effect > div.item {
     position: absolute;
     right: 0;
     padding-left: 8%; }
-    .product-list section:nth-of-type(even) .item-effect > div.item figure .img-fluid {
+    .product-list section:nth-of-type(odd) .item-effect > div.item figure .img-fluid {
       right: -50px; }
-  .product-list section:nth-of-type(even) .item-effect > div.item-details {
+  .product-list section:nth-of-type(odd) .item-effect > div.item-details {
     float: left;
     padding-left: 8%; }
-    .product-list section:nth-of-type(even) .item-effect > div.item-details .v-align {
+    .product-list section:nth-of-type(odd) .item-effect > div.item-details .v-align {
       left: -30px; }
-  .product-list section.purifier {
-    background-color: #ededed; }
-    .product-list section.purifier .item-effect > div.item {
-      top: 0; }
   .product-list section.humidifier {
     background-color: #f1f1f1; }
     .product-list section.humidifier .item-effect > div.item {
       bottom: 0; }
+  .product-list section.heater {
+    background-color: #dfdfdf; }
+    .product-list section.heater .item-effect > div.item {
+      bottom: 0; }
+  .product-list section.purifier {
+    background-color: #ededed; }
+    .product-list section.purifier .item-effect > div.item {
+      top: 0; }
   .product-list section.circulator {
     background-color: #dfdfdf; }
     .product-list section.circulator .item-effect > div.item {
       bottom: 0; }
-  .product-list section.action:nth-of-type(odd) .item-effect > div.item figure .img-fluid {
+  .product-list section.action:nth-of-type(even) .item-effect > div.item figure .img-fluid {
     left: 0;
     opacity: 1; }
-  .product-list section.action:nth-of-type(odd) .item-effect > div.item-details .v-align {
-    right: 0;
-    opacity: 1; }
-  .product-list section.action:nth-of-type(even) .item-effect > div.item figure .img-fluid {
-    right: 0;
-    opacity: 1; }
   .product-list section.action:nth-of-type(even) .item-effect > div.item-details .v-align {
+    right: 0;
+    opacity: 1; }
+  .product-list section.action:nth-of-type(odd) .item-effect > div.item figure .img-fluid {
+    right: 0;
+    opacity: 1; }
+  .product-list section.action:nth-of-type(odd) .item-effect > div.item-details .v-align {
     left: 0;
     opacity: 1; }
   .product-list section .product-view {

@@ -130,9 +130,11 @@
             // product-item 관련
             $(window).ready(function(){
                 $('.slider-nav').slick({
-                    infinite: true,
+                    /*infinite: true,
+                    slidesToScroll: 1,*/
+                    centerMode: true,
+                    centerPadding: '62.5px',
                     slidesToShow: 3,
-                    slidesToScroll: 1,
                     arrows: true,
                     dots: false,
                     prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="icon-left"></i></button>',

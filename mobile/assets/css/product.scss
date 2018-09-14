@@ -141,7 +141,7 @@
                 }
             }
         }
-        &:nth-of-type(odd) {
+        &:nth-of-type(even) {
             .item-effect {
                 > div {
                     &.item {
@@ -164,7 +164,7 @@
                 }
             }
         }
-        &:nth-of-type(even) {
+        &:nth-of-type(odd) {
             .item-effect {
                 > div {
                     &.item {
@@ -187,22 +187,32 @@
                 }
             }
         }
-        &.purifier {
-            background-color: #ededed;
-            .item-effect {
-                > div {
-                    &.item {
-                        top: 0;
-                    }
-                }
-            }
-        }
         &.humidifier {
             background-color: #f1f1f1;
             .item-effect {
                 > div {
                     &.item {
                         bottom: 0;
+                    }
+                }
+            }
+        }
+        &.heater {
+            background-color: #dfdfdf;
+            .item-effect {
+                > div {
+                    &.item {
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+        &.purifier {
+            background-color: #ededed;
+            .item-effect {
+                > div {
+                    &.item {
+                        top: 0;
                     }
                 }
             }
@@ -218,7 +228,7 @@
             }
         }
         &.action {
-            &:nth-of-type(odd) {
+            &:nth-of-type(even) {
                 .item-effect {
                     > div {
                         &.item {
@@ -238,7 +248,7 @@
                     }
                 }
             }
-            &:nth-of-type(even) {
+            &:nth-of-type(odd) {
                 .item-effect {
                     > div {
                         &.item {

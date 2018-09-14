@@ -449,13 +449,13 @@
             }
         }
         &.product-3 {
-            top: 161px;
+            top: 217px;
             left: 867px;
             @include transition($duration: 1s);
             .item {
                 .circle {
-                    top: 3px;
-                    margin-left: -4px;
+                    top: 6px;
+                    margin-left: -5px;
                 }
             }
         }
@@ -478,7 +478,7 @@
                 top: 271px;
             }
             &.product-3 {
-                top: 211px;
+                top: 267px;
             }
             &.product-4 {
                 top: 336px;

@@ -29,23 +29,16 @@
     
     <!-- Sub Content Start -->
     <main id="content" class="product-list">
-        <section class="product-line purifier">
+        <section class="product-line humidifier">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="item">
-                            <figure>
-                                <img src="/assets/images/product/img_purifier.png" alt="">
-                            </figure>
-                        </div>
-                    </div>
                     <div class="col-5 offset-1">
                         <div class="item-details">
                             <div class="v-align">
-                                <h3>AIR<br>PURIFIER</h3>
+                                <h3>HUMIDIFIER</h3>
                                 <p>
                                     에어레스트는 건강과 감성을 담기 위해 노력합니다.<br>
-                                    우리 가족 모두를 위한 안전하고 편리한 공기청정기입니다.
+                                    우리 가족 모두를 위한 안전하고 편리한 가습기입니다.
                                 </p>
                                 <div class="btn-area">
                                     <button type="button" class="btn list-view">
@@ -60,9 +53,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-6">
+                        <div class="item">
+                            <figure>
+                                <img src="/assets/images/product/img_humidifier.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <article class="product-view purifier-list">
+            <article class="product-view humidifier-list">
                 <div class="container">
                     <ul class="row">
                         <li class="col-3">
@@ -109,16 +109,96 @@
                 </div>
             </article>
         </section>
-        <section class="product-line humidifier">
+        <section class="product-line heater">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="item">
+                            <figure>
+                                <img src="/assets/images/product/img_heater.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-5 offset-1">
+                        <div class="item-details">
+                            <div class="v-align">
+                                <h3>HEATER</h3>
+                                <p>
+                                    에어레스트는 건강과 감성을 담기 위해 노력합니다.<br>
+                                    우리 가족 모두를 위한 안전하고 편리한 히터입니다.
+                                </p>
+                                <div class="btn-area">
+                                    <button type="button" class="btn list-view">
+                                        <i>View Products</i>
+                                        <span></span>
+                                    </button>
+                                    <button type="button" class="btn list-close">
+                                        <i>Close Products</i>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <article class="product-view humidifier-list">
+                <div class="container">
+                    <ul class="row">
+                        <li class="col-3">
+                            <a href="#">
+                                <small>AIR PURIFIER</small>
+                                <b>AF400</b>
+                                <figure>
+                                    <img src="/assets/images/product/img_list_item01.png" alt="">
+                                </figure>
+                                <div class="view-hover"></div>
+                            </a>
+                        </li>
+                        <li class="col-3">
+                            <a href="#">
+                                <small>AIR PURIFIER</small>
+                                <b>AP400</b>
+                                <figure>
+                                    <img src="/assets/images/product/img_list_item02.png" alt="">
+                                </figure>
+                                <div class="view-hover"></div>
+                            </a>
+                        </li>
+                        <li class="col-3">
+                            <a href="#">
+                                <small>AIR PURIFIER</small>
+                                <b>AP600</b>
+                                <figure>
+                                    <img src="/assets/images/product/img_list_item03.png" alt="">
+                                </figure>
+                                <div class="view-hover"></div>
+                            </a>
+                        </li>
+                        <li class="col-3">
+                            <a href="#">
+                                <small>AIR PURIFIER</small>
+                                <b>AP800</b>
+                                <figure>
+                                    <img src="/assets/images/product/img_list_item04.png" alt="">
+                                </figure>
+                                <div class="view-hover"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section class="product-line purifier">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-5 offset-1">
                         <div class="item-details">
                             <div class="v-align">
-                                <h3>HUMIDIFIER</h3>
+                                <h3>AIR<br>PURIFIER</h3>
                                 <p>
                                     에어레스트는 건강과 감성을 담기 위해 노력합니다.<br>
-                                    우리 가족 모두를 위한 안전하고 편리한 가습기입니다.
+                                    우리 가족 모두를 위한 안전하고 편리한 공기청정기입니다.
                                 </p>
                                 <div class="btn-area">
                                     <button type="button" class="btn list-view">
@@ -136,13 +216,13 @@
                     <div class="col-6">
                         <div class="item">
                             <figure>
-                                <img src="/assets/images/product/img_humidifier.png" alt="">
+                                <img src="/assets/images/product/img_purifier.png" alt="">
                             </figure>
                         </div>
                     </div>
                 </div>
             </div>
-            <article class="product-view humidifier-list">
+            <article class="product-view purifier-list">
                 <div class="container">
                     <ul class="row">
                         <li class="col-3">
@@ -281,7 +361,7 @@
                     autoplay: true,
                     infinite: true,
                     speed: 1200,
-                    autoplaySpeed: 7000,
+                    autoplaySpeed: 3000,
                     dots: true,
                     arrows: false
                 });
