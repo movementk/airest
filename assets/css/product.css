@@ -356,6 +356,11 @@ address {
             width: 100%;
             content: "";
             border: 1px solid #333; }
+        .product-view .product-intro article.product-detail > .slider-nav.more {
+          text-align: center !important;
+          font-size: 0; }
+          .product-view .product-intro article.product-detail > .slider-nav.more > li {
+            display: inline-block; }
     .product-view .product-intro article.product-info {
       padding: 150px 100px 100px;
       background-color: #f1f1f1; }

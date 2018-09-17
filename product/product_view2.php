@@ -24,7 +24,7 @@
                             <img src="/assets/images/product/img_slide_nav02.jpg" alt="">
                         </figure>
                     </li>
-                    <li>
+                    <!--<li>
                         <figure>
                             <img src="/assets/images/product/img_slide_nav03.jpg" alt="">
                         </figure>
@@ -33,7 +33,7 @@
                         <figure>
                             <img src="/assets/images/product/img_slide_nav03.jpg" alt="">
                         </figure>
-                    </li>
+                    </li>-->
                 </ul>
             </article>
             <article class="product-info">
@@ -128,10 +128,8 @@
     <script>
         (function($){
             // product-item 관련
-            $(window).ready(function(){
+            /*$(window).ready(function(){
                 $('.slider-nav').slick({
-                    /*infinite: true,
-                    slidesToScroll: 1,*/
                     centerMode: true,
                     centerPadding: '62.5px',
                     slidesToShow: 3,
@@ -146,7 +144,7 @@
                     $(this).siblings().removeClass('on');
                     $(this).addClass('on');
                 }
-            });
+            });*/
         })(jQuery);
     </script>
 </body>

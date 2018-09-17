@@ -657,6 +657,7 @@ address {
             opacity: .7; }
 
 .news-list {
+  text-align: center;
   padding: 60px 0; }
   .news-list .news-slider {
     position: relative; }
@@ -728,6 +729,16 @@ address {
       .news-list .news-slider li a:hover .icon-more {
         color: #fff;
         background-color: #1b1b1b; }
+    .news-list .news-slider.more {
+      display: inline-block;
+      font-size: 0; }
+      .news-list .news-slider.more > li {
+        display: inline-block;
+        padding: 0 15px; }
+      .news-list .news-slider.more:before {
+        content: ""; }
+      .news-list .news-slider.more:after {
+        content: ""; }
 
 .video-area a {
   position: relative; }

@@ -669,6 +669,7 @@
 
 //news-list
 .news-list {
+    text-align: center;
     padding: 60px 0;
     .news-slider {
         position: relative;
@@ -743,6 +744,20 @@
                         background-color: #1b1b1b;
                     }
                 }
+            }
+        }
+        &.more {
+            display: inline-block;
+            font-size: 0;
+            > li {
+                display: inline-block;
+                padding: 0 15px;
+            }
+            &:before {
+                content: "";
+            }
+            &:after {
+                content: "";
             }
         }
     }

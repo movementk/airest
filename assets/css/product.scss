@@ -411,6 +411,13 @@
                             }
                         }
                     }
+                    &.more {
+                        text-align: center !important;
+                        font-size: 0;
+                        > li {
+                            display: inline-block;
+                        }
+                    }
                 }
             }
             &.product-info {
