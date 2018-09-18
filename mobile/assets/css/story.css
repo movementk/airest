@@ -104,7 +104,7 @@ address {
   padding: 0; }
   .story .page-header {
     text-align: center;
-    padding: 140px 0 55px;
+    padding: 160px 0 95px;
     background-image: url(/mobile/assets/images/story/bg_story_page_header.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -188,7 +188,7 @@ address {
       color: #1b1b1d;
       font-weight: lighter;
       line-height: 26px;
-      margin-bottom: 30px;
+      margin-bottom: 13%;
       padding-left: 35px;
       opacity: 0;
       -webkit-transition-property: all;
@@ -288,26 +288,34 @@ address {
       transition-timing-function: linear;
       -webkit-transition-delay: 0s;
       transition-delay: 0s; }
-    .section-1 .section-content figure:nth-of-type(1) {
+    .section-1 .section-content figure.effect-1 {
       top: 0;
       left: 0;
-      padding-right: 50px; }
-      .section-1 .section-content figure:nth-of-type(1) .img-fluid {
+      padding-right: 13%; }
+      .section-1 .section-content figure.effect-1 .img-fluid {
         top: 0;
         left: -50px; }
-    .section-1 .section-content figure:nth-of-type(2) {
+    .section-1 .section-content figure.effect-2 {
       bottom: 0;
       right: 0;
-      padding-left: 110px; }
-      .section-1 .section-content figure:nth-of-type(2) .img-fluid {
+      padding-left: 43%; }
+      .section-1 .section-content figure.effect-2 .img-fluid {
         float: right;
-        right: -50px; }
-    .section-1 .section-content figure.action .img-fluid {
-      opacity: 1; }
-    .section-1 .section-content figure.action:nth-of-type(1) .img-fluid {
-      left: 0; }
-    .section-1 .section-content figure.action:nth-of-type(2) .img-fluid {
+        right: -50px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s; }
+    .section-1 .section-content figure.action.effect-2 .img-fluid {
+      opacity: 1;
       right: 0; }
+    .section-1 .section-content figure.on.effect-1 .img-fluid {
+      opacity: 1;
+      left: 0; }
 
 .section-2 {
   position: relative;
@@ -324,7 +332,6 @@ address {
     width: 210px;
     height: 186px;
     padding-top: 35px;
-    border: 1px solid #ccc;
     text-align: center; }
     .section-2 .details h4 {
       position: relative;

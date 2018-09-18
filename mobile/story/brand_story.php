@@ -47,10 +47,10 @@
                 </div>
             </div>
             <div class="section-content">
-                <figure>
+                <figure class="effect-1">
                     <img src="/mobile/assets/images/story/img_story01.jpg" class="img-fluid" alt="">
                 </figure>
-                <figure>
+                <figure class="effect-2">
                     <img src="/mobile/assets/images/story/img_story02.jpg" class="img-fluid" alt="">
                 </figure>
             </div>
@@ -79,13 +79,13 @@
             // page-header effect
             $(window).load(function(){
                 setTimeout(function(){
-                    $('.page-header').addClass('on');
+                    $('.page-header, .effect-1').addClass('on');
                 }, 300);
             });
             
             // section effect
             $(window).on('scroll', function() {
-                $('.section-header, .section-content > figure, .summary, .section-2').each(function(index, elem) {
+                $('.section-content > .effect-2, .section-header, .summary, .section-2').each(function(index, elem) {
                     if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.3)) {
                         $(elem).addClass('action');
                     }
