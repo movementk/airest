@@ -267,7 +267,7 @@
         height: 16px !important;
         margin-top: 0px !important;
         border-radius: 50% !important;
-        background-color: #f43020 !important;
+        background-color: #0baded !important;
     }
     .product {
         position: absolute;
@@ -284,12 +284,12 @@
                 width: 10px;
                 height: 10px;
                 border-radius: 50%;
-                background-color: #ff5f5f;
+                background-color: #0baded;
                 opacity: 0;
                 @include transition($duration: .5s);
                 &.on {
                     opacity: .7;
-                    box-shadow: 0px 0px 5px 2px #ff5f5f;
+                    box-shadow: 0px 0px 5px 2px #0baded;
                 }
             }
         }
