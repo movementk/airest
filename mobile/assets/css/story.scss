@@ -1,0 +1,67 @@
+@import 'common';
+
+.story {
+    padding: 0;
+    .page-header {
+        text-align: center;
+        padding: 140px 0 55px;
+        background-image: url(/mobile/assets/images/story/bg_story_page_header.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        h2 {
+            position: relative;
+            top: -30px;
+            opacity: 0;
+            @include transition($duration: 1s);
+            font-size: 25px;
+            color: #1b1b1d;
+            font-weight: lighter;
+            img {
+                width: 141px;
+                display: block;
+                margin: 0 auto 10px;
+            }
+        }
+        hr {
+            position: relative;
+            top: -30px;
+            opacity: 0;
+            @include transition($duration: 1s, $delay: .3s);
+            width: 40px;
+            border-top: 1px solid #1b1b1d;
+            margin: 20px auto;
+        }
+        p {
+            position: relative;
+            top: -30px;
+            opacity: 0;
+            @include transition($duration: 1s, $delay: .6s);
+            font-size: 11px;
+            color: #1b1b1d;
+            font-weight: 300;
+            line-height: 16px;
+        }
+        &.on {
+            h2 {
+                top: 0;
+                opacity: 1;
+            }
+            hr {
+                top: 0;
+                opacity: 1;
+            }
+            p {
+                top: 0;
+                opacity: 1;
+            }
+        }
+    }
+    #content {
+        padding: 0;
+    }
+}
+
+.brand-story {
+    
+}

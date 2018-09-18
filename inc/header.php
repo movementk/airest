@@ -14,7 +14,7 @@
             <div class="col-9">
                 <nav id="gnb">
                     <ul>
-                        <li><a href="#">BRAND STORY</a></li>
+                        <li><a href="/story/brand_story.php">BRAND STORY</a></li>
                         <!--<li><a href="#">COMPANY</a></li>-->
                         <li><a href="/product/product_list.php">PRODUCT</a></li>
                         <li><a href="/customer/faq_list.php">SUPPORT</a></li>
