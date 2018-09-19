@@ -484,6 +484,21 @@
                                 content: "\E80C";
                             }
                         }
+						&.reply {
+							width: 50px;
+							height: 20px;
+							font-size: 10px;
+							color: #666;
+							text-align: center;
+							line-height: 18px;
+							border: 1px solid #ccc;
+							@include noto();
+							&.success {
+								color: #999;
+								border-color: #f3f3f3;
+								background-color: #f3f3f3;
+							}
+						}
                     }
                 }
             }

@@ -652,7 +652,7 @@ dl dd {
     .board-type4 > ul > li > a > ul > li > p {
       font-size: 16px;
       color: #666;
-      line-height: 24px;
+      line-height: 30px;
       font-weight: 300;
       font-family: 'roboto', serif; }
       .board-type4 > ul > li > a > ul > li > p.content {
@@ -674,13 +674,14 @@ dl dd {
         font-size: 12px;
         margin-right: 15px; }
       .board-type4 > ul > li > a > ul > li > p.reply {
-        width: 70px;
-        height: 25px;
-        font-size: 11px;
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
         color: #666;
         text-align: center;
-        line-height: 23px;
+        line-height: 28px;
         border: 1px solid #ccc;
+        margin-left: -30px;
         font-family: 'Noto Sans KR', sans-serif; }
         .board-type4 > ul > li > a > ul > li > p.reply.success {
           color: #999;
@@ -807,6 +808,28 @@ dl dd {
     text-align: center;
     padding: 110px 15px 100px;
     border-top: 1px solid #ccc; }
+    .board-view .article-content > .reply {
+      text-align: left;
+      margin-top: 50px;
+      padding: 40px;
+      border-radius: 20px;
+      background-color: #f3f3f3; }
+      .board-view .article-content > .reply h4 {
+        font-size: 15px;
+        color: #1b1b1d;
+        font-weight: 400; }
+        .board-view .article-content > .reply h4:before {
+          content: "\E80E";
+          font-family: "fontello";
+          color: rgba(27, 27, 29, 0.6);
+          font-size: 15px;
+          padding-right: 10px; }
+      .board-view .article-content > .reply p {
+        font-size: 14px;
+        color: #000;
+        line-height: 25px;
+        font-weight: 300;
+        margin-top: 25px; }
   .board-view > .attach {
     position: relative;
     padding-left: 50px;

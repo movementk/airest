@@ -113,6 +113,12 @@
       "css": "play",
       "code": 59405,
       "src": "typicons"
+    },
+    {
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user",
+      "code": 59406,
+      "src": "fontawesome"
     }
   ]
 }

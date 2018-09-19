@@ -69,6 +69,72 @@ address {
       position: relative;
       top: 2px; }
 
+.inquiry-list .section-content .board-type4 .btn-area {
+  text-align: right;
+  margin-top: 40px; }
+.inquiry-list .section-content .board-type4 .paging {
+  margin-top: 60px; }
+
+.inquiry-view .section-content .btn-area {
+  text-align: right;
+  padding-right: 15px;
+  margin-top: 30px; }
+.inquiry-view .section-content .page-more {
+  margin-top: 50px; }
+
+.inquiry-confirm .section-content .pw-form {
+  text-align: center;
+  padding: 100px 0;
+  border: 1px solid #ccc; }
+  .inquiry-confirm .section-content .pw-form .form {
+    overflow: hidden;
+    width: 430px;
+    margin: 0 auto; }
+    .inquiry-confirm .section-content .pw-form .form figure {
+      margin-bottom: 50px; }
+      .inquiry-confirm .section-content .pw-form .form figure .img-fluid {
+        width: 71px; }
+      .inquiry-confirm .section-content .pw-form .form figure figcaption {
+        margin-bottom: 30px; }
+        .inquiry-confirm .section-content .pw-form .form figure figcaption h4 {
+          font-size: 30px;
+          font-weight: 300;
+          color: #111;
+          margin: 30px 0 25px; }
+        .inquiry-confirm .section-content .pw-form .form figure figcaption p {
+          font-size: 15px;
+          color: #666;
+          line-height: 24px; }
+    .inquiry-confirm .section-content .pw-form .form .form-group {
+      float: left;
+      width: 280px;
+      margin-right: 10px; }
+      .inquiry-confirm .section-content .pw-form .form .form-group .form-control {
+        height: 50px;
+        border: 1px solid #f3f5fa;
+        background-color: #f3f5fa; }
+    .inquiry-confirm .section-content .pw-form .form .btn-area {
+      margin: 0;
+      float: left;
+      width: 140px; }
+      .inquiry-confirm .section-content .pw-form .form .btn-area p .btn-default {
+        display: inline-block;
+        width: 100%;
+        font-size: 16px;
+        line-height: 50px;
+        color: #fff;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        background-color: #333; }
+        .inquiry-confirm .section-content .pw-form .form .btn-area p .btn-default:hover {
+          opacity: .7; }
+
 .manual .section-content .search-form {
   width: 630px; }
 .manual .section-content .lnb-menu {
@@ -261,6 +327,19 @@ address {
       width: 370px; }
     .genuine .section-content .table-wrap .table tbody tr td.email .form-group .form-control {
       width: 300px; }
+    .genuine .section-content .table-wrap .table tbody tr td.confirm .form-group {
+      float: left; }
+      .genuine .section-content .table-wrap .table tbody tr td.confirm .form-group .form-control {
+        width: 300px; }
+    .genuine .section-content .table-wrap .table tbody tr td.confirm > .btn-area {
+      float: left;
+      display: inline-block;
+      margin-top: 0;
+      margin-left: 20px; }
+      .genuine .section-content .table-wrap .table tbody tr td.confirm > .btn-area p .btn {
+        width: 120px;
+        line-height: 38px;
+        font-size: 14px; }
     .genuine .section-content .table-wrap .table tbody tr td.vendor .form-group select {
       width: 200px; }
     .genuine .section-content .table-wrap .table tbody tr td.vendor .form-group input {

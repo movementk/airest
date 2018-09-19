@@ -111,6 +111,19 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                        <tr>
+                                            <th><label for="u-mail">휴대폰 인증하기 *</label></th>
+                                            <td class="confirm">
+                                                <div class="form-group">
+                                                    <input type="email" id="u-mail" class="form-control">
+                                                </div>
+                                                <div class="btn-area">
+													<p>
+														<a href="#" class="btn btn-md btn-white" role="button">정품인증하기</a>
+													</p>
+												</div>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>

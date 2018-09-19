@@ -19,7 +19,7 @@
     }
 }
 
-// 1:1 문의
+// 1:1 문의 쓰기
 .inquiry-write {
     .section-content {
         .btn-area {
@@ -57,6 +57,100 @@
             }
         }
     }
+}
+
+// 1:1 문의 리스트
+.inquiry-list {
+	.section-content {
+		.board-type4 {
+			.btn-area {
+				text-align: right;
+				margin-top: 40px;
+			}
+			.paging {
+				margin-top: 60px;
+			}
+		}
+	}
+}
+
+// 1:1 문의 뷰
+.inquiry-view {
+	.section-content {
+		.btn-area {
+			text-align: right;
+			padding-right: 15px;
+			margin-top: 30px;
+		}
+		.page-more {
+			margin-top: 50px;
+		}
+	}
+}
+
+// 1:1 비밀번호 확인
+.inquiry-confirm {
+	.section-content {
+		.pw-form {
+			text-align: center;
+			padding: 100px 0;
+			border: 1px solid #ccc;
+			.form {
+				overflow: hidden;
+                width: 430px;
+                margin: 0 auto;
+				figure {
+					margin-bottom: 50px;
+					.img-fluid {
+						width: 71px;
+					}
+					figcaption {
+						margin-bottom: 30px;
+						h4 {
+							font-size: 30px;
+							font-weight: 300;
+							color: #111;
+                            margin: 30px 0 25px;
+						}
+						p {
+							font-size: 15px;
+							color: #666;
+							line-height: 24px;
+						}
+					}
+				}
+				.form-group {
+					float: left;
+                    width: 280px;
+                    margin-right: 10px;
+					.form-control {
+						height: 50px;
+						border: 1px solid #f3f5fa;
+						background-color: #f3f5fa;
+					}
+				}
+				.btn-area {
+					margin: 0;
+                    float: left;
+                    width: 140px;
+					p {
+						.btn-default {
+							display: inline-block;
+							width: 100%;
+							font-size: 16px;
+                            line-height: 50px;
+							color: #fff;
+							@include transition();
+							background-color: #333;
+							&:hover {
+								opacity: .7;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 //  제품사용 설명서
@@ -341,6 +435,27 @@
                                         width: 300px;
                                     }
                                 }
+                            }
+							&.confirm {
+                                .form-group {
+									float: left;
+                                    .form-control {
+                                        width: 300px;
+                                    }
+                                }
+								> .btn-area {
+									float: left;
+									display: inline-block;
+									margin-top: 0;
+									margin-left: 20px;
+									p {
+										.btn {
+											width: 120px;
+											line-height: 38px;
+											font-size: 14px;
+										}
+									}
+								}
                             }
                             &.vendor {
                                 .form-group {
