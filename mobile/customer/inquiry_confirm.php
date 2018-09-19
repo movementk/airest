@@ -30,7 +30,7 @@
 						<div class="form">
 							<form action="#">
 								<figure>
-									<img src="/assets/images/customer/img_lock.jpg" class="img-fluid" alt="">
+									<img src="/mobile/assets/images/customer/img_lock.jpg" class="img-fluid" alt="">
 									<figcaption>
 										<h4>비밀번호 확인</h4>
 										<p>
