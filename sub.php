@@ -344,6 +344,60 @@
                                     </ul>
                                 </a>
                             </li>
+                            <li>
+                                <a href="#">
+                                    <ul class="row">
+                                        <li class="col-1">
+                                            <p class="num">123</p>
+                                        </li>
+                                        <li class="col-8">
+                                            <p class="content">
+                                                팩트체크 3편 - 수돗물 미세먼지 괴소문
+                                            </p>
+                                        </li>
+                                        <li class="col-2">
+                                            <p class="date">
+                                                <i class="icon-calendar-empty">
+                                                    <span class="sr-only">작성일</span>
+                                                </i>
+                                                2018-07-01
+                                            </p>
+                                        </li>
+                                        <li class="col-1">
+                                            <p class="reply">
+                                                답변대기
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ul class="row">
+                                        <li class="col-1">
+                                            <p class="num">123</p>
+                                        </li>
+                                        <li class="col-8">
+                                            <p class="content">
+                                                팩트체크 3편 - 수돗물 미세먼지 괴소문
+                                            </p>
+                                        </li>
+                                        <li class="col-2">
+                                            <p class="date">
+                                                <i class="icon-calendar-empty">
+                                                    <span class="sr-only">작성일</span>
+                                                </i>
+                                                2018-07-01
+                                            </p>
+                                        </li>
+										<li class="col-1">
+											<p class="reply success">
+												답변완료
+											</p>
+										</li>
+                                    </ul>
+                                </a>
+                            </li>
                         </ul>
                     </article>
                     
