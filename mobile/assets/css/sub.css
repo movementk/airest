@@ -452,6 +452,19 @@ address {
       content: "\F133"; }
     .board-list-type4 > ul > li > a > ul > li.hit:before {
       content: "\E80C"; }
+    .board-list-type4 > ul > li > a > ul > li.reply {
+      width: 50px;
+      height: 20px;
+      font-size: 10px;
+      color: #666;
+      text-align: center;
+      line-height: 18px;
+      border: 1px solid #ccc;
+      font-family: 'Noto Sans KR', sans-serif; }
+      .board-list-type4 > ul > li > a > ul > li.reply.success {
+        color: #999;
+        border-color: #f3f3f3;
+        background-color: #f3f3f3; }
 .board-list-type4 > ul > li ~ li > a {
   margin-top: 10px; }
 .board-list-type4 > ul > li.delegate-notice > a {

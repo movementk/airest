@@ -221,6 +221,24 @@
                             </ul>
                         </a>
                     </li>
+                    <li>
+                        <a href="#">
+                            <h3>미로 신규회원혜택 이벤트</h3>
+                            <ul>
+                                <li class="date">2018-07-01</li>
+                                <li class="reply">답변대기</li>
+                            </ul>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h3>미로 신규회원혜택 이벤트</h3>
+                            <ul>
+                                <li class="date">2018-07-01</li>
+                                <li class="reply success">완료</li>
+                            </ul>
+                        </a>
+                    </li>
                 </ul>
             </div>
             
