@@ -673,6 +673,19 @@ dl dd {
       .board-type4 > ul > li > a > ul > li > p > i {
         font-size: 12px;
         margin-right: 15px; }
+      .board-type4 > ul > li > a > ul > li > p.reply {
+        width: 70px;
+        height: 25px;
+        font-size: 11px;
+        color: #666;
+        text-align: center;
+        line-height: 23px;
+        border: 1px solid #ccc;
+        font-family: 'Noto Sans KR', sans-serif; }
+        .board-type4 > ul > li > a > ul > li > p.reply.success {
+          color: #999;
+          border-color: #f3f3f3;
+          background-color: #f3f3f3; }
     .board-type4 > ul > li > a > ul > li .icon-volume {
       position: relative;
       top: 2px;
