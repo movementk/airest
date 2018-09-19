@@ -9,7 +9,7 @@
     <nav id="snb-menu">
         <ul class="snb-list">
             <li><a href="/mobile/customer/faq_list.php">자주묻는질문 <span></span></a></li>
-            <li class="active"><a href="/mobile/customer/inquiry_write.php">1:1 문의 <span></span></a></li>
+            <li class="active"><a href="/mobile/customer/inquiry_list.php">1:1 문의 <span></span></a></li>
             <li><a href="/mobile/customer/genuine.php">정품등록 <span></span></a></li>
             <li><a href="/mobile/customer/manual.php">제품사용설명서 <span></span></a></li>
             <li><a href="/mobile/customer/video_manual.php">동영상설명서 <span></span></a></li>
