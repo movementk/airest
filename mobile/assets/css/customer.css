@@ -356,4 +356,70 @@ address {
     .genuine .section-content .product-info .table-wrap .table tbody tr:last-child td {
       border-color: #aaa; }
 
+.inquiry-list .section-content .btn-area {
+  text-align: right;
+  margin-top: 20px; }
+  .inquiry-list .section-content .btn-area p .btn {
+    width: 120px; }
+.inquiry-list .section-content .paging {
+  margin-top: 20px; }
+
+.inquiry-view .section-content .btn-area {
+  margin-top: 20px;
+  text-align: right; }
+  .inquiry-view .section-content .btn-area p .btn {
+    width: 120px; }
+.inquiry-view .section-content .page-move {
+  margin-top: 20px; }
+
+.inquiry-confirm .section-content .pw-form {
+  text-align: center;
+  padding: 50px 20px;
+  border: 1px solid #ccc; }
+  .inquiry-confirm .section-content .pw-form .form {
+    overflow: hidden;
+    margin: 0 auto; }
+    .inquiry-confirm .section-content .pw-form .form figure {
+      margin-bottom: 30px; }
+      .inquiry-confirm .section-content .pw-form .form figure .img-fluid {
+        width: 45px; }
+      .inquiry-confirm .section-content .pw-form .form figure figcaption {
+        margin-bottom: 30px; }
+        .inquiry-confirm .section-content .pw-form .form figure figcaption h4 {
+          font-size: 15x;
+          font-weight: 400;
+          color: #111;
+          margin: 20px 0 15px; }
+        .inquiry-confirm .section-content .pw-form .form figure figcaption p {
+          font-size: 12px;
+          color: #666;
+          letter-spacing: -.5px;
+          line-height: 20px; }
+    .inquiry-confirm .section-content .pw-form .form .form-group {
+      width: 100%; }
+      .inquiry-confirm .section-content .pw-form .form .form-group .form-control {
+        height: 40px;
+        font-size: 13px;
+        border: 1px solid #f3f5fa;
+        background-color: #f3f5fa; }
+    .inquiry-confirm .section-content .pw-form .form .btn-area {
+      margin-top: 20px; }
+      .inquiry-confirm .section-content .pw-form .form .btn-area p .btn-default {
+        display: inline-block;
+        width: 100%;
+        font-size: 13px;
+        line-height: 40px;
+        color: #fff;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        background-color: #333; }
+        .inquiry-confirm .section-content .pw-form .form .btn-area p .btn-default:hover {
+          opacity: .7; }
+
 /*# sourceMappingURL=customer.css.map */

@@ -439,6 +439,7 @@ address {
   .board-list-type4 > ul > li > a > ul > li {
     font-size: 10px;
     color: #666;
+    line-height: 20px;
     display: inline-block;
     font-family: 'roboto', serif;
     font-weight: 300;
@@ -530,12 +531,35 @@ address {
       .board-view .view-header > ul > li.hit:before {
         content: "\E80C"; }
   .board-view .view-content {
-    font-size: 12px;
-    color: #666;
-    text-align: center;
-    line-height: 20px;
     padding: 50px 10px 20px;
     border-top: 1px solid #dfdfdf; }
+    .board-view .view-content p {
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      line-height: 20px; }
+    .board-view .view-content > .reply {
+      text-align: left;
+      margin-top: 30px;
+      padding: 25px;
+      border-radius: 20px;
+      background-color: #f3f3f3; }
+      .board-view .view-content > .reply h4 {
+        font-size: 13px;
+        color: #1b1b1d;
+        font-weight: 400; }
+        .board-view .view-content > .reply h4:before {
+          content: "\E80E";
+          font-family: "fontello";
+          color: rgba(27, 27, 29, 0.6);
+          font-size: 15px;
+          padding-right: 10px; }
+      .board-view .view-content > .reply p {
+        font-size: 12px;
+        color: #000;
+        line-height: 20px;
+        font-weight: 300;
+        margin-top: 25px; }
     .board-view .view-content .attach {
       position: relative;
       text-align: left;

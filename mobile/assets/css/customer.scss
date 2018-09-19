@@ -391,3 +391,119 @@
         }
     }
 }
+
+//1:1 문의하기 리스트
+.inquiry-list {
+	.section-content {
+		.btn-area {
+			text-align: right;
+			margin-top: 20px;
+			p {
+				.btn {
+					width: 120px;
+				}	
+			}
+		}
+		.paging {
+			margin-top: 20px;
+		}
+	}
+}
+
+//1:1 문의하기 뷰 
+.inquiry-view {
+	.section-content {
+		.btn-area {
+			margin-top: 20px;
+			text-align: right;
+			p {
+				.btn {
+					width: 120px; 
+				}
+			}
+		}
+		.page-move {
+			margin-top: 20px;
+		}
+	}
+}
+
+//1:1 문의하기 비밀번호 확인
+.inquiry-confirm {
+	.section-content {
+		.pw-form {
+			text-align: center;
+			padding: 50px 20px;  
+			border: 1px solid #ccc;
+			.form {
+				overflow: hidden;
+                margin: 0 auto;
+				figure {
+					margin-bottom: 30px;
+					.img-fluid {
+						width: 45px;
+					}
+					figcaption {
+						margin-bottom: 30px;
+						h4 {
+							font-size: 15x;
+							font-weight: 400;
+							color: #111;
+                            margin: 20px 0 15px;
+						}
+						p {
+							font-size: 12px;
+							color: #666;
+							letter-spacing: -.5px;
+							line-height: 20px;
+						}
+					}
+				}
+				.form-group {
+                    width: 100%;
+					.form-control {
+						height: 40px;
+						font-size: 13px;
+						border: 1px solid #f3f5fa;
+						background-color: #f3f5fa;
+					}
+				}
+				.btn-area {
+                    margin-top: 20px;
+					p {
+						.btn-default {
+							display: inline-block;
+							width: 100%;
+							font-size: 13px;
+                            line-height: 40px;
+							color: #fff;
+							@include transition();
+							background-color: #333;
+							&:hover {
+								opacity: .7;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
