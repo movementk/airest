@@ -62,15 +62,59 @@
     }
 }
 
-.section-1 {
+.brand-story {
     position: relative;
-    overflow: hidden;
-    margin: 30px 0;
-    padding: 120px 0 20px;
-    .section-header {
-        position: relative;
-        text-align: right;
+    > .a-bg {
+        position: absolute;
+        top: 25%;
+        left: 10px;
+        width: 50%;
         z-index: 1;
+        .img-fluid {
+            position: relative;
+            top: -50px;
+            opacity: 0;
+            @include transition($duration: 1s);
+        }
+        &.action {
+            .img-fluid {
+                top: 0;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.story-intro {
+    position: relative;
+    margin: 30px 0;
+    overflow: hidden;
+    figure {
+        padding-right: 15%;
+        .img-fluid {
+            position: relative;
+            left: -50px;
+            opacity: 0;
+            @include transition($duration: 1s);
+        }
+        &.on {
+            .img-fluid {
+                left: 0;
+                opacity: 1;
+            }
+        }
+        &.a-bg {
+            padding: 0;
+            position: absolute;
+            top: 100%;
+            left: 10px;
+        }
+    }
+    .intro-title {
+        position: relative;
+        margin-top: -30%;
+        text-align: right;
+        padding-right: 20px;
         h3 {
             position: relative;
             top: -30px;
@@ -79,7 +123,6 @@
             color: #1b1b1d;
             font-weight: lighter;
             line-height: 26px;
-            margin-bottom: 13%;
             padding-left: 35px;
             opacity: 0;
             @include transition($duration: 1s);
@@ -105,7 +148,18 @@
             }
         }
     }
+}
+
+.details {
+    position: relative;
+    padding-top: 45px;
+    margin-bottom: 30px;
+    overflow: hidden;
     .summary {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        z-index: 1;
         text-align: left;
         p {
             position: relative;
@@ -147,48 +201,19 @@
             }
         }
     }
-    .section-content {
-        figure {
-            position: absolute;
+    figure {
+        float: right;
+        padding-left: 40%;
+        .img-fluid {
+            position: relative;
+            right: -50px;
+            opacity: 0;
+            @include transition($duration: 1s);
+        }
+        &.action {
             .img-fluid {
-                position: relative;
-                opacity: 0;
-                @include transition($duration: 1s);
-            }
-            &.effect-1 {
-                top: 0;
-                left: 0;
-                padding-right: 13%;
-                .img-fluid {
-                    top: 0;
-                    left: -50px;
-                }
-            }
-            &.effect-2 {
-                bottom: 0;
                 right: 0;
-                padding-left: 43%;
-                .img-fluid {
-                    float: right;
-                    right: -50px;
-                    @include transition($duration: 1s, $delay: 1s);
-                }
-            }
-            &.action {
-                &.effect-2 {
-                    .img-fluid {
-                        opacity: 1;
-                        right: 0;
-                    }
-                }
-            }
-            &.on {
-                &.effect-1 {
-                    .img-fluid {
-                        opacity: 1;
-                        left: 0;
-                    }
-                }
+                opacity: 1;
             }
         }
     }
@@ -259,25 +284,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

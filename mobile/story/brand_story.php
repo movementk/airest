@@ -22,9 +22,15 @@
     
     <!-- Sub Content Start -->
     <main id="content" class="brand-story">
-        <section class="section-1">
-            <div class="container">
-                <div class="section-header">
+        <figure class="a-bg">
+            <img src="/mobile/assets/images/story/bg_story01.png" class="img-fluid" alt="">
+        </figure>
+        <section>
+            <article class="story-intro">
+                <figure>
+                    <img src="/mobile/assets/images/story/img_story01.jpg" class="img-fluid" alt="">
+                </figure>
+                <div class="intro-title">
                     <h3>
                         지친 일상에서의<br>
                         아주 작은 여유,<br>
@@ -34,10 +40,12 @@
                         노력합니다
                     </h3>
                 </div>
+            </article>
+            <article class="details">
                 <div class="summary">
-                    <p class="effect-txt-1">공부, 아르바이트, 일, 취미, 운동 등<br>지금 우리는 너무나도 복잡하고 바쁜 하루를 보내고 있습니다</p>
+                    <p>공부, 아르바이트, 일, 취미, 운동 등<br>지금 우리는 너무나도 복잡하고 바쁜 하루를 보내고 있습니다</p>
                     <strong>그 속에서 정작 나를 위한 시간은 <br>얼마나 될까요?</strong>
-                    <p class="effect-txt-1">
+                    <p>
                         사람들을 행복하게 만드는 노력,<br>
                         그 안에서 숨은 가치를 만들어내는 일<br>
                         당신이 원하는 모든 곳에서 부담 없이<br>
@@ -45,15 +53,10 @@
                         최대의  성능을 담았습니다
                     </p>
                 </div>
-            </div>
-            <div class="section-content">
-                <figure class="effect-1">
-                    <img src="/mobile/assets/images/story/img_story01.jpg" class="img-fluid" alt="">
-                </figure>
-                <figure class="effect-2">
+                <figure>
                     <img src="/mobile/assets/images/story/img_story02.jpg" class="img-fluid" alt="">
                 </figure>
-            </div>
+            </article>
         </section>
         <section class="section-2">
             <div class="container">
@@ -79,13 +82,13 @@
             // page-header effect
             $(window).load(function(){
                 setTimeout(function(){
-                    $('.page-header, .effect-1').addClass('on');
+                    $('.page-header, .story-intro > figure').addClass('on');
                 }, 300);
             });
             
             // section effect
             $(window).on('scroll', function() {
-                $('.section-content > .effect-2, .section-header, .summary, .section-2').each(function(index, elem) {
+                $('.story-intro > .intro-title, .details > figure, .details > .summary, .a-bg, .section-2').each(function(index, elem) {
                     if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.3)) {
                         $(elem).addClass('action');
                     }
