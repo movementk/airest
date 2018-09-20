@@ -141,7 +141,8 @@ address {
     background-size: 100% auto; }
   #snb-menu .snb-list {
     width: 595px;
-    height: 46px; }
+    height: 46px;
+    margin: 0 auto; }
     #snb-menu .snb-list > li {
       float: left; }
       #snb-menu .snb-list > li > a {
@@ -682,6 +683,7 @@ address {
     height: 150px;
     line-height: 20px;
     overflow-y: scroll;
+    word-break: keep-all;
     padding: 20px 10px;
     background-color: #f3f5fa; }
   .privacy label {

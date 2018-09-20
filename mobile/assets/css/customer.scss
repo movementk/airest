@@ -301,7 +301,7 @@
                         .form-group {
                             line-height: 30px;
                             .form-control {
-                                width: 28%;
+                                width: 180px;
                                 display: inline-block;
                                 margin: 0 3px;
                                 &:first-child {
@@ -318,6 +318,30 @@
                             select {
                                 width: 180px !important;
                                 margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    &.phone {
+                        .form-group {
+                            position: relative;
+                            width: 100%;
+                            max-width: 300px;
+                            padding-right: 80px;
+                            .form-control {
+                                width: 100% !important;
+                            }
+                            .btn-area {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                margin: 0 !important;
+                                p {
+                                    .btn-white {
+                                        width: 70px !important;
+                                        height: 30px !important;
+                                        line-height: 28px !important;
+                                    }
+                                }
                             }
                         }
                     }

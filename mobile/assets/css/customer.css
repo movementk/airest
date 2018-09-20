@@ -301,7 +301,7 @@ address {
     .genuine .section-content .register-form ul > li.vender-date .form-group {
       line-height: 30px; }
       .genuine .section-content .register-form ul > li.vender-date .form-group .form-control {
-        width: 28%;
+        width: 180px;
         display: inline-block;
         margin: 0 3px; }
         .genuine .section-content .register-form ul > li.vender-date .form-group .form-control:first-child {
@@ -311,6 +311,22 @@ address {
     .genuine .section-content .register-form ul > li.u-vendor .form-group select {
       width: 180px !important;
       margin-bottom: 10px; }
+    .genuine .section-content .register-form ul > li.phone .form-group {
+      position: relative;
+      width: 100%;
+      max-width: 300px;
+      padding-right: 80px; }
+      .genuine .section-content .register-form ul > li.phone .form-group .form-control {
+        width: 100% !important; }
+      .genuine .section-content .register-form ul > li.phone .form-group .btn-area {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0 !important; }
+        .genuine .section-content .register-form ul > li.phone .form-group .btn-area p .btn-white {
+          width: 70px !important;
+          height: 30px !important;
+          line-height: 28px !important; }
   .genuine .section-content .register-form .btn-area {
     margin: 30px 0; }
 .genuine .section-content .attention-box {

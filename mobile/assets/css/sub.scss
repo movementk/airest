@@ -60,6 +60,7 @@
     .snb-list {
         width: 595px;
         height: 46px;
+        margin: 0 auto;
         > li {
             float: left;
             > a {
@@ -822,6 +823,7 @@
         height: 150px;
         line-height: 20px;
         overflow-y: scroll;
+        word-break: keep-all;
         padding: 20px 10px;
         background-color: #f3f5fa;
     }
