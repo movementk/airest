@@ -250,12 +250,10 @@ dl dd {
     #nav .nav-body > .gnb > li > a {
       position: relative;
       display: inline-block;
-      font-size: 22px;
+      font-size: 18px;
       color: #fff;
-      @inlude roboto();
       line-height: 45px;
       font-weight: lighter;
-      letter-spacing: 3px;
       -webkit-transition-property: all;
       transition-property: all;
       -webkit-transition-duration: 0.15s;

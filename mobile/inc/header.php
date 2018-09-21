@@ -44,15 +44,15 @@
     <div class="nav-body">
         <ul class="gnb">
             <li>
-                <a href="#">BRAND SRORY <span></span></a>
+                <a href="#">브랜드스토리 <span></span></a>
             </li>
-            <li>
+            <!--<li>
                 <a href="#">COMPANY <span></span></a>
                 <ul>
                     <li><a href="#">회사소개</a></li>
                     <li><a href="#">찾아오시는길</a></li>
                 </ul>
-            </li>
+            </li>-->
             <li>
                 <a href="#">PRODUCT <span></span></a>
                 <ul>

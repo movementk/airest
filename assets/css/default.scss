@@ -96,7 +96,7 @@ figure {
                 color: #cecfcf;
                 font-weight: 500;
                 display: inline-block;
-                @include maven();
+                /*@include maven();*/
                 @include transition();
                 &:hover {
                     color: #fff;
@@ -387,7 +387,7 @@ figure {
                     color: #fff;
                     line-height: 70px;
                     padding: 0 3px 0 3px;
-                    @include roboto();
+                    /*@include roboto();*/
                     letter-spacing: 1px;
                     @include transition();
                     span {
@@ -430,7 +430,7 @@ figure {
                 }
                 &.active {
                     > a {
-                        font-weight: bold;
+                        font-weight: 400;
                         span {
                             margin-left: -50%;
                             width: 100%;

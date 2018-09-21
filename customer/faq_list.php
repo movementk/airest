@@ -7,7 +7,8 @@
     <!-- page-header -->
     <div class="page-header">
         <div class="container">
-            <h2 class="page-title">SUPPORT</h2>
+            <h2 class="page-title">자주묻는질문</h2>
+            <p class="eng">SUPPORT</p>
             <!-- page-path- -->
             <nav class="page-path" aria-label="breadcrumb">
                 <ol class="breadcrumb">

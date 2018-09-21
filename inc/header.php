@@ -13,13 +13,13 @@
             </div>
             <div class="col-9">
                 <nav id="gnb">
-                    <ul>
-                        <li><a href="/story/brand_story.php">BRAND STORY</a></li>
+                    <ul>                    
+                        <li><a href="/story/brand_story.php">브랜드스토리</a></li>
                         <!--<li><a href="#">COMPANY</a></li>-->
-                        <li><a href="/product/product_list.php">PRODUCT</a></li>
-                        <li><a href="/customer/faq_list.php">SUPPORT</a></li>
-                        <li><a href="/event/event_list.php">EVENT</a></li>
-                        <li><a href="#">SHOP</a></li>
+                        <li><a href="/product/product_list.php">제품소개</a></li>
+                        <li><a href="/customer/faq_list.php">고객지원</a></li>
+                        <li><a href="/event/event_list.php">이벤트</a></li>
+                        <li><a href="#">쇼핑몰</a></li>
                     </ul>
                     <div class="global-search">
                         <form action="#">
@@ -53,7 +53,7 @@
     <div class="side-body">
         <ul class="gnb-list">
             <li>
-                <a href="#">BRAND SRORY <span></span></a>
+                <a href="#">브랜드스토리 <span></span></a>
             </li>
             <!--<li>
                 <a href="#">COMPANY <span></span></a>
@@ -63,7 +63,7 @@
                 </ul>
             </li>-->
             <li>
-                <a href="#">PRODUCT <span></span></a>
+                <a href="#">제품소개 <span></span></a>
                 <ul>
                     <li><a href="/product/product_list.php">가습기</a></li>
                     <li><a href="/product/product_list.php">공기청정기</a></li>
@@ -71,7 +71,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#">SUPPORT <span></span></a>
+                <a href="#">고객지원 <span></span></a>
                 <ul>
                     <li><a href="/customer/faq_list.php">자주묻는질문</a></li>
                     <li><a href="/customer/inquiry_write.php">일대일문의</a></li>
@@ -84,10 +84,10 @@
                 </ul>
             </li>
             <li>
-                <a href="/event/event_list.php">EVENT <span></span></a>
+                <a href="/event/event_list.php">이벤트 <span></span></a>
             </li>
             <li>
-                <a href="https://smartstore.naver.com/miro2017" target="_blank">SHOP <span></span></a>
+                <a href="https://smartstore.naver.com/miro2017" target="_blank">쇼핑몰 <span></span></a>
             </li>
         </ul>
     </div>

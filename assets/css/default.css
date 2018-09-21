@@ -111,7 +111,7 @@ figure {
         color: #cecfcf;
         font-weight: 500;
         display: inline-block;
-        font-family: 'Maven Pro', sans-serif;
+        /*@include maven();*/
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.15s;
@@ -343,7 +343,7 @@ figure {
       color: #fff;
       line-height: 70px;
       padding: 0 3px 0 3px;
-      font-family: 'roboto', serif;
+      /*@include roboto();*/
       letter-spacing: 1px;
       -webkit-transition-property: all;
       transition-property: all;
@@ -396,7 +396,7 @@ figure {
         #side-nav .side-body .gnb-list > li > ul > li > a:hover {
           color: #fff; }
     #side-nav .side-body .gnb-list > li.active > a {
-      font-weight: bold; }
+      font-weight: 400; }
       #side-nav .side-body .gnb-list > li.active > a span {
         margin-left: -50%;
         width: 100%; }

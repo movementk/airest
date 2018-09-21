@@ -179,12 +179,10 @@ dl {
                 > a {
                     position: relative;
                     display: inline-block;
-                    font-size: 22px;
+                    font-size: 18px;
                     color: #fff;
-                    @inlude roboto();
                     line-height: 45px;
                     font-weight: lighter;
-                    letter-spacing: 3px;
                     @include transition();
                     > span {
                         position: absolute;
