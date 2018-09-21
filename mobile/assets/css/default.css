@@ -240,8 +240,8 @@ dl dd {
       left: 0;
       width: 56px;
       height: 56px;
-      background-color: #44dbbd;
-      background-image: url(/mobile/assets/images/btn_close.jpg);
+      background-color: #0baded;
+      background-image: url(/mobile/assets/images/btn_close.png);
       background-repeat: no-repeat;
       background-position: 50% 50%;
       background-size: 22px auto; }
