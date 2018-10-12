@@ -290,6 +290,30 @@
                             </p>
                         </a>
                     </li>
+                    <li class="col-3">
+                        <a href="#">
+                            <figure>
+                                <img src="/assets/images/main/img_news04.jpg" class="img-fluid" alt="">
+                            </figure>
+                            <p class="icon-more">
+                                <i class="icon-plus">
+                                    <span class="sr-only">더보기</span>
+                                </i>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="col-3">
+                        <a href="#">
+                            <figure>
+                                <img src="/assets/images/main/img_news04.jpg" class="img-fluid" alt="">
+                            </figure>
+                            <p class="icon-more">
+                                <i class="icon-plus">
+                                    <span class="sr-only">더보기</span>
+                                </i>
+                            </p>
+                        </a>
+                    </li>
                     
                     <!-- 노출갯수가 4개 이상일때만 슬라이드 작동 -->
                     
