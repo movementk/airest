@@ -13,15 +13,12 @@
                 <div class="slider-bg">
                     <img src="/mobile/assets/images/main/jumbo_img01.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="details">
+                <div class="details-2">
                     <figure>
                         <img src="/mobile/assets/images/main/slider_img01.png" class="img-fluid" alt="">
                     </figure>
-                    <h3>AIREST<br>HUMIDIFIER</h3>
-                    <p>
-                        에어레스트는 소중한 아이이자 더 나아가 가족입니다<br>
-                        일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
-                    </p>
+                    <p>세상에서 가장 정직한</p>
+                    <h3>통세척 가습기의 시작<br>에어레스트 베이직 AR06</h3>
                     <div class="btn-area">
                         <a href="#" class="btn btn-view" role="button">
                             <i>View Details</i>

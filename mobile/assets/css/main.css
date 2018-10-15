@@ -1,16 +1,6 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -261,6 +251,120 @@ address {
             color: #fff; }
           .jumbotron .visual-slide .details .btn-area .btn-view:hover span {
             width: 100%; }
+    .jumbotron .visual-slide .details-2 {
+      position: relative;
+      z-index: 1;
+      margin-top: -50%;
+      width: 100%;
+      padding-bottom: 50px;
+      text-align: center; }
+      .jumbotron .visual-slide .details-2 figure {
+        padding: 0 25%; }
+        .jumbotron .visual-slide .details-2 figure .img-fluid {
+          position: relative;
+          top: -30px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          opacity: 0;
+          width: 100%;
+          display: inline-block; }
+      .jumbotron .visual-slide .details-2 h3 {
+        position: relative;
+        top: -30px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 1.5s;
+        transition-delay: 1.5s;
+        opacity: 0;
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 32px;
+        color: #333; }
+        @media (min-width: 768px) {
+          .jumbotron .visual-slide .details-2 h3 {
+            transform: scale(1.2); } }
+      .jumbotron .visual-slide .details-2 p {
+        position: relative;
+        top: -30px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s;
+        opacity: 0;
+        font-size: 16px;
+        color: #555;
+        font-weight: 300;
+        line-height: 18px;
+        margin-top: 60px;
+        margin-bottom: 15px; }
+      .jumbotron .visual-slide .details-2 .btn-area {
+        position: relative;
+        top: -30px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 2s;
+        transition-delay: 2s;
+        opacity: 0;
+        margin-top: 15px; }
+        .jumbotron .visual-slide .details-2 .btn-area .btn-view {
+          position: relative;
+          display: inline-block; }
+          .jumbotron .visual-slide .details-2 .btn-area .btn-view i {
+            position: relative;
+            display: block;
+            font-size: 10px;
+            color: #1b1b1d;
+            font-family: 'roboto', serif;
+            font-weight: 300;
+            z-index: 1;
+            letter-spacing: 2px;
+            font-style: normal;
+            padding: 5px 10px;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+          .jumbotron .visual-slide .details-2 .btn-area .btn-view span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 0;
+            background-color: #1b1b1d;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+          .jumbotron .visual-slide .details-2 .btn-area .btn-view:hover i {
+            color: #fff; }
+          .jumbotron .visual-slide .details-2 .btn-area .btn-view:hover span {
+            width: 100%; }
     .jumbotron .visual-slide.action .details figure .img-fluid {
       top: 0;
       opacity: 1; }
@@ -271,6 +375,18 @@ address {
       top: 0;
       opacity: 1; }
     .jumbotron .visual-slide.action .details .btn-area {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .visual-slide.action .details-2 figure .img-fluid {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .visual-slide.action .details-2 h3 {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .visual-slide.action .details-2 p {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .visual-slide.action .details-2 .btn-area {
       top: 0;
       opacity: 1; }
     .jumbotron .visual-slide.circulator .details figure {
