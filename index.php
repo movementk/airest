@@ -125,119 +125,6 @@
             </ul>
         </div>
         
-        <!-- promotional -->
-        <section class="promotional">
-            <img src="/assets/images/main/bg_promotional.jpg" class="img-promotional" alt="">
-            <a href="#productModal" class="product product-1" data-toggle="modal" data-target="#productModal">
-                <div class="item">
-                    <img src="/assets/images/main/product_promotional01.png" alt="">
-                    <p class="circle"></p>
-                </div>
-            </a>
-            <a href="#productModal" class="product product-2" data-toggle="modal" data-target="#productModal">
-                <div class="item">
-                    <img src="/assets/images/main/product_promotional02.png" alt="">
-                    <p class="circle"></p>
-                </div>
-            </a>
-            <a href="#productModal" class="product product-3" data-toggle="modal" data-target="#productModal">
-                <div class="item">
-                    <img src="/assets/images/main/product_promotional03.png" alt="">
-                    <p class="circle"></p>
-                </div>
-            </a>
-            <a href="#productModal" class="product product-4" data-toggle="modal" data-target="#productModal">
-                <div class="item">
-                    <img src="/assets/images/main/product_promotional04.png" alt="">
-                    <p class="circle"></p>
-                </div>
-            </a>
-            <div class="details">
-                <div class="title">
-                    <p><i></i>에<span></span></p><br>
-                    <strong>에어레스트하다<span></span></strong>
-                </div>
-                <p class="summary">
-                    에어레스트는 소중한 내 아이이자 더 나아가 가족입니다<br>
-                    일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
-                </p>
-            </div>
-        </section>
-        
-        <!-- product-list -->
-        <section class="product-list">
-            <div class="container">
-                <ul class="tab-menu">
-                    <li class="active"><a href="#">가습기 <span></span></a></li>
-                    <li><a href="#">공기청정기 <span></span></a></li>
-                    <li><a href="#">히터 <span></span></a></li>
-                    <li><a href="#">선풍기 <span></span></a></li>
-                </ul>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-7">
-                            <div class="details">
-                                <h3>
-                                    <span class="label">BEST</span>
-                                    아로마 가습기
-                                </h3>
-                                <p class="product-name">AIREST AR01</p>
-                                <p class="summary">
-                                    기존 간편세척 가습기와 아로마 가습기의 비위생적인 단점을<br>
-                                    모두 해결한 에어레스트 간편세척 가습기 에어레스트 간접 발향 <br>
-                                    아로마 박스 보존제는 남고 깨끗한 향기만 경험할 수 있습니다
-                                </p>
-                            </div>
-                            <ul class="selection-product">
-                                <li class="active">
-                                    <a href="#">
-                                        <div class="model-img">
-                                            <img src="/assets/images/main/img_product_small01.png" class="img-fluid" alt="">
-                                        </div>
-                                        <p class="model-name">AR01</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div class="model-img">
-                                            <img src="/assets/images/main/img_product_small02.png" class="img-fluid" alt="">
-                                        </div>
-                                        <p class="model-name">AR02</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div class="model-img">
-                                            <img src="/assets/images/main/img_product_small03.png" class="img-fluid" alt="">
-                                        </div>
-                                        <p class="model-name">AR03</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <div class="model-img">
-                                            <img src="/assets/images/main/img_product_small04.png" class="img-fluid" alt="">
-                                        </div>
-                                        <p class="model-name">AR04</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-5">
-                            <div class="product-item">
-                                <div class="product-img">
-                                    <img src="/assets/images/main/img_product.png" alt="">
-                                </div>
-                                <div class="btn-area">
-                                    <a href="#" class="btn btn-black" role="button">구매하기</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
         <!-- news-list -->
         <article class="news-list">
             <div class="container-fluid">
@@ -369,6 +256,119 @@
                 </ul>
             </div>
         </article>
+        
+        <!-- promotional -->
+        <section class="promotional">
+            <img src="/assets/images/main/bg_promotional.jpg" class="img-promotional" alt="">
+            <a href="#productModal" class="product product-1" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional01.png" alt="">
+                    <p class="circle"></p>
+                </div>
+            </a>
+            <a href="#productModal" class="product product-2" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional02.png" alt="">
+                    <p class="circle"></p>
+                </div>
+            </a>
+            <a href="#productModal" class="product product-3" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional03.png" alt="">
+                    <p class="circle"></p>
+                </div>
+            </a>
+            <a href="#productModal" class="product product-4" data-toggle="modal" data-target="#productModal">
+                <div class="item">
+                    <img src="/assets/images/main/product_promotional04.png" alt="">
+                    <p class="circle"></p>
+                </div>
+            </a>
+            <div class="details">
+                <div class="title">
+                    <p><i></i>에<span></span></p><br>
+                    <strong>에어레스트하다<span></span></strong>
+                </div>
+                <p class="summary">
+                    에어레스트는 소중한 내 아이이자 더 나아가 가족입니다<br>
+                    일상이 에어레스트가 되는 순간 행복한 고민에 빠지게 됩니다
+                </p>
+            </div>
+        </section>
+        
+        <!-- product-list -->
+        <section class="product-list">
+            <div class="container">
+                <ul class="tab-menu">
+                    <li class="active"><a href="#">가습기 <span></span></a></li>
+                    <li><a href="#">공기청정기 <span></span></a></li>
+                    <li><a href="#">히터 <span></span></a></li>
+                    <li><a href="#">선풍기 <span></span></a></li>
+                </ul>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="details">
+                                <h3>
+                                    <span class="label">BEST</span>
+                                    아로마 가습기
+                                </h3>
+                                <p class="product-name">AIREST AR01</p>
+                                <p class="summary">
+                                    기존 간편세척 가습기와 아로마 가습기의 비위생적인 단점을<br>
+                                    모두 해결한 에어레스트 간편세척 가습기 에어레스트 간접 발향 <br>
+                                    아로마 박스 보존제는 남고 깨끗한 향기만 경험할 수 있습니다
+                                </p>
+                            </div>
+                            <ul class="selection-product">
+                                <li class="active">
+                                    <a href="#">
+                                        <div class="model-img">
+                                            <img src="/assets/images/main/img_product_small01.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="model-name">AR01</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="model-img">
+                                            <img src="/assets/images/main/img_product_small02.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="model-name">AR02</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="model-img">
+                                            <img src="/assets/images/main/img_product_small03.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="model-name">AR03</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="model-img">
+                                            <img src="/assets/images/main/img_product_small04.png" class="img-fluid" alt="">
+                                        </div>
+                                        <p class="model-name">AR04</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <img src="/assets/images/main/img_product.png" alt="">
+                                </div>
+                                <div class="btn-area">
+                                    <a href="#" class="btn btn-black" role="button">구매하기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <!-- video-area -->
         <article class="video-area">

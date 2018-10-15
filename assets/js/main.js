@@ -23,6 +23,15 @@
 			$('.slick-active.visual-list').addClass('action'); 
 		});
 	});
+    
+    // news-list
+    $(window).on('scroll', function() {
+        $('.news-list').each(function(index, elem) {
+            if ($(window).scrollTop() > $(elem).offset().top - ($(window).height() / 1.3)) {
+                $(elem).addClass('action');
+            }
+        });
+    });
 
 	// promotional scroll event
 	var detail_position = 863 - ($(window).width() - 1200);

@@ -160,7 +160,8 @@ address {
                 padding: 5px 15px;
                 font-weight: 400;
                 letter-spacing: 2px;
-                font-family: 'roboto', serif; }
+                font-family: 'roboto', serif;
+                border: 1px solid #1b1b1d; }
                 .jumbotron .jumbo-slider li .product .table-box .v-align > .details .btn-area .btn-view i {
                   font-size: 12px;
                   color: #1b1b1d;
@@ -291,7 +292,8 @@ address {
                     padding: 5px 15px;
                     font-weight: 400;
                     letter-spacing: 2px;
-                    font-family: 'roboto', serif; }
+                    font-family: 'roboto', serif;
+                    border: 1px solid #1b1b1d; }
                     .jumbotron .jumbo-slider li .product .table-box .v-align > .details-2 > .table-box > .v-align > .btn-area .btn-view i {
                       font-size: 12px;
                       color: #1b1b1d;
@@ -787,8 +789,22 @@ address {
             opacity: .7; }
 
 .news-list {
+  position: relative;
+  top: 50px;
+  opacity: 0;
   text-align: center;
-  padding: 60px 0; }
+  padding: 60px 0;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s; }
+  .news-list.action {
+    top: 0;
+    opacity: 1; }
   .news-list .news-slider {
     position: relative; }
     .news-list .news-slider:before {
