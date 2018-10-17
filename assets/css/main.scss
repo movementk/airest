@@ -512,11 +512,8 @@
                 display: inline-block;
                 font-weight: 300;
                 i {
-                    position: relative;
-                    top: 15px;
                     display: inline-block;
                     font-style: normal;
-                    width: 180px;
                     &:before {
                         float: left;
                         content: "[";

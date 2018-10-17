@@ -141,7 +141,7 @@
                 </a>
                 <div class="details">
                     <div class="title">
-                        <p><i></i>에<span></span></p><br>
+                        <p><strong><i>일상</i></strong>에<span></span></p><br>
                         <strong>에어레스트하다<span></span></strong>
                     </div>
                     <p class="summary">

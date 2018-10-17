@@ -181,7 +181,7 @@
                 color: #555;
                 font-weight: 300;
                 line-height: 18px;
-                margin-top: 60px;
+                margin-top: 90px;
                 margin-bottom: 15px;
             }
             .btn-area {
@@ -620,9 +620,8 @@
                 i {
                     position: relative;
                     display: inline-block;
-                    width: 70px;
-                    vertical-align: top;
                     font-style: normal;
+                    padding: 0 10px;
                     &:before {
                         position: absolute;
                         top: 0;
