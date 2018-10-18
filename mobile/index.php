@@ -157,20 +157,36 @@
         <!-- airest-event -->
         <section class="airest-event">
             <div class="container">
-                <article>
-                    <a href="#">
-                        <figure>
-                            <img src="/mobile/assets/images/main/img_event01.jpg" class="img-fluid" alt="">
-                        </figure>
-                    </a>
-                </article>
-                <article>
-                    <a href="#">
-                        <figure>
-                            <img src="/mobile/assets/images/main/img_event02.jpg" class="img-fluid" alt="">
-                        </figure>
-                    </a>
-                </article>
+                <div class="row">
+                    <article class="col-6">
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_event01.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="col-6">
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_event02.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="col-6">
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_event01.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="col-6">
+                        <a href="#">
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_event02.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </a>
+                    </article>
+                </div>
                 <div class="event-btn">
                     <a href="#" class="btn btn-more" role="button">More Event</a>
                 </div>
