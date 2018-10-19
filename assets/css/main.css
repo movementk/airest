@@ -874,6 +874,7 @@ address {
         background-color: #1b1b1b; }
     .news-list .news-slider.more {
       display: inline-block;
+      width: 100%;
       font-size: 0; }
       .news-list .news-slider.more > li {
         display: inline-block;
