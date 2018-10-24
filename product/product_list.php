@@ -148,7 +148,7 @@
                         <li class="col-3">
                             <a href="#">
                                 <small>AIR PURIFIER</small>
-                                <b>AF400</b>
+                                <b>에어레스 AF400</b>
                                 <figure>
                                     <img src="/assets/images/product/img_list_item01.png" alt="">
                                 </figure>
@@ -158,7 +158,7 @@
                         <li class="col-3">
                             <a href="#">
                                 <small>AIR PURIFIER</small>
-                                <b>AP400</b>
+                                <b>에어레스 AP400</b>
                                 <figure>
                                     <img src="/assets/images/product/img_list_item02.png" alt="">
                                 </figure>
@@ -168,7 +168,7 @@
                         <li class="col-3">
                             <a href="#">
                                 <small>AIR PURIFIER</small>
-                                <b>AP600</b>
+                                <b>에어레스 AP600</b>
                                 <figure>
                                     <img src="/assets/images/product/img_list_item03.png" alt="">
                                 </figure>
@@ -178,7 +178,7 @@
                         <li class="col-3">
                             <a href="#">
                                 <small>AIR PURIFIER</small>
-                                <b>AP800</b>
+                                <b>에어레스 AP800</b>
                                 <figure>
                                     <img src="/assets/images/product/img_list_item04.png" alt="">
                                 </figure>

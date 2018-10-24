@@ -386,7 +386,8 @@ dl dd {
   #footer > .container > .copyright {
     font-size: 11px;
     color: #747579;
-    font-family: 'roboto', serif;
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/
     font-weight: 500; }
 
 /*# sourceMappingURL=default.css.map */

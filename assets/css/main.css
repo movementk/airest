@@ -103,7 +103,8 @@ address {
               color: #1b1b1d;
               letter-spacing: 1px;
               font-weight: lighter;
-              font-family: 'roboto', serif;
+              font-family: 'roboto','Noto Sans KR', sans-serif;
+              /*font-family: 'roboto', serif;*/
               -webkit-transition-property: all;
               transition-property: all;
               -webkit-transition-duration: 1s;
@@ -160,7 +161,8 @@ address {
                 padding: 5px 15px;
                 font-weight: 400;
                 letter-spacing: 2px;
-                font-family: 'roboto', serif;
+                font-family: 'roboto','Noto Sans KR', sans-serif;
+                /*font-family: 'roboto', serif;*/
                 border: 1px solid #1b1b1d; }
                 .jumbotron .jumbo-slider li .product .table-box .v-align > .details .btn-area .btn-view i {
                   font-size: 12px;
@@ -292,7 +294,8 @@ address {
                     padding: 5px 15px;
                     font-weight: 400;
                     letter-spacing: 2px;
-                    font-family: 'roboto', serif;
+                    font-family: 'roboto','Noto Sans KR', sans-serif;
+                    /*font-family: 'roboto', serif;*/
                     border: 1px solid #1b1b1d; }
                     .jumbotron .jumbo-slider li .product .table-box .v-align > .details-2 > .table-box > .v-align > .btn-area .btn-view i {
                       font-size: 12px;
@@ -700,7 +703,8 @@ address {
           font-size: 13px;
           font-weight: 500;
           color: #666;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
         .product-list .selection-product > li > a:hover {
           opacity: .7;
           border: 1px solid #878788; }
@@ -733,7 +737,8 @@ address {
           line-height: 20px;
           font-size: 11px;
           color: #fff;
-          font-family: 'roboto', serif;
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/
           font-weight: 300;
           text-align: center;
           background-color: #353535; }
@@ -741,7 +746,8 @@ address {
         font-size: 15px;
         color: #1b1b1d;
         font-weight: 400;
-        font-family: 'roboto', serif; }
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/ }
       .product-list .section-content .details .summary {
         height: 155px;
         font-size: 15px;
@@ -942,7 +948,8 @@ address {
     .sns-issue ul > li > a .blog-content small {
       font-size: 12px;
       color: #999;
-      font-family: 'roboto', serif; }
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/ }
     .sns-issue ul > li > a .blog-content h3 {
       font-size: 27px;
       color: #1b1b1d;
@@ -1012,7 +1019,8 @@ address {
             .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align small {
               font-size: 12px;
               color: #999;
-              font-family: 'roboto', serif;
+              font-family: 'roboto','Noto Sans KR', sans-serif;
+              /*font-family: 'roboto', serif;*/
               font-weight: 400; }
             .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align h4 {
               font-size: 45px;
@@ -1023,7 +1031,8 @@ address {
               .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align h4 i {
                 font-style: normal;
                 font-weight: lighter;
-                font-family: 'roboto', serif; }
+                font-family: 'roboto','Noto Sans KR', sans-serif;
+                /*font-family: 'roboto', serif;*/ }
             .modal.product-modal .modal-dialog .modal-content .modal-body > div.summary .table-box .v-align hr {
               display: block;
               width: 45px;

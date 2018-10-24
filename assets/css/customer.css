@@ -185,7 +185,8 @@ address {
   text-align: left; }
   .sub-jumbo-visual .cs-center h2 {
     font-size: 80px;
-    font-family: 'roboto', serif;
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/
     font-weight: lighter;
     color: #1b1b1d;
     letter-spacing: 5px; }
@@ -214,7 +215,8 @@ address {
       line-height: 30px;
       font-weight: 500;
       display: block;
-      font-family: 'roboto', serif; }
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/ }
       .sub-jumbo-visual .cs-center dl dd span {
         position: relative;
         top: 1px;

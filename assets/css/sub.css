@@ -57,7 +57,8 @@ dl dd {
   margin-bottom: 0; }
 
 .roboto {
-  font-family: 'roboto', serif; }
+  font-family: 'roboto','Noto Sans KR', sans-serif;
+  /*font-family: 'roboto', serif;*/ }
 
 .page-header {
   width: 100%;
@@ -79,7 +80,8 @@ dl dd {
     font-weight: lighter;
     margin-bottom: 20px;
     color: #1b1b1d;
-    font-family: 'roboto', serif; }
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/ }
   .page-header .page-path {
     display: inline-block; }
     .page-header .page-path .breadcrumb {
@@ -174,7 +176,8 @@ dl dd {
     color: #1b1b1d;
     font-weight: lighter;
     letter-spacing: 3px;
-    font-family: 'roboto', serif; }
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/ }
     .section-header .section-title span {
       font-family: 'Noto Sans KR', sans-serif;
       letter-spacing: 0; }
@@ -365,7 +368,8 @@ dl dd {
         transition-timing-function: linear;
         -webkit-transition-delay: 0s;
         transition-delay: 0s;
-        font-family: 'roboto', serif;
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/
         border: 0;
         background: none; }
         .paging .pagination > li a span {
@@ -485,7 +489,8 @@ dl dd {
           line-height: 40px;
           content: "Q";
           text-align: center;
-          font-family: 'roboto', serif;
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/
           font-weight: 500;
           border-radius: 50%;
           background-color: #333; }
@@ -510,7 +515,8 @@ dl dd {
         line-height: 40px;
         content: "A";
         text-align: center;
-        font-family: 'roboto', serif;
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/
         font-weight: 500;
         border-radius: 50%;
         background-color: #bbb; }
@@ -540,7 +546,8 @@ dl dd {
         margin: 0 auto; }
       .board-type2 > ul > li > div h4 {
         line-height: 24px;
-        font-family: 'roboto', serif; }
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/ }
         .board-type2 > ul > li > div h4 small {
           font-size: 12px;
           color: #999;
@@ -649,7 +656,8 @@ dl dd {
       color: #666;
       line-height: 30px;
       font-weight: 300;
-      font-family: 'roboto', serif; }
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/ }
       .board-type4 > ul > li > a > ul > li > p.content {
         overflow: hidden;
         text-overflow: ellipsis;
@@ -749,7 +757,8 @@ dl dd {
             font-weight: 400;
             letter-spacing: 1px;
             line-height: 24px;
-            font-family: 'roboto', serif; }
+            font-family: 'roboto','Noto Sans KR', sans-serif;
+            /*font-family: 'roboto', serif;*/ }
       .board-type5 > ul > li > a.ongoing .details .label {
         color: #fff;
         border-color: #353535;
@@ -841,7 +850,8 @@ dl dd {
       display: block;
       font-size: 13px;
       color: #999;
-      font-family: 'roboto', serif;
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/
       font-weight: 400;
       line-height: 20px; }
 
@@ -980,14 +990,16 @@ dl dd {
           font-size: 11px;
           color: #999;
           font-weight: 400;
-          font-family: 'roboto', serif;
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/
           letter-spacing: 1px; }
         .search-result .section-content .result-area > ul > li > a b {
           display: block;
           font-size: 13px;
           color: #1b1b1d;
           font-weight: bold;
-          font-family: 'roboto', serif;
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/
           letter-spacing: 1px; }
         .search-result .section-content .result-area > ul > li > a figure {
           position: absolute;

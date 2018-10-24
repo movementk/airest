@@ -142,7 +142,8 @@ address {
           color: #999;
           line-height: 18px;
           font-weight: 500;
-          font-family: 'roboto', serif;
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/
           letter-spacing: .5px; }
     .event-list .section-content .event-board > ul > li.end-event > a .item {
       position: relative; }

@@ -168,7 +168,8 @@ address {
     color: #1b1b1d;
     font-weight: 300;
     letter-spacing: 1px;
-    font-family: 'roboto', serif; }
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/ }
     .section-header > h2 > span {
       font-family: 'Noto Sans KR', sans-serif; }
 
@@ -293,7 +294,8 @@ address {
           font-family: "fontello";
           border-radius: 50%;
           background-color: #333;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
         .board-list-type1 .accordion .card .card-header .btn-link dl {
           display: table;
           width: 100%; }
@@ -350,7 +352,8 @@ address {
         font-family: "fontello";
         border-radius: 50%;
         background-color: #bbb;
-        font-family: 'roboto', serif; }
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/ }
 
 .board-list-type2 {
   border-top: 3px solid #666; }
@@ -377,7 +380,8 @@ address {
       padding-right: 10px;
       vertical-align: top; }
       .board-list-type2 > ul > li .details h3 {
-        font-family: 'roboto', serif;
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/
         font-size: 12px;
         color: #1b1b1d;
         font-weight: bold;
@@ -432,7 +436,8 @@ address {
     color: #666;
     line-height: 20px;
     display: inline-block;
-    font-family: 'roboto', serif;
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/
     font-weight: 300;
     margin-right: 15px; }
     .board-list-type4 > ul > li > a > ul > li:before {
@@ -509,7 +514,8 @@ address {
       font-size: 10px;
       color: #666;
       display: inline-block;
-      font-family: 'roboto', serif;
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/
       font-weight: 300;
       margin-right: 15px; }
       .board-view .view-header > ul > li:before {
@@ -570,7 +576,8 @@ address {
         color: #999;
         line-height: 20px;
         letter-spacing: .5px;
-        font-family: 'roboto', serif; }
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/ }
 
 .page-move {
   border-top: 1px solid #aaa;
@@ -638,7 +645,8 @@ address {
         border: 0;
         padding: 0;
         text-align: center;
-        font-family: 'roboto', serif;
+        font-family: 'roboto','Noto Sans KR', sans-serif;
+        /*font-family: 'roboto', serif;*/
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: auto 11px; }
@@ -710,13 +718,15 @@ address {
           font-size: 10px;
           color: #999;
           font-weight: 300;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
         .search-result .section-content .result-area > ul > li > a .model-info b {
           display: block;
           font-size: 12px;
           color: #1b1b1d;
           font-weight: bold;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
       .search-result .section-content .result-area > ul > li > a .figure-item .img-fluid {
         display: block;
         margin: 0 auto; }

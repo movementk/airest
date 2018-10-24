@@ -152,7 +152,8 @@ address {
       color: #1b1b1d;
       letter-spacing: 3px;
       font-weight: 300;
-      font-family: 'roboto', serif; }
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/ }
     .as-delivery .page-header dl {
       overflow: hidden;
       margin-top: 20px; }

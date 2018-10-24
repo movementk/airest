@@ -249,11 +249,13 @@ figure {
     font-size: 13px;
     color: #747579;
     font-weight: 500;
-    font-family: 'roboto', serif; }
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/ }
   #footer .family-site {
     float: right;
     width: 200px;
-    font-family: 'roboto', serif; }
+    font-family: 'roboto','Noto Sans KR', sans-serif;
+    /*font-family: 'roboto', serif;*/ }
     #footer .family-site > .btn {
       position: relative;
       width: 200px;

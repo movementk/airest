@@ -161,7 +161,8 @@ address {
             font-weight: lighter;
             color: #1b1b1d;
             line-height: 30px;
-            font-family: 'roboto', serif; }
+            font-family: 'roboto','Noto Sans KR', sans-serif;
+            /*font-family: 'roboto', serif;*/ }
           .product-list section .item-effect > div.item-details .v-align p {
             font-size: 11px;
             color: #1b1b1d;
@@ -173,7 +174,8 @@ address {
               position: relative;
               display: inline-block;
               font-size: 10px;
-              font-family: 'roboto', serif;
+              font-family: 'roboto','Noto Sans KR', sans-serif;
+              /*font-family: 'roboto', serif;*/
               font-weight: 300;
               letter-spacing: 2px;
               padding: 5px 0px; }
@@ -295,13 +297,15 @@ address {
           font-size: 10px;
           color: #999;
           font-weight: 300;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
         .product-list section .product-view ul > li > a .model-info b {
           display: block;
           font-size: 12px;
           color: #1b1b1d;
           font-weight: bold;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
       .product-list section .product-view ul > li > a .figure-item .img-fluid {
         display: block;
         margin: 0 auto; }
@@ -348,7 +352,8 @@ address {
       font-size: 26px;
       color: #1b1b1d;
       font-weight: 400;
-      font-family: 'roboto', serif;
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/
       letter-spacing: 1px; }
       .product-view .view-header .product-info h3 small {
         display: block;
@@ -366,7 +371,8 @@ address {
     .product-view .view-header .product-info h4 {
       font-size: 12px;
       color: #1b1b1d;
-      font-family: 'roboto', serif;
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/
       font-weight: bold;
       margin-top: 35px; }
     .product-view .view-header .product-info dl {
@@ -398,7 +404,8 @@ address {
     .product-view .related-products .article-header > h3 {
       font-size: 14px;
       color: #1b1b1d;
-      font-family: 'roboto', serif;
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/
       font-weight: 500;
       letter-spacing: 2px; }
   .product-view .related-products > ul > li {
@@ -442,13 +449,15 @@ address {
           font-size: 10px;
           color: #999;
           font-weight: 300;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
         .product-view .related-products > ul > li > a .model-info b {
           display: block;
           font-size: 12px;
           color: #1b1b1d;
           font-weight: bold;
-          font-family: 'roboto', serif; }
+          font-family: 'roboto','Noto Sans KR', sans-serif;
+          /*font-family: 'roboto', serif;*/ }
       .product-view .related-products > ul > li > a figure .img-fluid {
         display: block;
         margin: 0 auto; }
@@ -461,7 +470,8 @@ address {
       line-height: 33px;
       height: 35px;
       text-align: center;
-      font-family: 'roboto', serif;
+      font-family: 'roboto','Noto Sans KR', sans-serif;
+      /*font-family: 'roboto', serif;*/
       letter-spacing: 2px;
       border: 1px solid #dfdfdf; }
 
