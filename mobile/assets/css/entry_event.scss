@@ -1,0 +1,211 @@
+@import 'common';
+
+.entry-event {
+    .section-content {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 3px solid #666;
+    }
+}
+
+// default-list
+.default-list {
+    > li {
+        & ~ li {
+            margin-top: 20px;
+        }
+        figure {
+            .img-fluid {
+                width: 100%;
+            }
+        }
+        .details {
+            text-align: center;
+            padding: 25px 10px 15px;
+            border: 1px solid #dfdfdf;
+            h3 {
+                font-size: 14px;
+                color: #1b1b1d;
+                line-height: 18px;
+                font-weight: 400;
+            }
+            .date {
+                font-size: 10px;
+                margin-top: 20px;
+                color: #999;
+                font-weight: 400;
+                @include roboto();
+                b {
+                    display: inline-block;
+                    color: #ef3f3b;
+                    margin-left: 10px;
+                }
+            }
+            hr {
+                display: block;
+                width: 100%;
+                margin: 25px 0 15px;
+                border-top: 1px solid #dfdfdf;
+            }
+            .btn-area {
+                p {
+                    .btn-md {
+                        &.btn-entry {
+                            color: #fff;
+                            border: 1px solid #0baded;
+                            background-color: #0baded;
+                        }
+                        &.btn-gray {
+                            color: #999;
+                            border: 1px solid #ccc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.board-view {
+    padding-top: 0;
+    border: 0;
+    .view-header {
+        border-bottom: 1px solid #dfdfdf;
+        h3 {
+            line-height: 20px;
+        }
+        p {
+            font-size: 12px;
+            color: #333;
+            line-height: 17px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+    }
+    .event-information {
+        overflow: hidden;
+        padding: 20px 10px;
+        background-color: #f5f5f5;
+        > dt {
+            font-size: 11px;
+            line-height: 21px;
+            color: #333;
+            font-weight: 400;
+            float: left;
+            clear: both;
+            width: 70px;
+        }
+        > dd {
+            font-size: 11px;
+            line-height: 21px;
+            color: #999;
+            &.roboto {
+                @include roboto();
+            }
+            ol {
+                position: relative;
+                clear: both;
+                float: left;
+                padding-left: 70px;
+                margin-top: -21px;
+                li {
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+    .view-content {
+        border-bottom: 1px solid #dfdfdf;
+    }
+}
+
+// event-list
+.event-list {
+    .section-content {
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+// event-view
+.event-view {
+    .section-content {
+        padding-top: 0;
+        .btn-area {
+            text-align: right;
+            margin-top: 20px;
+        }
+        .page-move {
+            margin-top: 30px;
+        }
+    }
+}
+
+// end-event
+.end-event {
+    .section-content {
+        .default-list {
+            li {
+                figure {
+                    position: relative;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        content: "";
+                        display: block;
+                        background-color: rgba(48, 48, 48, .85);
+                    }
+                }
+                .details {
+                    .btn-area {
+                        p {
+                            .btn-entry {
+                                border-color: #303030 !important;
+                                background-color: #303030 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

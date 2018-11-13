@@ -119,6 +119,12 @@
       "css": "user",
       "code": 59406,
       "src": "fontawesome"
+    },
+    {
+      "uid": "d2c6b59d9a239140cb76be0627480855",
+      "css": "dot",
+      "code": 59407,
+      "src": "entypo"
     }
   ]
 }
