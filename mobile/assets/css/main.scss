@@ -698,6 +698,17 @@
                 padding: 0;
                 border: 0;
             }
+            .modal-footer {
+                label {
+                    font-weight: 400;
+                    color: #fff;
+                    input {
+                        position: relative;
+                        top: 2px;
+                        margin-right: 5px;
+                    }
+                }
+            }
         }
     }
     &.product-modal {

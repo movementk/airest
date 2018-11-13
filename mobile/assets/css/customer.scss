@@ -514,7 +514,21 @@
 	}
 }
 
-
+// privacy
+.privacy {
+    .section-content {
+        .terms {
+            font-size: 13px;
+            color: #666;
+            height: 350px;
+            line-height: 20px;
+            padding: 20px 15px;
+            overflow-y: scroll;
+            word-break: keep-all;
+            background-color: #f3f5fa;
+        }
+    }
+}
 
 
 

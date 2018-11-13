@@ -775,6 +775,13 @@ address {
       .modal .modal-dialog .modal-content .modal-body {
         padding: 0;
         border: 0; }
+      .modal .modal-dialog .modal-content .modal-footer label {
+        font-weight: 400;
+        color: #fff; }
+        .modal .modal-dialog .modal-content .modal-footer label input {
+          position: relative;
+          top: 2px;
+          margin-right: 5px; }
   .modal.product-modal .modal-dialog {
     margin-top: 40px; }
     .modal.product-modal .modal-dialog .modal-content .modal-body {

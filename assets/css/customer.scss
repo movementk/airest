@@ -590,7 +590,22 @@
 }
 
 
-
+// privacy
+.privacy {
+    .section-content {
+        .terms {
+            width: 100%;
+            height: 600px;
+            font-size: 13px;
+            color: #666;
+            overflow-y: scroll;
+            line-height: 26px;
+            padding: 30px;
+            word-break: keep-all;
+            background-color: #f3f5fa;
+        }
+    }
+}
 
 
 
