@@ -8,66 +8,75 @@
     <!-- Sub Content Start -->
     <main id="content">
         <div class="container">
-            <section class="event-list end-event">
+            <section class="present-list">
                 <div class="section-header">
                     <h2>EVENT</h2>
                 </div>
                 <nav class="tab-menu">
                     <ul>
                         <li><a href="/mobile/entry_event/event_list.php">진행중 이벤트</a></li>
-                        <li class="active"><a href="/mobile/entry_event/end_event_list.php">종료 이벤트</a></li>
+                        <li><a href="/mobile/entry_event/end_event_list.php">종료 이벤트</a></li>
                         <li><a href="/mobile/entry_event/prizewinner_list.php">당첨자 발표</a></li>
-                        <li><a href="/mobile/entry_event/present_login.php">나의 응모현황</a></li>
+                        <li class="active"><a href="/mobile/entry_event/present_login.php">나의 응모현황</a></li>
                     </ul>
                 </nav>
                 <div class="section-content">
-                    <ul class="default-list">
+                    <!--
+                        진행중: ongoing
+                        당점: prizewinner
+                        비당첨: not-prizewinner
+                    -->
+                    <ul>
                         <li>
-                            <figure>
-                                <img src="/mobile/assets/images/entry_event/img_ongoing_event01.jpg" class="img-fluid" alt="">
-                            </figure>
-                            <div class="details">
-                                <h3>LG U+ 영상 속 미로 가습기를 찾아라<br>LG U+ 영상 속 미로 가습기를 찾아라</h3>
-                                <p class="date">2018.08.01 ~ 2018.08.31</p>
-                                <hr>
-                                <div class="btn-area">
-                                    <p>
-                                        <a href="#" class="btn btn-md btn-entry" role="button">응모마감</a>
-                                        <a href="#" class="btn btn-md btn-gray" role="button">자세히보기</a>>
-                                    </p>
-                                </div>
+                            <h3>이벤트 당첨자 제목이 노출되는 영역입니다.<br>이벤트 당첨자 제목이 노출되는 영역입니다.</h3>
+                            <dl>
+                                <dt>응모일</dt>
+                                <dd class="roboto">2018.09.07</dd>
+                                <dt>당첨현황</dt>
+                                <dd>
+                                    <p class="ongoing">이벤트 진행중</p>
+                                </dd>
+                            </dl>
+                            <hr>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-md btn-white" role="button">수정하기</a>
+                                    <a href="#" class="btn btn-md btn-white" role="button">삭제하기</a>
+                                </p>
                             </div>
                         </li>
                         <li>
-                            <figure>
-                                <img src="/mobile/assets/images/entry_event/img_ongoing_event01.jpg" class="img-fluid" alt="">
-                            </figure>
-                            <div class="details">
-                                <h3>LG U+ 영상 속 미로 가습기를 찾아라<br>LG U+ 영상 속 미로 가습기를 찾아라</h3>
-                                <p class="date">2018.08.01 ~ 2018.08.31</p>
-                                <hr>
-                                <div class="btn-area">
-                                    <p>
-                                        <a href="#" class="btn btn-md btn-entry" role="button">응모마감</a>
-                                        <a href="#" class="btn btn-md btn-gray" role="button">자세히보기</a>
-                                    </p>
-                                </div>
+                            <h3>이벤트 당첨자 제목이 노출되는 영역입니다.<br>이벤트 당첨자 제목이 노출되는 영역입니다.</h3>
+                            <dl>
+                                <dt>응모일</dt>
+                                <dd class="roboto">2018.09.07</dd>
+                                <dt>당첨현황</dt>
+                                <dd>
+                                    <p class="prizewinner">당첨! 축하합니다</p>
+                                </dd>
+                            </dl>
+                            <hr>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-md btn-gray" role="button">응모내역</a>
+                                </p>
                             </div>
                         </li>
                         <li>
-                            <figure>
-                                <img src="/mobile/assets/images/entry_event/img_ongoing_event01.jpg" class="img-fluid" alt="">
-                            </figure>
-                            <div class="details">
-                                <h3>LG U+ 영상 속 미로 가습기를 찾아라<br>LG U+ 영상 속 미로 가습기를 찾아라</h3>
-                                <p class="date">2018.08.01 ~ 2018.08.31</p>
-                                <hr>
-                                <div class="btn-area">
-                                    <p>
-                                        <a href="#" class="btn btn-md btn-entry" role="button">응모마감</a>
-                                        <a href="#" class="btn btn-md btn-gray" role="button">자세히보기</a>
-                                    </p>
-                                </div>
+                            <h3>이벤트 당첨자 제목이 노출되는 영역입니다.<br>이벤트 당첨자 제목이 노출되는 영역입니다.</h3>
+                            <dl>
+                                <dt>응모일</dt>
+                                <dd class="roboto">2018.09.07</dd>
+                                <dt>당첨현황</dt>
+                                <dd>
+                                    <p class="not-prizewinner">비당첨 - 다음 이벤트에 도전 해보세요</p>
+                                </dd>
+                            </dl>
+                            <hr>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-md btn-gray" role="button">응모내역</a>
+                                </p>
                             </div>
                         </li>
                     </ul>

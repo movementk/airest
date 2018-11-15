@@ -217,10 +217,12 @@
                                     </colgroup>
                                     <tbody>
                                         <tr>
-                                            <th class="necessary"><label for="purchasing-office">구매처 선택</label></th>
+                                            <th class="necessary">구매처 선택</th>
                                             <td>
                                                 <div class="form-group">
-                                                    <input type="text" id="purchasing-office" class="form-control">
+                                                    <select class="form-control">
+                                                        <option>구매처 선택</option>
+                                                    </select>
                                                 </div>
                                             </td>
                                             <th class="necessary"><label for="p-name">구매한 상품명</label></th>

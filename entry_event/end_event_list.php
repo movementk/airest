@@ -28,7 +28,7 @@
                                 </figure>
                                 <div class="details">
                                     <h3>LG U+ 동영상 속 미로 가습기를 찾아라 이벤트</h3>
-                                    <p class="date">2018.08.01 ~ 2018.08.31 <b>D-123</b></p>
+                                    <p class="date">2018.08.01 ~ 2018.08.31</p>
                                     <hr>
                                     <div class="btn-area">
                                         <p>
@@ -44,7 +44,7 @@
                                 </figure>
                                 <div class="details">
                                     <h3>LG U+ 동영상 속 미로 가습기를 찾아라 이벤트</h3>
-                                    <p class="date">2018.08.01 ~ 2018.08.31 <b>D-123</b></p>
+                                    <p class="date">2018.08.01 ~ 2018.08.31</p>
                                     <hr>
                                     <div class="btn-area">
                                         <p>
@@ -60,7 +60,7 @@
                                 </figure>
                                 <div class="details">
                                     <h3>LG U+ 동영상 속 미로 가습기를 찾아라 이벤트</h3>
-                                    <p class="date">2018.08.01 ~ 2018.08.31 <b>D-123</b></p>
+                                    <p class="date">2018.08.01 ~ 2018.08.31</p>
                                     <hr>
                                     <div class="btn-area">
                                         <p>
@@ -76,7 +76,7 @@
                                 </figure>
                                 <div class="details">
                                     <h3>LG U+ 동영상 속 미로 가습기를 찾아라 이벤트</h3>
-                                    <p class="date">2018.08.01 ~ 2018.08.31 <b>D-123</b></p>
+                                    <p class="date">2018.08.01 ~ 2018.08.31</p>
                                     <hr>
                                     <div class="btn-area">
                                         <p>
@@ -92,7 +92,7 @@
                                 </figure>
                                 <div class="details">
                                     <h3>LG U+ 동영상 속 미로 가습기를 찾아라 이벤트</h3>
-                                    <p class="date">2018.08.01 ~ 2018.08.31 <b>D-123</b></p>
+                                    <p class="date">2018.08.01 ~ 2018.08.31</p>
                                     <hr>
                                     <div class="btn-area">
                                         <p>
@@ -108,7 +108,7 @@
                                 </figure>
                                 <div class="details">
                                     <h3>LG U+ 동영상 속 미로 가습기를 찾아라 이벤트</h3>
-                                    <p class="date">2018.08.01 ~ 2018.08.31 <b>D-123</b></p>
+                                    <p class="date">2018.08.01 ~ 2018.08.31</p>
                                     <hr>
                                     <div class="btn-area">
                                         <p>

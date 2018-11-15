@@ -175,6 +175,340 @@
     }
 }
 
+// prizewinner-list
+.prizewinner-list {
+    .search-form {
+        margin-bottom: 20px;
+    }
+    .section-content {
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+// prizewinner-list
+.prizewinner-view {
+    .section-content {
+        padding-top: 0;
+        .btn-area {
+            text-align: right;
+            margin-top: 20px;
+        }
+        .page-move {
+            margin-top: 30px;
+        }
+    }
+}
+
+// present-login
+.present-login {
+    .section-content {
+        border-top: 0;
+        text-align: center;
+        padding: 35px 20px 30px;
+        background-color: #f5f5f5;
+        .summary {
+            font-size: 13px;
+            color: #303030;
+            line-height: 18px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+        .form-group {
+            .form-control {
+                width: 100%;
+                height: 30px;
+                font-size: 12px;
+                color: #999;
+                border: 1px solid #fff;
+                background-color: #fff;
+                & ~ .form-control {
+                    margin-top: 5px;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 10px;
+            .btn-lg {
+                width: 100%;
+                line-height: 35px;
+                text-align: center;
+                font-size: 13px;
+                color: #fff;
+                background-color: #333;
+            }
+        }
+    }
+}
+
+// present-list
+.present-list {
+    .section-content {
+        border-top: 0;
+        > ul {
+            > li {
+                padding: 20px;
+                border: 1px solid #ccc;
+                & ~ li {
+                    margin-top: 10px;
+                }
+                h3 {
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+                dl {
+                    overflow: hidden;
+                    margin-top: 20px;
+                    dt {
+                        width: 70px;
+                        float: left;
+                        clear: both;
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 21px;
+                        &:before {
+                            color: #333;
+                            content: "\E802";
+                            font-family: "fontello";
+                            margin-right: 5px;
+                        }
+                    }
+                    dd {
+                        font-size: 12px;
+                        color: #999;
+                        line-height: 21px;
+                        &.roboto {
+                            @include roboto();
+                        }
+                        p {
+                            &.ongoing {
+                                color: #999;
+                            }
+                            &.prizewinner {
+                                font-weight: 500;
+                                color: #ef3f3b;
+                            }
+                            &.not-prizewinner {
+                                font-weight: 400;
+                                color: #0baded;
+                            }
+                        }
+                    }
+                }
+                hr {
+                    display: block;
+                    width: 100%;
+                    margin: 20px 0;
+                    border-top: 1px solid #dfdfdf;
+                }
+                .btn-area {
+                    .btn-md {
+                        &.btn-white {
+                            color: #666;
+                            border-color: #ccc;
+                        }
+                        &.btn-gray {
+                            color: #666;
+                            width: 100% !important;
+                            border: 1px solid #ccc;
+                            background-color: #f3f3f3;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 30px;
+        }
+    }
+}
+
+// entry-write
+.entry-write {
+    .attention {
+        padding: 20px 10px;
+        background-color: #f5f5f5;
+        li {
+            position: relative;
+            padding-left: 10px;
+            font-size: 11px;
+            color: #666;
+            word-break: keep-all;
+            line-height: 16px;
+            font-weight: 300;
+            i {
+                font-style: normal;
+                color: #ef3f3b;
+            }
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "\E802";
+                font-family: "fontello";
+            }
+        }
+    }
+    .section-content {
+        padding-top: 0;
+        ul {
+            > li {
+                padding: 10px;
+                border-bottom: 1px solid #dfdfdf;
+                h3 {
+                    font-size: 13px;
+                    color: #1b1b1d;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    &.necessary {
+                        &:after {
+                            color: #ef3f3b;
+                            content: " *";
+                        }
+                    }
+                }
+                .form-group {
+                    .form-control {
+                        font-size: 12px;
+                        color: #666;
+                        width: 100%;
+                        height: 30px;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        border: 1px solid #f3f3f3;
+                        background-color: #f3f3f3;
+                    }
+                }
+                &:last-child {
+                    border-bottom-color: #aaa;
+                }
+                &.zipcode {
+                    .form-group {
+                        position: relative;
+                        .form-control {
+                            padding-right: 90px;
+                        }
+                        .btn-sm {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 90px;
+                            height: 30px;
+                            line-height: 30px;
+                            font-size: 12px;
+                            color: #fff;
+                            text-align: center;
+                            background-color: #333;
+                        }
+                    }
+                }
+                &.screenshot {
+                    .form-group {
+                        position: relative;
+                        .file {
+                            width: 100%;
+                        }
+                        .form-control {
+                            padding-left: 90px;
+                        }
+                        input[type="button"] {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 90px;
+                            height: 30px;
+                            text-align: center;
+                            color: #fff;
+                            line-height: 30px;
+                            border: 0;
+                            padding: 0;
+                            background-color: #333;
+                        }
+                        input[type="file"] {
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+        .privacy {
+            padding: 0;
+            margin-top: 20px;
+            .details {
+                width: 100%;
+                height: 160px;
+                font-size: 11px;
+                color: #666;
+                font-weight: 300;
+                line-height: 16px;
+                padding: 25px 15px;
+                overflow-y: scroll;
+                border: 1px solid #ccc;
+                h4 {
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                }
+            }
+            .agreement {
+                text-align: left;
+                margin-top: 10px;
+                label {
+                    font-size: 12px;
+                    color: #666;
+                    margin: 0;
+                    float: none;
+                    font-weight: 400;
+                    margin-right: 20px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    input {
+                        position: relative;
+                        top: 2px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+            p {
+                .btn-gray {
+                    color: #fff;
+                    border: 1px solid #333;
+                    background-color: #333;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
