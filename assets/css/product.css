@@ -299,7 +299,7 @@ address {
         position: relative;
         display: block;
         width: 500px;
-        margin: 0 auto;
+        margin: 20px auto 0;
         /*text-align: center;*/ }
         .product-view .product-intro article.product-detail > .slider-nav .slick-arrow {
           position: absolute;
